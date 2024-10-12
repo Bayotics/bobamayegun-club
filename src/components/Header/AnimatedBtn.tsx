@@ -5,7 +5,7 @@ import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 
 const AnimatedBtn = () => {
   return (
-    <div className="grid  place-content-center bg-black p-4 mt-1">
+    <div className="grid  place-content-center bg-black p-4 mt-2">
       <DrawOutlineButton> 
         <div className="flex gap-1"><h1>Membership</h1><PersonAddAltOutlinedIcon /></div>
     </DrawOutlineButton>

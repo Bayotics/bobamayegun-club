@@ -20,7 +20,7 @@ export default function NavBar () {
                 </div>
             </div>
             <div className="navbar-menus  flex justify-between gap-20">
-                    <div className="nav-menu-btn  mt-6">
+                    <div className="nav-menu-btn  mt-8">
                         <AnimatedNav />
                     </div>
             </div>
