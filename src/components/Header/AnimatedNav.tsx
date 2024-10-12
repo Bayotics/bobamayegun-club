@@ -2,14 +2,37 @@
 
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import Link from "next/link";
 
 const AnimatedNav = () => {
   return (
-    <div className=" h-[10px] justify-center  bg-white">
-      <FlyoutLink href="#" FlyoutContent={PricingContent}>
+    <div className=" flex navbar-menus gap-8  justify-between bg-white font-semibold">
+      <Link href= '/' className="nav-menu-btn   font-semibold">
+          <div className="">
+              <p className="font-semibold">Home</p>
+          </div>
+      </Link>
+      <FlyoutLink href="#" FlyoutContent={AboutContent}>
         About Us
       </FlyoutLink>
+      <FlyoutLink href="#" FlyoutContent={InitiativeContent}>
+        Our Initiatives
+      </FlyoutLink>
+      <Link href= '/'>
+          <div className="nav-menu-btn  ">
+              <p className="font-semibold">News & Events</p>
+          </div>
+      </Link>
+      <Link href= '/'>
+          <div className="nav-menu-btn  ">
+              <p className="font-semibold">Gallery</p>
+          </div>
+      </Link>
+      <FlyoutLink href="#" FlyoutContent={SupportContent}>
+        Join & Support
+      </FlyoutLink>
     </div>
+
   );
 };
 
@@ -38,7 +61,7 @@ const FlyoutLink = ({
           style={{
             transform: showFlyout ? "scaleX(1)" : "scaleX(0)",
           }}
-          className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-indigo-300 transition-transform duration-300 ease-out"
+          className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-purple-600 transition-transform duration-300 ease-out"
         />
       </a>
       <AnimatePresence>
@@ -52,7 +75,7 @@ const FlyoutLink = ({
             className="absolute left-1/2 top-12 bg-white text-white"
           >
             <div className="absolute -top-6 left-0 right-0 h-6 bg-transparent" />
-            <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white" />
+            <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-black" />
             <FlyoutContent />
           </motion.div>
         )}
@@ -61,21 +84,61 @@ const FlyoutLink = ({
   );
 };
 
-const PricingContent = () => {
+const AboutContent = () => {
   return (
     <div className="px-20 bg-black p-1 shadow-xl">
       <div className="mb-6 space-y-8 mt-6">
-        <a href="#" className="block text-sm hover:underline">
+        <a href="#" className="font-medium block text-sm hover:underline">
           Values
         </a>
-        <a href="#" className="block text-sm hover:underline">
+        <a href="#" className="font-medium block text-sm hover:underline">
           History
         </a>
-        <a href="#" className="block text-sm hover:underline">
+        <a href="#" className="font-medium block text-sm hover:underline">
           Council
         </a>
-        <a href="#" className="block text-sm hover:underline">
+        <a href="#" className="font-medium block text-sm hover:underline">
           Leadership
+        </a>
+      </div>
+    </div>
+  );
+};
+const InitiativeContent = () => {
+  return (
+    <div className="px-20 bg-black p-1 shadow-xl">
+      <div className="mb-6 space-y-8 mt-6">
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Arts & Culture
+        </a>
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Charity
+        </a>
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Policy
+        </a>
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Social Networking
+        </a>
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Environmental Impact
+        </a>
+      </div>
+    </div>
+  );
+};
+const SupportContent = () => {
+  return (
+    <div className="px-20 bg-black p-1 shadow-xl">
+      <div className="mb-6 space-y-8 mt-6">
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Partnership
+        </a>
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Donations
+        </a>
+        <a href="#" className="font-medium block text-sm hover:underline">
+          Volunteering
         </a>
       </div>
     </div>
