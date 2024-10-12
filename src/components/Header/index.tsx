@@ -1,8 +1,10 @@
-
+import NavBar from "./Navbar";
 
 export default function Header () {
     return (
-        <div className="text-white">This is the header component.</div>
+        <div className="px-8">
+            <NavBar />
+        </div>
     )
 }
 
