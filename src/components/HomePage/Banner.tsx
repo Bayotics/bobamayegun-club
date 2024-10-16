@@ -18,6 +18,16 @@ export function Banner () {
           <li></li>
           <li></li>
           <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
         <div className="banner-contents border border-white px-48">
           <h1 className="text-white font-semibold text-5xl mt-32 leading-normal">
