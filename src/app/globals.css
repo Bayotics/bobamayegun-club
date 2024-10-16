@@ -191,3 +191,76 @@ body {
 /*
 -- End BackGround Animation 
 */
+/*// Glow Border Animation //*/
+.cd__main{
+	background: #000 !important;
+ }
+ .animated-border-box, .animated-border-box-glow{
+   max-height: 200px;
+   max-width: 250px;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   overflow: hidden; 
+   z-index: 0;
+   /* Border Radius */
+	 border-radius: 10px;
+ }
+ 
+ .animated-border-box-glow{
+   overflow: hidden;
+   /* Glow Blur */
+   filter: blur(20px);
+ }
+ 
+ .animated-border-box:before, .animated-border-box-glow:before {
+   content: '';
+   z-index: -2;
+   text-align: center;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%) rotate(0deg);
+   position: absolute;
+	 width: 99999px;
+	 height: 99999px;
+	 background-repeat: no-repeat;
+	 background-position: 0 0;
+	 background-image: conic-gradient(white, rgb(219, 125, 219), rgb(240, 178, 62), white);
+	 animation: rotate 4s linear infinite;
+ }
+ 
+ .animated-border-box:after {
+	 content: '';
+	 position: absolute;
+	 z-index: -1;
+	 left: 5px;
+	 top: 5px;
+	 width: calc(100% - 10px);
+	 height: calc(100% - 10px);
+   /*bg color*/
+	 background: white;
+	 border-radius: 7px;
+ }
+ 
+ @keyframes rotate {
+	 100% {
+		 transform: translate(-50%, -50%) rotate(1turn);
+	 }
+ }
+ 
+ /*// Border Animation END//*/
+ 
+ 
+ 
+ /*// Ignore This //*/
+ body {
+   margin: 0px;
+ }
+ 
+ .center-box{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: transparent;
+ }
