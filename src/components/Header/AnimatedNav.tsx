@@ -61,7 +61,8 @@ const FlyoutLink = ({
           style={{
             transform: showFlyout ? "scaleX(1)" : "scaleX(0)",
           }}
-          className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-purple-600 transition-transform duration-300 ease-out"
+          className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full
+           bg-purple-600 transition-transform duration-300 ease-out"
         />
       </a>
       <AnimatePresence>
@@ -72,10 +73,11 @@ const FlyoutLink = ({
             exit={{ opacity: 0, y: 15 }}
             style={{ translateX: "-50%" }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="absolute left-1/2 top-12 bg-white text-white"
+            className="absolute left-1/2 top-12 bg-white text-white animated-nav-container"
           >
             <div className="absolute -top-6 left-0 right-0 h-6 bg-transparent" />
-            <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-black" />
+            <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-black
+             animated-nav-dropdown" />
             <FlyoutContent />
           </motion.div>
         )}
@@ -129,7 +131,7 @@ const InitiativeContent = () => {
 };
 const SupportContent = () => {
   return (
-    <div className="px-20 bg-black p-1 shadow-xl">
+    <div className="px-20 bg-black p-1 shadow-xl support-nav-content">
       <div className="mb-6 space-y-8 mt-6">
         <a href="#" className="font-medium block text-sm hover:underline">
           Partnership
