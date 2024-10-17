@@ -2,34 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+	:root {
+	  --background: #0a0a0a;
+	  --foreground: #ededed;
+	}
   }
-}
-
-body {
-}
-.animated-nav-dropdown{
-	z-index: 0;
-}
-.animated-nav-container{
-	z-index: 1;
-}
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-
-
 /* Banner Animation */
 @-webkit-keyframes animatetop {
 	from {
@@ -71,13 +49,59 @@ body {
 		opacity: 1;
 	}
 }
-.area {
-	background-image: url(../images/banner-cover-one.png);
-  background-size: cover;
-	width: 100%;
-	height: 100vh;
-  position: relative;
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+		border-radius: 0;
+	}
+
+	100% {
+		transform: translateY(-1000px) rotate(720deg);
+		opacity: 0;
+		border-radius: 50%;
+	}
+}
+@layer utilities {
+	.text-balance {
+	  text-wrap: balance;
+	}
+  }
+  @keyframes rotate {
+	100% {
+		transform: translate(-50%, -50%) rotate(1turn);
+	}
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+
+body {
+	margin: 0px;
+}
+.animated-nav-dropdown{
 	z-index: 0;
+}
+.animated-nav-container{
+	z-index: 1;
+}
+
+
+
+
+
+.area {
+	padding-top: 20px;
+	background-image: url(../images/banner-cover-one.png);
+  	background-size: cover;
+	width: 100%;
+  	position: relative;
+	z-index: 0;
+	padding-bottom: 150px;
 }
 
 .circles {
@@ -251,19 +275,7 @@ body {
 }
 
 
-@keyframes animate {
-	0% {
-		transform: translateY(0) rotate(0deg);
-		opacity: 1;
-		border-radius: 0;
-	}
 
-	100% {
-		transform: translateY(-1000px) rotate(720deg);
-		opacity: 0;
-		border-radius: 50%;
-	}
-}
 /*
 -- End BackGround Animation 
 */
@@ -277,7 +289,6 @@ body {
    position: relative;
    overflow: hidden; 
    z-index: 0;
-	 border-radius: 2px;
  }
  
  /* .animated-border-box-glow{
@@ -293,12 +304,12 @@ body {
 	 left: 10px;
 	 transform: translate(-50%, -50%) rotate(0deg);
    position: absolute;
-	 width: 99999px;
-	 height: 99999px;
+	 width: 150px;
+	 height: 2000px;
 	 background-repeat: no-repeat;
 	 background-position: 0 0;
-	 background-image: conic-gradient(white, rgb(219, 125, 219), rgb(240, 178, 62), white);
-	 animation: rotate 4s linear infinite;
+	 background-image: linear-gradient(white, rgb(235, 71, 235), rgb(230, 171, 62), rgb(112, 79, 28));
+	 animation: rotate 10s linear infinite;
  }
  
  .animated-border-box:after {
@@ -311,28 +322,8 @@ body {
 	 height: calc(100% - 10px);
    /*bg color*/
 	 background: white;
-	 border-radius: 2px;
  }
- 
- @keyframes rotate {
-	 100% {
-		 transform: translate(-50%, -50%) rotate(1turn);
-	 }
- }
- 
  /*// Border Animation END//*/
- 
- 
- 
- /*// Ignore This //*/
- body {
-   margin: 0px;
- }
- 
  .center-box{
-   height: 100vh;
-   display: flex;
-   /* justify-content: center;
-   align-items: center; */
    background-color: transparent;
  }
