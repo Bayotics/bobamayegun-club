@@ -2,6 +2,7 @@
 import { Banner } from "@/components/HomePage/Banner";
 import { IntroSection } from "../components/HomePage/IntroSection"; 
 import { AboutUs } from "@/components/HomePage/AboutUs";
+import { Initiatives } from "../components/HomePage/Initiatives";
 
 export default function Home() {
   return (
@@ -14,6 +15,9 @@ export default function Home() {
       </div>
       <div className="">
         <AboutUs />
+      </div>
+      <div className = 'initiatives-home-main'>
+        <Initiatives />
       </div>
     </div>
   );

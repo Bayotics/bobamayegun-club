@@ -7,113 +7,6 @@
 body {
 	margin: 0px;
 }
-.poppins-thin {
-	font-family: "Poppins", sans-serif;
-	font-weight: 100;
-	font-style: normal;
-  }
-  
-  .poppins-extralight {
-	font-family: "Poppins", sans-serif;
-	font-weight: 200;
-	font-style: normal;
-  }
-  
-  .poppins-light {
-	font-family: "Poppins", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-  }
-  
-  .poppins-regular {
-	font-family: "Poppins", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-  }
-  
-  .poppins-medium {
-	font-family: "Poppins", sans-serif;
-	font-weight: 500;
-	font-style: normal;
-  }
-  
-  .poppins-semibold {
-	font-family: "Poppins", sans-serif;
-	font-weight: 600;
-	font-style: normal;
-  }
-  
-  .poppins-bold {
-	font-family: "Poppins", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-  }
-  
-  .poppins-extrabold {
-	font-family: "Poppins", sans-serif;
-	font-weight: 800;
-	font-style: normal;
-  }
-  
-  .poppins-black {
-	font-family: "Poppins", sans-serif;
-	font-weight: 900;
-	font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 100;
-	font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 200;
-	font-style: italic;
-  }
-  
-  .poppins-light-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 400;
-	font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 500;
-	font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 600;
-	font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 700;
-	font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 800;
-	font-style: italic;
-  }
-  
-  .poppins-black-italic {
-	font-family: "Poppins", sans-serif;
-	font-weight: 900;
-	font-style: italic;
-  }
   
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -480,4 +373,46 @@ body {
 	place-items: center;
 	position: relative;
 	isolation: isolate;
+  }
+
+  /* Initiatives home */
+  .initiative-container-style{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center
+  }
+  .initiative-card-style{
+	width: 400px;
+	height: 500px;
+	padding-top: 80px;
+	background: #52C0F5;
+	color: #FFF;
+	font-size: 12px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	transition: transform 1s;
+	cursor: pointer;
+  }
+  .initiative-card-style:hover{
+	transform: scale(1.02);
+  }
+  .init-card-one{
+	background-image: url(../images/initiative-one.png);
+	background-size: cover;
+  }
+  .init-card-two{
+	background-image: url(../images/initiative-two.png);
+	background-size: cover;
+  }
+  .init-card-three{
+	background-image: url(../images/initiative-three.png);
+	background-size: cover;
+  }
+  .init-card-four{
+	background-image: url(../images/initiative-four.png);
+	background-size: cover;
   }
