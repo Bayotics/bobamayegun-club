@@ -48,7 +48,7 @@ export function IntroSection () {
                                     We thrive on the spirit of togetherness
                                     and the responsibility of uplifting one another.
                                 </p>
-                                <div className = 'amin-about-btn mt-4'>
+                                <div className = 'amin-about-btn mt-6'>
                                     <AnimatedBtnForAbout />
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ export function IntroSection () {
                                 <LeaderboardOutlinedIcon className='text-5xl'/>
                             </div>
                             <div className = 'anim-about-icons'>
-                                <h1 className = 'text-2xl font-semibold'>Leadership & Excellence</h1>
+                                <h1 className = 'text-2xl font-semibold'>Leadership </h1>
                                 <p className = 'mt-4 font-normal text-sm leading-none'>
                                     We inspire members to become leaders
                                     who positively impact their communities
