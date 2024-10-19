@@ -15,7 +15,7 @@ import { twMerge } from "tailwind-merge";
 
 export const WhyUsAnimate = () => {
   return (
-    <section className="flex flex-col items-center justify-center gap-12 px-4 pt-44 md:flex-row">
+    <section className="flex flex-col items-center justify-center gap-12 px-4 pt-28 md:flex-row">
       <LogoRolodex
         items={[
           <LogoItem key={1} className="bg-orange-300 text-neutral-900">
@@ -67,7 +67,7 @@ const LogoRolodex = ({ items }: { items: ReactElement[] }) => {
         transform: "rotateY(-20deg)",
         transformStyle: "preserve-3d",
       }}
-      className="relative z-0 h-44 w-60 shrink-0 rounded-xl border border-neutral-700 bg-neutral-800"
+      className="relative z-0 h-72 w-72 shrink-0 rounded-xl border border-neutral-700 bg-neutral-800"
     >
       <AnimatePresence mode="sync">
         <motion.div
