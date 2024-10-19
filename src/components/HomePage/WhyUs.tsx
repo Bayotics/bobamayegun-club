@@ -7,7 +7,7 @@ import { WhyUsAnimate } from './WhyUsAnimation';
 
 export function WhyUs () {
     return(
-        <div className = 'why-us-content bg-[#090513]'>
+        <div className = 'why-us-content bg-[#090513] pb-20'>
             <div className = 'why-us-text px-32 py-20'>
                 <p className="text-center text-white">Why Join Us?</p>
                 <h1 className="text-white text-center mt-4 font-semibold text-3xl">

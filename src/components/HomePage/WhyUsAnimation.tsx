@@ -2,7 +2,6 @@
 
 import React, { ReactElement, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { SiAmazon, SiGithub, SiGoogle, SiMeta, SiTwitch } from "react-icons/si";
 import { FaPeopleRoof } from "react-icons/fa6";
 import { MdSupportAgent, MdCelebration } from "react-icons/md";
 import { BiNetworkChart } from "react-icons/bi";
