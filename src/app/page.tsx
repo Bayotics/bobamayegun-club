@@ -24,7 +24,7 @@ export default function Home() {
       <div className="home-why-us">
         <WhyUs />
       </div>
-      <div className="home-our-excos pt-24 bg-gray-200">
+      <div className="home-our-excos pt-24 bg-gray-200 mb-44">
         <OurExcos />
       </div>
     </div>

@@ -7,6 +7,19 @@
 body {
 	margin: 0px;
 }
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1;
+  }
+    ::-webkit-scrollbar-thumb {
+	background: #3c163d;
+  }
+    ::-webkit-scrollbar-thumb:hover {
+	background: #3c163d;
+  }
   
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -431,14 +444,7 @@ body {
   
   .main-text {
 	white-space: nowrap;
-	position: absolute;
-	top: 50%;
-	left: 60%;
-	transform: translate(-50%, -50%);
-	
-	font-size: 50px;
-	font-weight: lighter;
-	letter-spacing: 3.5px;
+    margin-top: 25%;
   }
   
   .main-desc {
@@ -494,7 +500,22 @@ body {
 	opacity: 0.5;
 	display: inline-block;
   }
-  
+  .exco-socials::before{
+	content: "";
+	display: inline-block;
+	border: 1px solid black;
+	height: 148px;
+	margin-left: 9px;
+	transform: translateY(-3px);
+  }
+  .exco-socials::after{
+	content: "";
+	display: inline-block;
+	border: 1px solid black;
+	height: 148px;
+	margin-left: 9px;
+	transform: translateY(-3px);
+  }
   /* BOTTOM NAV */
   
   .bottomnav {

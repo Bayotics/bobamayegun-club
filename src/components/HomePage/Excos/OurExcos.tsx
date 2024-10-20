@@ -3,15 +3,13 @@
 import { useEffect, useState } from "react";
 import Carousel, { CarouselItem } from "./ExcosCarousel";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
-import {
-  AiFillBehanceSquare,
-  AiFillInstagram,
-  AiFillFacebook
-} from "react-icons/ai";
+import { FaInstagram, FaLinkedin  } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import excoOne from '@/images/exco-three.jpg'
 import excoTwo from '@/images/exco-two.jpg'
 import excoThree from '@/images/exco-one.png';
+import AnimatedBtn from "../AnimatedBtnForAbout";
 
 const initialData = [
   {
@@ -68,13 +66,21 @@ export default function OurExcos() {
             </h2>
           </div>
           <div className="main-content mt-12">
-            <div className="content-wrapper border">
-              <div className="main-text " style={{ zIndex: 50 }}>
-                {data[activeIndex].name}
+            <div className="content-wrapper border flex">
+              <div className="exco-socials mt-2 w-1/4 pt-2 pl-10">
+                <div className="exco-social-icons">
+                  <FaInstagram className="mt-6 text-xl"/>
+                  <FaLinkedin className="mt-6 text-xl"/>
+                  <FaXTwitter className="mt-6 text-xl mb-10"/>
+                </div>
               </div>
-              <div className="main-desc text-black">
-                {data[activeIndex].memo}
-                <p className="text-gray-700">{data[activeIndex].socialMedia}</p>
+              <div className="main-text w-3/4" style={{ zIndex: 50 }}>
+                <h1 className="font-normal text-5xl text-black">{data[activeIndex].name}</h1>
+                <h2 className="text-lg text-black font-light">{data[activeIndex].memo}</h2>
+                <p className="text-base text-black">{data[activeIndex].socialMedia}</p>
+                <div className="w-1/2 exco-learn-more">
+                  <AnimatedBtn />
+                </div>
               </div>
             </div>
             <Carousel activeIndex={activeIndex} updateIndex={updateIndex}>
