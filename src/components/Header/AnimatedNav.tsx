@@ -6,10 +6,10 @@ import Link from "next/link";
 
 const AnimatedNav = () => {
   return (
-    <div className=" flex navbar-menus gap-8  justify-between bg-white font-semibold">
-      <Link href= '/' className="nav-menu-btn   font-semibold">
+    <div className=" flex navbar-menus gap-8  justify-between bg-white font-medium">
+      <Link href= '/' className="nav-menu-btn   font-medium">
           <div className="">
-              <p className="font-semibold">Home</p>
+              <p className="font-medium">Home</p>
           </div>
       </Link>
       <FlyoutLink href="#" FlyoutContent={AboutContent}>
@@ -20,12 +20,12 @@ const AnimatedNav = () => {
       </FlyoutLink>
       <Link href= '/'>
           <div className="nav-menu-btn  ">
-              <p className="font-semibold">News & Events</p>
+              <p className="font-medium">News & Events</p>
           </div>
       </Link>
       <Link href= '/'>
           <div className="nav-menu-btn  ">
-              <p className="font-semibold">Gallery</p>
+              <p className="font-medium">Gallery</p>
           </div>
       </Link>
       <FlyoutLink href="#" FlyoutContent={SupportContent}>
