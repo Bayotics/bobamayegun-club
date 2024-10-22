@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={poppins.className}>
       <body>
-        <header className="text-white text-center py-1 border">
+        <header className="text-white text-center">
           <Header />
         </header>
         {children}

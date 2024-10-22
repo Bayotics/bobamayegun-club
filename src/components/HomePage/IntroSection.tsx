@@ -8,7 +8,7 @@ import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
 
 export function IntroSection () {
     return (
-        <div className = 'intro-section-main mt-24'>
+        <div className = 'intro-section-main'>
             <div className="intro-sec-texts px-48">
                 <h1 className="text-center text-3xl font-semibold">Our Pillars</h1>
                 <p className="mt-4 text-center font-normal">

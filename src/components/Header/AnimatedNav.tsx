@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const AnimatedNav = () => {
   return (
-    <div className=" flex navbar-menus gap-8  justify-between bg-white font-medium">
+    <div className=" flex navbar-menus gap-8  justify-between font-medium">
       <Link href= '/' className="nav-menu-btn   font-medium">
           <div className="">
               <p className="font-medium">Home</p>

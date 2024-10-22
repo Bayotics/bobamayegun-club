@@ -25,10 +25,10 @@ export default function Home() {
       <div className="home-why-us">
         <WhyUs />
       </div>
-      <div className="home-our-excos pt-24 bg-gray-200">
+      <div className="home-our-excos pt-32">
         <OurExcos />
       </div>
-      <div className="home-gallery mt-20 mb-44">
+      <div className="home-gallery mt-16 mb-44">
         <Gallery />
       </div>
     </div>
