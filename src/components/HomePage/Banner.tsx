@@ -14,13 +14,13 @@ export function Banner () {
       <div className="area">
         
         <div className="banner-contents px-32 flex gap-16">
-          <div className="banner-content-left border w-1/2">
-            <h1 className="text-purple-950 font-semibold text-5xl mt-32 leading-normal">
+          <div className="banner-content-left w-1/2">
+            <h1 className="text-purple-950 font-semibold text-[3.1rem] mt-32 leading-normal">
               Preserving Tradition,<br/> Celebrating Heritage
             </h1>
-            <div className="banner-text-side border">
+            <div className="banner-text-side">
              <h2 className="mt-8 text-purple-800 ml-2">
-              <span className="font-semibold text-black">Bobamayegun Okunrin Akile Ijebu.</span>
+              <span className="font-semibold text-purple-950">Bobamayegun Okunrin Akile Ijebu. </span>
                 We are proud custodians of the vibrant and timeless Ijebu culture. 
                 Our society is a gathering of individuals dedicated to preserving 
                 our rich heritage, celebrating our traditions, and promoting unity 

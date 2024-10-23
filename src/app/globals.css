@@ -6,7 +6,7 @@
 
 body {
 	margin: 0px;
-	background: #f0e6e6;
+	background: #f4eff7;
 }
 ::-webkit-scrollbar {
 	width: 5px;
@@ -332,7 +332,7 @@ body {
 	 width: calc(100% - 10px);
 	 height: calc(100% - 10px);
    /*bg color*/
-	 background: #f0e6e6;
+	 background: #f4eff7;
  }
  /*// Border Animation END//*/
  .center-box{
@@ -400,8 +400,6 @@ body {
 	align-items: center
   }
   .initiative-card-style{
-	width: 400px;
-	height: 500px;
 	padding-top: 80px;
 	background: #52C0F5;
 	color: #FFF;

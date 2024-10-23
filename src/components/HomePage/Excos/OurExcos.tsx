@@ -75,7 +75,7 @@ export default function OurExcos() {
                 </div>
               </div>
               <div className="main-text w-3/4" style={{ zIndex: 50 }}>
-                <h1 className="font-normal text-5xl text-black">{data[activeIndex].name}</h1>
+                <h1 className="font-normal text-5xl text-purple-950">{data[activeIndex].name}</h1>
                 <h2 className="text-lg text-black font-light">{data[activeIndex].memo}</h2>
                 <p className="text-base text-black">{data[activeIndex].socialMedia}</p>
                 <div className="w-1/2 exco-learn-more">

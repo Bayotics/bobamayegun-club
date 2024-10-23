@@ -22,7 +22,7 @@ export default function Home() {
       <div className = 'initiatives-home-main'>
         <Initiatives />
       </div>
-      <div className="home-why-us">
+      <div className="home-why-us mt-20">
         <WhyUs />
       </div>
       <div className="home-our-excos pt-32">
