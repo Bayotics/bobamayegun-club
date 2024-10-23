@@ -689,6 +689,27 @@ body {
 	outline: none;
 	border: none;
   }
+  /* Home social start */
+  .social-header-one{
+	background-image: url(../images/social/creative-bg-02.jpg);
+	background-size: 100% 50%;
+	background-repeat: no-repeat;
+  }
+  .social-header-two{
+	background-image: url(../images/social/creative-bg-01.jpg);
+	background-size: 100% 50%;
+	background-repeat: no-repeat;
+  }
+  .social-header-three{
+	background-image: url(../images/social/creative-bg-03.jpg);
+	background-size: 100% 50%;
+	background-repeat: no-repeat;
+  }
+  .social-header-four{
+	background-image: url(../images/social/creative-bg-04.jpg);
+	background-size: 100% 50%;
+	background-repeat: no-repeat;
+  }
   
 
 
@@ -707,6 +728,6 @@ body {
 
 
   COLOR-TEST{
-	color: #13092c;
+	color: #f5e2ee;
   }
 

@@ -20,11 +20,9 @@ export function Banner () {
             </h1>
             <div className="banner-text-side">
              <h2 className="mt-8 text-purple-800 ml-2">
-              <span className="font-semibold text-purple-950">Bobamayegun Okunrin Akile Ijebu. </span>
+              <span className="font-semibold text-lg text-gray-600">
+                Bobamayegun Okunrin Akile Ijebu. </span>
                 We are proud custodians of the vibrant and timeless Ijebu culture. 
-                Our society is a gathering of individuals dedicated to preserving 
-                our rich heritage, celebrating our traditions, and promoting unity 
-                within the Ijebu community and beyond.
             </h2>
             </div>
             <div className="mt-8 learnmore-btn relative">
