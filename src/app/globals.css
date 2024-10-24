@@ -710,8 +710,27 @@ body {
 	background-size: 100% 50%;
 	background-repeat: no-repeat;
   }
-  
-
+  /* Event */
+  .event-span{
+	font-family: Permanent Marker, cursive;
+	color: #5190f7;
+	font-weight: 700;
+  }
+  .countdown-box:last-child{
+	border-right: none;
+  }
+  .event-home-hero{
+	position: relative;
+	bottom: 450px;
+  }
+.event-phone{
+	position: relative;
+	top: 100px;
+    left: 65%;
+    width: 25%;
+	z-index: 1;
+    height: 600px;
+}
 
 
 
@@ -728,6 +747,6 @@ body {
 
 
   COLOR-TEST{
-	color: #f5e2ee;
+	color: #da5296;
   }
 
