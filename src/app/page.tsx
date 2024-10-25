@@ -35,10 +35,10 @@ export default function Home() {
       <div className="home-gallery mt-16">
         <Gallery />
       </div>
-      <div className="home-join-us mt-16 border">
+      <div className="home-join-us mt-16">
         <JoinUs />
       </div>
-      <div className="home-event mb-44 border">
+      <div className="home-event mb-44 ">
         <EventHome />
       </div>
     </div>

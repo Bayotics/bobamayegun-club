@@ -7,9 +7,9 @@ import eventPhone from '@/images/social/event-phone.png'
 
 export function EventHome () {
     return(
-        <div className="event-home-contents h-[700px] px-4 py-16">
+        <div className="event-home-contents h-[680px] px-4 py-16">
             <Image className='event-phone' src={eventPhone} alt='event' />
-            <div className="event-home-hero flex rounded-3xl border">
+            <div className="event-home-hero flex rounded-3xl">
                 <div className = 'event-left py-16 px-20 w-2/3 rounded-l-3xl bg-gradient-to-tr from-[#1e293b] from-50% via-[#46269e] via-70% to-[#da5296] to-90%'>
                     <div className="event-left-texts">
                         <h1 className="text-white font-semibold text-4xl leading-tight">

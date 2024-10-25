@@ -9,6 +9,7 @@ import Image from "next/image"
 
 
 export function Banner () {
+
   return (
     <div className="banner-main">
       <div className="area">
@@ -19,8 +20,8 @@ export function Banner () {
               Preserving Tradition,<br/> Celebrating Heritage
             </h1>
             <div className="banner-text-side">
-             <h2 className="mt-8 text-purple-800 ml-2">
-              <span className="font-semibold text-lg text-gray-600">
+             <h2 className="mt-8 text-gray-600 ml-2 text-xl">
+              <span className="font-semibold text-xl text-gray-600">
                 Bobamayegun Okunrin Akile Ijebu. </span>
                 We are proud custodians of the vibrant and timeless Ijebu culture. 
             </h2>

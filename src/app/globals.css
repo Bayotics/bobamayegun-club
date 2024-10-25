@@ -721,11 +721,11 @@ body {
   }
   .event-home-hero{
 	position: relative;
-	bottom: 450px;
+	bottom: 500px;
   }
 .event-phone{
 	position: relative;
-	top: 100px;
+	top: 50px;
     left: 65%;
     width: 25%;
 	z-index: 1;
@@ -747,6 +747,6 @@ body {
 
 
   COLOR-TEST{
-	color: #da5296;
+	color: #46053e;
   }
 

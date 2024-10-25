@@ -1,32 +1,54 @@
-'use client'
+import React, { useState } from "react";
 import { motion } from "framer-motion";
+import AnimatedCharacters from "./AnimatedTextEvent";
 
-interface PropValue {
-    text: string[]
+interface PlaceholderText {
+  type: string;
+  text: string;
 }
-// Parent:
-// const textVal = 'Unity through strength, strength through Community';
-    // const conv = textVal.split('');
-const AnimatedText: React.FC<PropValue> = ({ text }) => {
-  
+
+export default function AnimatedText() {
+  const [replay, setReplay] = useState<boolean>(true);
+  const placeholderText: PlaceholderText[] = [
+    { type: "heading1", text: "Preserving Tradition," },
+    {
+      type: "heading2",
+      text: "Celebrating Heritage"
+    }
+  ];
+
+  const container = {
+    visible: {
+      transition: {
+        staggerChildren: 0.025
+      }
+    }
+  };
+
+  // Quick and dirt for the example
+  const handleReplay = () => {
+    setReplay(!replay);
+    setTimeout(() => {
+      setReplay(true);
+    }, 600);
+  };
 
   return (
-    <div className="anim-text">
-      {text.map((el, i) => (
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{
-            duration: 0.25,
-            delay: i / 10,
-          }}
-          key={i}
-        >
-          {el}{" "}
-        </motion.span>
-      ))}
-    </div>
+    <motion.div
+      className=""
+      initial="hidden"
+      animate={replay ? "visible" : "hidden"}
+      variants={container}
+    >
+      <div className="text-purple-950 font-semibold text-[3.1rem] mt-32 leading-normal">
+        {placeholderText.map((item, index) => {
+          return <AnimatedCharacters {...item} key={index} />;
+        })}
+      </div>
+      <button onClick={handleReplay}>
+        Replay <span>⟲</span>
+      </button>
+    </motion.div>
   );
 }
 
-export default AnimatedText;
