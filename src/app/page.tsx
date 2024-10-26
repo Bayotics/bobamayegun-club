@@ -8,6 +8,8 @@ import OurExcos from "@/components/HomePage/Excos/OurExcos";
 import Gallery from "@/components/HomePage/Gallery";
 import { EventHome } from "@/components/HomePage/Events/EventHome";
 import { JoinUs } from "@/components/HomePage/JoinUs";
+import { Slider } from "@/components/HomePage/Slider";
+// import { HomeFaq } from "@/components/HomePage/FAQ/HomeFaq";
 
 export default function Home() {
   return (
@@ -22,6 +24,9 @@ export default function Home() {
       </div>
       <div className="">
         <AboutUs />
+      </div>
+      <div className = 'slider-home-main mt-20'>
+        <Slider />
       </div>
       <div className = 'initiatives-home-main'>
         <Initiatives />
@@ -40,6 +45,9 @@ export default function Home() {
       </div>
       <div className="home-event mb-44 ">
         <EventHome />
+      </div>
+      <div className="home-faq mb-44 ">
+        {/* <HomeFaq /> */}
       </div>
     </div>
   );
