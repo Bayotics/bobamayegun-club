@@ -780,7 +780,7 @@ body {
 }
 
 .slider .slide-track:hover {
-    /* animation-play-state: paused; */
+    animation-play-state: paused;
 }
 
 .slider .slide {
@@ -850,6 +850,6 @@ body {
 
 
   COLOR-TEST{
-	color: #46053e;
+	color: #d1cadd;
   }
 
