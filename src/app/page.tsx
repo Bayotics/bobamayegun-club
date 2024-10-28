@@ -25,9 +25,6 @@ export default function Home() {
       <div className="">
         <AboutUs />
       </div>
-      <div className = 'slider-home-main mt-20'>
-        <Slider />
-      </div>
       <div className = 'initiatives-home-main'>
         <Initiatives />
       </div>
@@ -36,6 +33,9 @@ export default function Home() {
       </div>
       <div className="home-our-excos pt-32">
         <OurExcos />
+      </div>
+      <div className = 'slider-home-main mt-20'>
+        <Slider />
       </div>
       <div className="home-gallery mt-16">
         <Gallery />
