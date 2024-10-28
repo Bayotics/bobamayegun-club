@@ -28,7 +28,7 @@ export function Slider () {
                             <Image src={memberV} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Alhaji Akin Bode</h1>
+                                    <h1 className='text-lg font-semibold'>Alhaji Akin Bode</h1>
                                     <p className='mt-2'>Lawyer</p>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ export function Slider () {
                             <Image src={memberI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Agbaje Mutiu</h1>
+                                    <h1 className='text-lg font-semibold'>Agbaje Mutiu</h1>
                                     <p className='mt-2'>Member, LHOS</p>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export function Slider () {
                             <Image src={memberVI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Dr. Ogunmepon</h1>
+                                    <h1 className='text-lg font-semibold'>Dr. Ogunmepon</h1>
                                     <p className='mt-2'>Lecturer, LASU</p>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ export function Slider () {
                             <Image src={memberVII} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Bello Idris</h1>
+                                    <h1 className='text-lg font-semibold'>Bello Idris</h1>
                                     <p className='mt-2'>Accountant</p>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ export function Slider () {
                             <Image src={memberIV} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Ogunmakin Babatunde</h1>
+                                    <h1 className='text-lg font-semibold'>Ogunmakin Babatunde</h1>
                                     <p className='mt-2'>Aviator</p>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export function Slider () {
                             <Image src={memberX} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Fadamisi Olaiya</h1>
+                                    <h1 className='text-lg font-semibold'>Fadamisi Olaiya</h1>
                                     <p className='mt-2'>Stylist</p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export function Slider () {
                             <Image src={memberXI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Agunbiade John</h1>
+                                    <h1 className='text-lg font-semibold'>Agunbiade John</h1>
                                     <p className='mt-2'>Custom</p>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ export function Slider () {
                             <Image src={memberXII} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Col. Olaniyi</h1>
+                                    <h1 className='text-lg font-semibold'>Col. Olaniyi</h1>
                                     <p className='mt-2'>Nigerian Army</p>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ export function Slider () {
                             <Image src={memberI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Tajudeen Edu</h1>
+                                    <h1 className='text-lg font-semibold'>Tajudeen Edu</h1>
                                     <p className='mt-2'>Accountant</p>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ export function Slider () {
                             <Image src={memberV} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Alhaji Akin Bode</h1>
+                                    <h1 className='text-lg font-semibold'>Alhaji Akin Bode</h1>
                                     <p className='mt-2'>Lawyer</p>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ export function Slider () {
                             <Image src={memberI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Agbaje Mutiu</h1>
+                                    <h1 className='text-lg font-semibold'>Agbaje Mutiu</h1>
                                     <p className='mt-2'>Member, LHOS</p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ export function Slider () {
                             <Image src={memberVI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Dr. Ogunmepon</h1>
+                                    <h1 className='text-lg font-semibold'>Dr. Ogunmepon</h1>
                                     <p className='mt-2'>Lecturer, LASU</p>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ export function Slider () {
                             <Image src={memberVII} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Bello Idris</h1>
+                                    <h1 className='text-lg font-semibold'>Bello Idris</h1>
                                     <p className='mt-2'>Accountant</p>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ export function Slider () {
                             <Image src={memberIV} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Ogunmakin Babatunde</h1>
+                                    <h1 className='text-lg font-semibold'>Ogunmakin Babatunde</h1>
                                     <p className='mt-2'>Aviator</p>
                             </div>
                         </div>
@@ -140,7 +140,7 @@ export function Slider () {
                             <Image src={memberX} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Fadamisi Olaiya</h1>
+                                    <h1 className='text-lg font-semibold'>Fadamisi Olaiya</h1>
                                     <p className='mt-2'>Stylist</p>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ export function Slider () {
                             <Image src={memberXI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Agunbiade John</h1>
+                                    <h1 className='text-lg font-semibold'>Agunbiade John</h1>
                                     <p className='mt-2'>Custom</p>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ export function Slider () {
                             <Image src={memberXII} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Col. Olaniyi</h1>
+                                    <h1 className='text-lg font-semibold'>Col. Olaniyi</h1>
                                     <p className='mt-2'>Nigerian Army</p>
                             </div>
                         </div>
@@ -164,7 +164,7 @@ export function Slider () {
                             <Image src={memberI} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-medium'>Tajudeen Edu</h1>
+                                    <h1 className='text-lg font-semibold'>Tajudeen Edu</h1>
                                     <p className='mt-2'>Accountant</p>
                             </div>
                         </div>
