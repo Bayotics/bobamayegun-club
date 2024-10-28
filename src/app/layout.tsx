@@ -27,7 +27,7 @@ export default function RootLayout({
           <Header />
         </header>
         {children}
-        <footer className="bg-black text-white py-6 text-center"><Footer /></footer>
+        <footer className="bg-black text-white pt-6"><Footer /></footer>
       </body>
     </html>
   );

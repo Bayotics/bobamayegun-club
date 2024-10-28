@@ -467,10 +467,7 @@ body {
 	font-size: 12px;
 	letter-spacing: 8px;
 	font-weight: lighter;
-  }
-  
-  /* FOOTER */
-  
+  }  
   .horizontalBar {
 	position: absolute;
 	bottom: 110px;
@@ -909,9 +906,9 @@ body {
 	text-align: left;
 	padding-top: 1.5rem;
 	font-weight: light;
-	font-size: 0.8rem;
+	font-size: 1rem;
 	line-height: 1.5;
-	color: #9ea6ae;
+	color: #6a7075;
 	height: 0%;
 	animation: slidein 0.4s;
 	animation-fill-mode: forwards;
@@ -945,6 +942,6 @@ body {
 
 
   COLOR-TEST{
-	color: #d1cadd;
+	color: #4740d4;
   }
 

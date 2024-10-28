@@ -83,7 +83,9 @@ const Question: React.FC<QuestionProps> = (props) => {
           </svg>
         </button>
       </div>
-      <div className={isActive ? 'answer active' : 'answer'}>{props.answer}</div>
+      <div className={isActive ? 'answer active' : 'answer'}>
+        <p className=''></p>{props.answer}
+        </div>
     </div>
   );
 };

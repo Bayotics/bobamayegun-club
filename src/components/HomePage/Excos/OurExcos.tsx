@@ -66,7 +66,7 @@ export default function OurExcos() {
             </h2>
           </div>
           <div className="main-content mt-12">
-            <div className="content-wrapper border flex">
+            <div className="content-wrapper flex">
               <div className="exco-socials mt-2 w-1/4 pt-2 pl-10">
                 <div className="exco-social-icons">
                   <FaInstagram className="mt-6 text-xl"/>
