@@ -2,11 +2,11 @@
 
 import React from "react";
 
-const AnimatedBtn = () => {
+const AnimatedBtn = ({text, style}) => {
   return (
-    <div className="grid  place-content-center bg-black p-4 mt-2 w-2/3 border-2 border-white">
+    <div className= {style}>
       <DrawOutlineButton> 
-        <div><h1>Learn More →</h1></div>
+        <div><h1>{text}</h1></div>
     </DrawOutlineButton>
     </div>
   );
@@ -22,7 +22,7 @@ const DrawOutlineButton = ({
   return (
     <button
       {...rest}
-      className="group relative px-4 py-1 font-medium text-slate-100 transition-colors duration-[400ms] "
+      className="group relative px-4 py-1 font-medium transition-colors duration-[400ms] "
     >
       <span>{children}</span>
       <span className="absolute left-0 top-0 h-[2px] w-0 bg-gradient-to-r from-purple-600 to-orange-300 transition-all duration-100 group-hover:w-full" />

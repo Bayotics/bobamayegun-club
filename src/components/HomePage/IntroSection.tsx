@@ -1,12 +1,14 @@
 import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import HandshakeOutlinedIcon from '@mui/icons-material/HandshakeOutlined';
-import AnimatedBtnForAbout from './AnimatedBtnForAbout';
+import AnimatedBtn from './AnimatedBtnForAbout';
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 import LeaderboardOutlinedIcon from '@mui/icons-material/LeaderboardOutlined';
 import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 import ThumbUpAltOutlinedIcon from '@mui/icons-material/ThumbUpAltOutlined';
 
 export function IntroSection () {
+    const style = 'p-4 mt-2 w-2/3 border-2 grid place-content-center border-white bg-black text-white'
+    const text = 'Learn More →'
     return (
         <div className = 'intro-section-main'>
             <div className="intro-sec-texts px-48">
@@ -32,7 +34,9 @@ export function IntroSection () {
                                     heritage is passed on to future generations.
                                 </p>
                                 <div className = 'amin-about-btn mt-4'>
-                                    <AnimatedBtnForAbout />
+                                    <AnimatedBtn 
+                                    text={text}
+                                    style = {style}/>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +53,9 @@ export function IntroSection () {
                                     and the responsibility of uplifting one another.
                                 </p>
                                 <div className = 'amin-about-btn mt-6'>
-                                    <AnimatedBtnForAbout />
+                                    <AnimatedBtn 
+                                    text={text}
+                                    style = {style} />
                                 </div>
                             </div>
                         </div>
@@ -66,7 +72,9 @@ export function IntroSection () {
                                     and socio-economic initiatives.
                                 </p>
                                 <div className = 'amin-about-btn mt-4'>
-                                    <AnimatedBtnForAbout />
+                                    <AnimatedBtn 
+                                    text={text}
+                                    style = {style} />
                                 </div>
                             </div>
                         </div>
@@ -85,7 +93,9 @@ export function IntroSection () {
                                     who positively impact their communities
                                 </p>
                                 <div className = 'amin-about-btn mt-4'>
-                                    <AnimatedBtnForAbout />
+                                    <AnimatedBtn 
+                                    text={text}
+                                    style = {style} />
                                 </div>
                             </div>
                         </div>
@@ -102,7 +112,9 @@ export function IntroSection () {
                                     fostering respect for diversity
                                 </p>
                                 <div className = 'amin-about-btn mt-4'>
-                                    <AnimatedBtnForAbout />
+                                    <AnimatedBtn 
+                                    text={text}
+                                    style = {style} />
                                 </div>
                             </div>
                         </div>
@@ -119,7 +131,9 @@ export function IntroSection () {
                                     positively.
                                 </p>
                                 <div className = 'amin-about-btn mt-4'>
-                                    <AnimatedBtnForAbout />
+                                    <AnimatedBtn 
+                                    text={text}
+                                    style = {style} />
                                 </div>
                             </div>
                         </div>

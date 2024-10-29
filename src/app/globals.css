@@ -344,8 +344,8 @@ body {
 	--borderWidth: 2px;
 	--borderColor: hsl(0, 0%, 64%);
 	--bgColor: hsl(0, 0%, 96%);
-	--borderColor: hsl(0, 2%, 23%);
-	--bgColor: rgb(15, 15, 15);
+	--borderColor: hsl(0, 4%, 10%);
+	--bgColor: black;
 	width: 100%;
 	height: 100%;
 	background-color: var(--bgColor);

@@ -1,11 +1,10 @@
 import Image from "next/image"
 import logo from '@/images/Bobamayegun-logo.png'
-import flywhisk from '@/images/fly-whisk-logo.png'
-import whisk from '@/images/fly-whisk-logo.png'
 import { RiTwitterXFill } from "react-icons/ri";
 import { RxInstagramLogo } from "react-icons/rx";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
+import AnimatedBtn from "./HomePage/AnimatedBtnForAbout";
 
 
 
@@ -79,10 +78,8 @@ export default function Footer () {
                         placeholder="Enter email..." />
                     </div>
                     <div className="footer-btn mt-6">
-                        <button className=
-                        "text-white mt-1 px-6 py-4 bg-gradient-to-tr from-[#4f46e5] to-[#7b3db6] rounded-full hover:bg-[#336ac4]">
-                            Subscribe →
-                        </button>
+                        <AnimatedBtn text={'Subscribe →'}
+                        style={'bg-gradient-to-r from-[#4f46e5] to-[#7b3db6] px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[80%] text-center'} />
                     </div>
                 </div>
             </div>

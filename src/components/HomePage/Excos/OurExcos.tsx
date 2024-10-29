@@ -36,7 +36,8 @@ export default function OurExcos() {
   const [data] = useState(initialData);
   const [activeIndex, setActiveIndex] = useState(0);
   const [isLoading, setLoading] = useState(true);
-
+  const style = 'p-4 mt-2 w-2/3 border-2 grid place-content-center border-white bg-black text-white'
+  const text = 'Learn More →'
   const updateIndex = (newIndex) => {
     if (newIndex < 0) {
       newIndex = data.length - 1;
@@ -79,7 +80,9 @@ export default function OurExcos() {
                 <h2 className="text-lg text-black font-light">{data[activeIndex].memo}</h2>
                 <p className="text-base text-black">{data[activeIndex].socialMedia}</p>
                 <div className="w-1/2 exco-learn-more">
-                  <AnimatedBtn />
+                  <AnimatedBtn 
+                    text={text}
+                    style = {style}/>
                 </div>
               </div>
             </div>

@@ -4,6 +4,7 @@ import socialThree from '@/images/social/social-portrait-three.png'
 import socialFour from '@/images/social/social-portrait-four.png'
 import socialRight from '@/images/social/social-right.png'
 import Image from 'next/image'
+import AnimatedBtn from './AnimatedBtnForAbout'
 
 
 export function JoinUs () {
@@ -99,17 +100,14 @@ export function JoinUs () {
                         className='ml-20 w-[80%] h-350px]'/>
                     </div>
                     <div className='social-promo-texts mt-8 pr-10 ml-20'>
-                        <h1 className='text-5xl font-semibold'>More than a community</h1>
+                        <h1 className='text-5xl font-semibold'>More than a community</h1> 
                         <p className='text-xl text-gray-500 mt-4'>
                             Discover the Beauty of Yoruba Culture with Bobamayegun Okunrin Akile Ijebu! 
                             Be Part of the Legacy – Yoruba Pride Lives Here!
                         </p>
                         <div className='join-us-promo-btn mt-3'>
-                            <button className='init-btn 
-                            bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black
-                            py-4 rounded-full text-white mt-4'>
-                            Join our Community
-                            </button>
+                            <AnimatedBtn text={'Join our Community'}
+                            style={'bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[60%] text-center'} />
                         </div>
                     </div>
                 </div>

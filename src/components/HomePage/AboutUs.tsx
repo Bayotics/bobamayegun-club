@@ -1,8 +1,14 @@
 
 'use client'
 
-import Image from "next/image"
-import aboutPic from '@/images/home-about-img.png'
+import Image from "next/image";
+import aboutPic from '@/images/home-about-img.png';
+import AnimatedBtn from "./AnimatedBtnForAbout";
+import { CiCalendar } from "react-icons/ci";
+import { GoPerson } from "react-icons/go";
+import { PiCheckCircleThin } from "react-icons/pi";
+import { MdOutlineCelebration } from "react-icons/md";
+
 
 export function AboutUs () {
 
@@ -11,18 +17,23 @@ export function AboutUs () {
            <div className="bgGridWrapper">
             <div className="about-sec-home px-20 py-16">
                 <h1 className="text-white font-semibold text-4xl text-center">
-                    Unity Through Culture, Strength Through Community
+                    Unity Through Culture,<br/> Strength Through Community
                 </h1>
-                <div className="about-sec-home-contents border rounded-3xl flex 
-                    justify-between border-purple-300 m-auto bg-gray-950 mt-20">
-                    <div className="blurry-bg flex justify-between">
-                        <div className="ash-content-left w-1/2 px-12">
-                            <div className="ash-cont-left-texts mt-64">
+                <div className="about-sec-home-contents  mt-20">
+                    <div className="blurry-bg flex gap-8 justify-between">
+                        <div className="ash-content-right w-[40%]  ">
+                            <div className="ash-content-img">
+                                <Image src= {aboutPic} alt="about us"
+                                 className="rounded-xl w-full h-[450px]"/>
+                            </div>
+                        </div>
+                        <div className="ash-content-left w-[60%] px-12 bg-[#26232c] rounded-xl">
+                            <div className="ash-cont-left-texts mt-10">
                                 <h2 className="text-white text-md font-normal">About Us</h2>
                                 <h1 className="text-3xl font-semibold text-white">
                                     Egbe Bobamayegun Okunrin Akile Ijebu
                                 </h1>
-                                <p className="text-white mt-4">
+                                <p className="text-gray-300 mt-10">
                                     we are a society 
                                     dedicated to preserving, promoting, and celebrating the rich 
                                     heritage of the Ijebu people. Our mission is to foster unity, 
@@ -31,19 +42,48 @@ export function AboutUs () {
                                     and values. We provide a platform for cultural exchange, 
                                     education, and mentorship, enabling members to connect with their 
                                     roots while contributing to the development of the larger society. 
-                                    At Egbe Bobamayegun, we honor our past, strengthen our present, 
-                                    and build a future where our culture thrives in harmony with modernity.
                                 </p>
-                            </div>
-                        </div>
-                        <div className="ash-content-right w-1/2">
-                            <div className="ash-content-img p-10">
-                                <Image src= {aboutPic} alt="about us" className="rounded-3xl"/>
+                                <div className='join-us-promo-btn mt-3 text-black'>
+                                    <AnimatedBtn text={'Learn More →'}
+                                    style={'bg-white px-8 hover:bg-black hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center'} />
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                   
+                    <div className="home-about-buttom flex   mt-20 justify-between gap-8">
+                        <div className="hab-i py-6 px-10 bg-[#26232c] rounded-xl text-center w-1/4">
+                            <div className="  flex justify-center">
+                                <CiCalendar className="text-blue-500 font-thin text-5xl"/>
+                            </div>
+                            <h1 className="text-4xl mt-12 font-medium text-gray-200">10+</h1>
+                            <p className="mt-4 text-gray-400 text-lg">Years of Existence</p>
+                            
+                        </div>
+                        <div className="hab-i py-6 px-10 bg-[#26232c] rounded-xl text-center w-1/4">
+                            <div className="  flex justify-center">
+                                <GoPerson className="text-pink-400 font-thin text-5xl"/>
+                            </div>
+                            <h1 className="text-4xl mt-12 font-medium text-gray-200">150+</h1>
+                            <p className="mt-4 text-gray-400 text-lg">Members</p>
+                            
+                        </div>
+                        <div className="hab-i py-6 px-10 bg-[#26232c] rounded-xl text-center w-1/4">
+                            <div className="  flex justify-center">
+                                <PiCheckCircleThin className="text-green-400 font-thin text-5xl"/>
+                            </div>
+                            <h1 className="text-4xl mt-12 font-medium text-gray-200">80+</h1>
+                            <p className="mt-4 text-gray-400 text-lg">Projects Delivered.....</p>
+                            
+                        </div>
+                        <div className="hab-i py-6 px-10 bg-[#26232c] rounded-xl text-center w-1/4">
+                            <div className="  flex justify-center">
+                                <MdOutlineCelebration className="text-orange-500 font-thin text-5xl"/>
+                            </div>
+                            <h1 className="text-4xl mt-12 font-medium text-gray-200">50+</h1>
+                            <p className="mt-4 text-gray-400 text-lg">Events Organised</p>
+                            
+                        </div>
+                    </div>
 
                 </div>
             </div>

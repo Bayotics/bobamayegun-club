@@ -3,6 +3,8 @@ import ReactCardCarousel from 'react-card-carousel';
 import AnimatedBtn from './AnimatedBtnForAbout';
 
 export function Initiatives () {
+  const style = 'p-4 mt-2 w-2/3 border-2 grid place-content-center border-white bg-black'
+
     return (
       <div className='initiatives-content-home py-1'>
         <div className = 'initiatives-home-texts mt-20 px-40'>
@@ -20,11 +22,9 @@ export function Initiatives () {
                 promoting, and celebrating the rich cultural heritage of the Ijebu people 
               </p>
               <div className='initiative-btn'>
-                <button className='init-btn 
-                  bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black
-                  py-4 rounded-full text-white mt-12'>
-                  Join our Community
-                </button>
+                <AnimatedBtn text={'Join our Community'}
+                style={'bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[45%] text-center'} />
+                
               </div>
             </div>
           </div>
@@ -38,7 +38,9 @@ export function Initiatives () {
                   career development programs, and networking opportunities...
                 </h2>
                 <div className='ic-home-btn mt-20'>
-                  <AnimatedBtn />
+                  <AnimatedBtn 
+                   text={'Learn More →'}
+                   style = {style}/>
                 </div>
               </div>
               <div className='initiative-card-style init-card-two pl-6 pr-10 pb-10'>
@@ -49,7 +51,9 @@ export function Initiatives () {
                     and ceremonies to showcase Ijebu and Yoruba culture to a wider audience...
                   </h2>
                   <div className='ic-home-btn mt-20'>
-                    <AnimatedBtn />
+                    <AnimatedBtn 
+                    text={'Learn More →'}
+                    style = {style}/>                  
                   </div>
               </div>
               <div className='initiative-card-style init-card-three pl-6 pr-10 pb-10'>
@@ -62,7 +66,9 @@ export function Initiatives () {
                   particularly within underserved communities...
                 </h2>
                 <div className='ic-home-btn mt-16'>
-                  <AnimatedBtn />
+                  <AnimatedBtn 
+                   text={'Learn More →'}
+                   style = {style}/>                
                 </div>
               </div>
               <div className='initiative-card-style init-card-four pl-6 pr-10 pb-10'>
@@ -74,7 +80,9 @@ export function Initiatives () {
                   oral histories, and cultural expressions...
                 </h2>
                 <div className='ic-home-btn mt-16'>
-                  <AnimatedBtn />
+                  <AnimatedBtn 
+                   text={'Learn More →'}
+                   style = {style}/>                 
                 </div>
               </div>
             </ReactCardCarousel>
