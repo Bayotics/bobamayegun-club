@@ -3,8 +3,9 @@ import AccountBalanceOutlinedIcon from '@mui/icons-material/AccountBalanceOutlin
 import EscalatorWarningOutlinedIcon from '@mui/icons-material/EscalatorWarningOutlined';
 import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import whyUsI from '@/images/why-us-i.jpeg';
-import whyUsII from '@/images/why-us-ii.jpeg';
 import whyUsIII from '@/images/why-us-iii.jpeg';
+import aboutImg from '@/images/banner-img.jpg'
+
 
 import { WhyUsAnimate } from './WhyUsAnimation';
 import Image from 'next/image';
@@ -97,7 +98,7 @@ export function WhyUs () {
                     </div>
                     <div className='wur-pic-right w-1/2'>
                         <div className='wpr-top'>
-                            <Image src={whyUsII} alt='bobamayegun' 
+                            <Image src={aboutImg} alt='bobamayegun' 
                              className='rounded-3xl h-[265px] w-full'/>
                         </div>
                         <div className='wpr-bottom mt-4'>

@@ -2,12 +2,12 @@
 'use client'
 
 import Image from "next/image";
-import aboutPic from '@/images/home-about-img.png';
+import aboutPix from '@/images/why-us-ii.jpeg'
 import AnimatedBtn from "./AnimatedBtnForAbout";
 import { CiCalendar } from "react-icons/ci";
 import { GoPerson } from "react-icons/go";
 import { PiCheckCircleThin } from "react-icons/pi";
-import { MdOutlineCelebration } from "react-icons/md";
+import { CiFaceSmile } from "react-icons/ci";
 
 
 export function AboutUs () {
@@ -23,7 +23,7 @@ export function AboutUs () {
                     <div className="blurry-bg flex gap-8 justify-between">
                         <div className="ash-content-right w-[40%]  ">
                             <div className="ash-content-img">
-                                <Image src= {aboutPic} alt="about us"
+                                <Image src= {aboutPix} alt="about us"
                                  className="rounded-xl w-full h-[450px]"/>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ export function AboutUs () {
                                 </p>
                                 <div className='join-us-promo-btn mt-3 text-black'>
                                     <AnimatedBtn text={'Learn More →'}
-                                    style={'bg-white px-8 hover:bg-black hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center'} />
+                                    style={'bg-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center'} />
                                 </div>
                             </div>
                         </div>
@@ -72,12 +72,12 @@ export function AboutUs () {
                                 <PiCheckCircleThin className="text-green-400 font-thin text-5xl"/>
                             </div>
                             <h1 className="text-4xl mt-12 font-medium text-gray-200">80+</h1>
-                            <p className="mt-4 text-gray-400 text-lg">Projects Delivered.....</p>
+                            <p className="mt-4 text-gray-400 text-lg">Projects Delivered</p>
                             
                         </div>
                         <div className="hab-i py-6 px-10 bg-[#26232c] rounded-xl text-center w-1/4">
                             <div className="  flex justify-center">
-                                <MdOutlineCelebration className="text-orange-500 font-thin text-5xl"/>
+                                <CiFaceSmile className="text-orange-400 font-thin text-5xl"/>
                             </div>
                             <h1 className="text-4xl mt-12 font-medium text-gray-200">50+</h1>
                             <p className="mt-4 text-gray-400 text-lg">Events Organised</p>

@@ -923,11 +923,17 @@ body {
 		transform: translateY(0%);
    }
 }
-.fci-top-ii{
-	
+
+/* About us page */
+:root{
+	--aboutprimary: hsla(240, 4%, 50%, 0.65);
+	--secondary: hsla(262, 73%, 54%, 0.753);
 }
+.aboutus-page-banner{
+	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	 url(../images/about-banner.jpeg) no-repeat center center / cover;
 
-
+}
 
 
 
