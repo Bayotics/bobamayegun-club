@@ -934,6 +934,11 @@ body {
 	 url(../images/about-banner.jpeg) no-repeat center center / cover;
 
 }
+.history-bg{
+	background-image: url(../images/gallery/gallery-img-eight.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
 
 
 

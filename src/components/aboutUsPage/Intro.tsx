@@ -37,8 +37,8 @@ export function Intro () {
                                     roots while contributing to the development of the larger society. 
                                 </p>
                                 <div className='join-us-promo-btn mt-3 text-black'>
-                                    <AnimatedBtn text={'Learn More →'}
-                                    style={'bg-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center'} />
+                                    <AnimatedBtn text={'Talk to Us →'}
+                                    style={'bg-black text-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg mt-12 w-[40%] text-center'} />
                                 </div>
                             </div>
                         </div>
