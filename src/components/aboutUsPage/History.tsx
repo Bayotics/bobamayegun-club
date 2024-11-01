@@ -4,10 +4,10 @@ export function History () {
     return(
         <div className = 'history-main mb-20'>
             <div className = 'history-content flex px-16'>
-                <div className="history-text bg-white px-12 py-10 w-[60%] rounded-l-3xl">
+                <div className="history-text bg-white px-12 py-10 w-[60%]">
                     <p className="">History</p>
                     <h1 className="text-3xl font-semibold">
-                        Preserving the Ijebu Identity<br/> Since 2005
+                        Preserving the Ijebu Identity<br/> Since 2008
                     </h1>
                     <p className = 'mt-6 text-gray-600'>
                         Founded in 2008 by Chief Wasiu Noman, 
@@ -20,7 +20,7 @@ export function History () {
                         <BaseModal />
                     </div>
                 </div>
-                <div className='history-bg w-[40%] rounded-r-3xl'>
+                <div className='history-bg w-[40%]'>
                     
                 </div>
             </div>

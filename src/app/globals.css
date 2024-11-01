@@ -928,6 +928,8 @@ body {
 :root{
 	--aboutprimary: hsla(240, 4%, 50%, 0.65);
 	--secondary: hsla(262, 73%, 54%, 0.753);
+	--charity: hsla(261, 32%, 14%, 0.753);
+	--charitySecondary: hsla(262, 89%, 17%, 0.753);
 }
 .aboutus-page-banner{
 	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
@@ -939,9 +941,22 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+/* Arts and culture Page */
+.artsandculture-page-banner{
+	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
+	 url(../images/artsbanner.png) no-repeat center center / cover;
+}
 
 
-
+/* Charuty */
+.charity-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+	 url(../images/charity-banner.jpg) no-repeat center center / cover;
+}
+.cic-left{
+	background-image: url(../images/charity-content-1.jpg);
+	background-size: 100% 100%;
+}
 
 
 

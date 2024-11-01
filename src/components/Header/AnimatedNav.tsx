@@ -93,13 +93,13 @@ const AboutContent = () => {
         <a href="/aboutus" className="font-medium block text-sm hover:underline">
           Values
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/aboutus" className="font-medium block text-sm hover:underline">
           History
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/aboutus" className="font-medium block text-sm hover:underline">
           Council
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/aboutus" className="font-medium block text-sm hover:underline">
           Leadership
         </a>
       </div>
@@ -110,10 +110,10 @@ const InitiativeContent = () => {
   return (
     <div className="px-20 bg-black p-1 shadow-xl">
       <div className="mb-6 space-y-8 mt-6">
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/artsandculture" className="font-medium block text-sm hover:underline">
           Arts & Culture
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/charity" className="font-medium block text-sm hover:underline">
           Charity
         </a>
         <a href="#" className="font-medium block text-sm hover:underline">
