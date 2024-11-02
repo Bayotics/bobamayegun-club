@@ -116,14 +116,11 @@ const InitiativeContent = () => {
         <a href="/charity" className="font-medium block text-sm hover:underline">
           Charity
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/policy" className="font-medium block text-sm hover:underline">
           Policy
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/socialnetwork" className="font-medium block text-sm hover:underline">
           Social Networking
-        </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
-          Environmental Impact
         </a>
       </div>
     </div>

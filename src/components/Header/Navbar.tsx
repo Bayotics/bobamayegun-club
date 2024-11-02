@@ -13,7 +13,7 @@ export default function NavBar () {
                     <Image src={logo} alt="bobamayegun logo" height={20} width={60} className="mt-2"/>
                 </div>
                 <div className="text-logo">
-                    <h1 className="text-3xl font-semibold mt-6">Bobamayegun</h1>
+                    <h1 className="text-3xl font-semibold mt-6">Bóbamàyègùn</h1>
                 </div>
                 <div className="flywhisk-logo pt-2">
                     <Image src={flywhisk} alt="bobamayegun logo" height={20} width={20}/>

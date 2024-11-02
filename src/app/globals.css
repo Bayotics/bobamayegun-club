@@ -930,6 +930,9 @@ body {
 	--secondary: hsla(262, 73%, 54%, 0.753);
 	--charity: hsla(261, 32%, 14%, 0.753);
 	--charitySecondary: hsla(262, 89%, 17%, 0.753);
+	--charitybanner: hsla(0, 0%, 0%, 0.655);
+	--charitybannerii: hsla(267, 100%, 14%, 0.955);
+
 }
 .aboutus-page-banner{
 	background: linear-gradient(135deg, var(--aboutprimary), var(--secondary) ),
@@ -956,6 +959,32 @@ body {
 .cic-left{
 	background-image: url(../images/charity-content-1.jpg);
 	background-size: 100% 100%;
+}
+.cic-right{
+	background: linear-gradient(135deg, var(--charitybannerii), var(--charitybanner) ),
+	url(../images/charity-conmtent-2.jpg) no-repeat center center / cover;
+}
+.orphanage-cover{
+	background-image: url(../images/charity-bg-iii.jpg);
+	background-size: 100% 100%;
+}
+.orphanage-cover-ii{
+	background-image: url(../images/charity-bg-ii.jpg);
+	background-size: 100% 100%;
+}
+.orphanage-cover-iii{
+	background-image: url(../images/charity-bg-i.jpg);
+	background-size: 100% 100%;
+}
+/* Policy */
+.policy-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+	 url(../images/policy-bg.jpg) no-repeat center center / cover;
+}
+/* social network */
+.socialnetwork-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+	 url(../images/network-bg.jpg) no-repeat center center / cover;
 }
 
 
