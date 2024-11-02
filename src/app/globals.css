@@ -986,6 +986,27 @@ body {
 	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
 	 url(../images/network-bg.jpg) no-repeat center center / cover;
 }
+.sni-img-i{
+	background-image: url(../images/social-network-i.png);
+	height: 300px;
+	width: 100%;
+}
+.sni-img-ii{
+	background-image: url(../images/banner-img.jpg);
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+}
+.sni-img-iii{
+	background-image: url(../images/social-network-ii.png);
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+}
+.press-notes-right{
+	background-image: url(../images/press-banner-ii.jpg);
+	background-size: cover;
+}
 
 
 
