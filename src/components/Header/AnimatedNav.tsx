@@ -18,7 +18,7 @@ const AnimatedNav = () => {
       <FlyoutLink href="#" FlyoutContent={InitiativeContent}>
         Our Initiatives
       </FlyoutLink>
-      <Link href= '/'>
+      <Link href= '/news'>
           <div className="nav-menu-btn  ">
               <p className="font-medium">News & Events</p>
           </div>

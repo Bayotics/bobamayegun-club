@@ -1008,6 +1008,14 @@ body {
 	background-size: cover;
 }
 
+/* News and Events */
+.news-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+	 url(../images/press-banner.jpg) no-repeat center center / cover;
+}
+.news-card-image-i{
+	background-image: url(../images/news/news-img-1.jpg);
+}
 
 
 
