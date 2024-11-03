@@ -1014,7 +1014,7 @@ body {
 	 url(../images/press-banner.jpg) no-repeat center center / cover;
 }
 .news-card-image-i{
-	background-image: url(../images/news/news-img-1.jpg);
+	/* background-image: url(../images/news/news-img-1.jpg); */
 }
 
 
