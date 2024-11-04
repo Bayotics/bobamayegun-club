@@ -1018,12 +1018,7 @@ body {
 	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
 	 url(../images/gallery-bg.png) no-repeat center center / cover;
 }
-.gallery {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 10px;
-  }
-  
+
   .gallery__item {
 	overflow: hidden;
   }

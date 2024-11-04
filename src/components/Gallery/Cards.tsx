@@ -17,7 +17,7 @@ export default function Gallery   ({images}) {
 
   return (
     <div>
-      <div className="gallery">
+      <div className="gallery grid grid-cols-4 gap-4">
         {images.map((image, index) => (
           <button
             type="button"

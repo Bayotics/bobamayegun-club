@@ -1,4 +1,4 @@
-import { OjudeObaimages, OjudeObaimages2017, atlanta2024 } from "./imageFiles"
+import { OjudeObaimages, OjudeObaimages2017, atlanta2024, conference2018, donations, wedding } from "./imageFiles"
 import Gallery from "./Cards"
 
 export default function Content () {
@@ -33,6 +33,36 @@ export default function Content () {
                 </div>
                 <div className="pics-display mt-16">
                     <Gallery images={atlanta2024} />
+                </div>      
+            </div>
+            <div className = 'gallery-container mt-40'>
+                <div className="gallery-content-header">
+                    <h1 className="text-3xl font-semibold text-center">
+                        Ileya party at Conference Hotel 2018
+                    </h1>
+                </div>
+                <div className="pics-display mt-16">
+                    <Gallery images={conference2018} />
+                </div>      
+            </div>
+            <div className = 'gallery-container mt-40'>
+                <div className="gallery-content-header">
+                    <h1 className="text-3xl font-semibold text-center">
+                        Donation of School Uniforms at different Schools
+                    </h1>
+                </div>
+                <div className="pics-display mt-16">
+                    <Gallery images={donations} />
+                </div>      
+            </div>
+            <div className = 'gallery-container mt-40'>
+                <div className="gallery-content-header">
+                    <h1 className="text-3xl font-semibold text-center">
+                        Bobamayegun Members @ Alhaji Ogunleyes wedding, Texas
+                    </h1>
+                </div>
+                <div className="pics-display mt-16">
+                    <Gallery images={wedding} />
                 </div>      
             </div>
                   
