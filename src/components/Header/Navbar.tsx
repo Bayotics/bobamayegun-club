@@ -14,6 +14,7 @@ export default function NavBar () {
                 </div>
                 <div className="text-logo">
                     <h1 className="text-3xl font-semibold mt-6">Bóbamàyègùn</h1>
+                    <p className = 'text-xs'>Okunrin Akile Ijebu 74-76</p>
                 </div>
                 <div className="flywhisk-logo pt-2">
                     <Image src={flywhisk} alt="bobamayegun logo" height={20} width={20}/>

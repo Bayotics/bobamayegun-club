@@ -12,7 +12,7 @@ const AnimatedNav = () => {
               <p className="font-medium">Home</p>
           </div>
       </Link>
-      <FlyoutLink href="" FlyoutContent={AboutContent}>
+      <FlyoutLink href="#" FlyoutContent={AboutContent}>
         About Us
       </FlyoutLink>
       <FlyoutLink href="#" FlyoutContent={InitiativeContent}>
@@ -23,7 +23,7 @@ const AnimatedNav = () => {
               <p className="font-medium">News & Events</p>
           </div>
       </Link>
-      <Link href= '/'>
+      <Link href= 'gallery'>
           <div className="nav-menu-btn  ">
               <p className="font-medium">Gallery</p>
           </div>
