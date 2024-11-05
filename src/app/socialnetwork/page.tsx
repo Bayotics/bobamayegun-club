@@ -5,7 +5,7 @@ export default function SocialNetwork () {
     return (
         <div className="social-network-main">
             <Banner
-             bannerBgName={'asocialnetwork-page-banner'}
+             bannerBgName={'socialnetwork-page-banner'}
              textHeader={'Social Activities'}
              subText={'Connect with like-minded peers at Bobamayegun Okunrin Akile Ijebu'}
              />

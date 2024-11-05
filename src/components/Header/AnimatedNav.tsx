@@ -130,7 +130,7 @@ const SupportContent = () => {
   return (
     <div className="px-20 bg-black p-1 shadow-xl support-nav-content">
       <div className="mb-6 space-y-8 mt-6">
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/partnership" className="font-medium block text-sm hover:underline">
           Partnership
         </a>
         <a href="#" className="font-medium block text-sm hover:underline">
