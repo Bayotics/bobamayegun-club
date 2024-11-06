@@ -10,6 +10,7 @@ import { EventHome } from "@/components/HomePage/Events/EventHome";
 import { JoinUs } from "@/components/HomePage/JoinUs";
 import { Slider } from "@/components/HomePage/Slider";
 import { HomeFaqMain } from "@/components/HomePage/FAQApplication";
+import Block from "@/components/HomePage/Reviews/Block";
 // import { HomeFaq } from "@/components/HomePage/FAQ/HomeFaq";
 
 export default function Home() {
@@ -46,6 +47,9 @@ export default function Home() {
       </div>
       <div className="home-event mb-44 ">
         <EventHome />
+      </div>
+      <div className="home-reviews mb-44 ">
+        <Block />
       </div>
       <div className="home-faq mb-44 ">
         <HomeFaqMain />

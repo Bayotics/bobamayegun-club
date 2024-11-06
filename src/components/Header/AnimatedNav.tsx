@@ -133,10 +133,10 @@ const SupportContent = () => {
         <a href="/partnership" className="font-medium block text-sm hover:underline">
           Partnership
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/donations" className="font-medium block text-sm hover:underline">
           Donations
         </a>
-        <a href="#" className="font-medium block text-sm hover:underline">
+        <a href="/volunteering" className="font-medium block text-sm hover:underline">
           Volunteering
         </a>
       </div>

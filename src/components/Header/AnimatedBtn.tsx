@@ -2,12 +2,18 @@
 
 import React from "react";
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
+import Link from "next/link";
 
 const AnimatedBtn = () => {
   return (
     <div className="grid  place-content-center bg-black p-4 mt-2">
       <DrawOutlineButton> 
-        <div className="flex gap-1"><h1>Membership</h1><PersonAddAltOutlinedIcon /></div>
+      <Link href={'/membership'}>
+        <div className="flex gap-1">
+          <h1>Membership</h1>
+          <PersonAddAltOutlinedIcon />
+        </div>  
+      </Link>
     </DrawOutlineButton>
     </div>
   );

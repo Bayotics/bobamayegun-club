@@ -1129,7 +1129,27 @@ body {
 	.tabpanel-text {
 		margin-top: 1rem;
    }
-	
+
+   /* Donations Page */
+   .donations-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+	 url(../images/donations-bg.jpg) no-repeat center center / cover;
+	}
+
+	/* Volunteering Page */
+	.volunteering-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+		url(../images/Volunteer-bg.jpg) no-repeat center center / cover;
+	}
+	/* Membership Page */
+	.membership-page-banner{
+	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+		url(../images/membership-bg.jpeg) no-repeat center center / cover;
+	}
+	.membership-intro-pic {
+		background-image: url(../images/press-banner-iicopy.jpg);
+		background-size: cover;
+	}
 
 
 
