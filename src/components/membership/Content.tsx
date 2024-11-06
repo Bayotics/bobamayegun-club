@@ -1,3 +1,10 @@
+import { TbCalendarEvent } from "react-icons/tb";
+import { HiOutlineUserGroup } from "react-icons/hi";
+import { BiNetworkChart } from "react-icons/bi";
+
+
+
+
 
 export default function Content () {
     return (
@@ -25,7 +32,7 @@ export default function Content () {
                 <div className="w-1/2 membership-intro-pic">
                 </div>
             </div>
-            <div className="membership-benefits pt-14 pb-10 bg-purple-200 mt-40">
+            <div className="membership-benefits pt-14 pb-10 bg-purple-100 mt-40">
                 <div className="benefits-intro">
                     <div className="benefits-intro-texts m-auto w-1/2 mt-10">
                         <h1 className="text-3xl font-medium text-center">
@@ -37,14 +44,56 @@ export default function Content () {
                         </p>
                     </div>
                 </div>
-                <div className="benefits-cards grid grid-cols-3 mt-20 px-20">
+                <div className="benefits-cards grid grid-cols-3 mt-20 px-20 gap-10">
                     <div className="benefits-card">
                         <div className="benefits-icon p-[.5px] bg-white">
-                            <div className = 'bebefits-icon-content border-purple-600 border px-10 py-16'>
-                                <div className="bic-icon">
-
+                            <div className = 'bebefits-icon-content border-purple-800 border-2 py-16'>
+                                <div className="bic-icon place-content-center flex">
+                                    <HiOutlineUserGroup className="text-9xl text-purple-900" />
                                 </div>
                             </div>
+                        </div>
+                        <div className="bic-texts mt-8">
+                            <h1 className="text-xl text-purple-800">BOARD TALENT</h1>
+                            <p className="mt-4">
+                                We have reputable investment and consulting firms as partners which
+                                are seeking to place our members on variuos boards
+                            </p>
+                        </div>
+                    </div>
+                    <div className="benefits-card">
+                        <div className="benefits-icon p-[.5px] bg-white">
+                            <div className = 'bebefits-icon-content border-purple-800 border-2 py-16'>
+                                <div className="bic-icon place-content-center flex">
+                                    <TbCalendarEvent className="text-9xl text-purple-900" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bic-texts mt-8">
+                            <h1 className="text-xl text-purple-800">CURATED EVENTS</h1>
+                            <p className="mt-4">
+                                Enjoy specially curated events designed to bring men together
+                                to connect, reconnect, do business and form valuable
+                                networks.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="benefits-card">
+                        <div className="benefits-icon p-[.5px] bg-white">
+                            <div className = 'bebefits-icon-content border-purple-800 border-2 py-16'>
+                                <div className="bic-icon place-content-center flex">
+                                    <BiNetworkChart className="text-9xl text-purple-900" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bic-texts mt-8">
+                            <h1 className="text-xl text-purple-800">NETWORKING OPPORTUNITIES</h1>
+                            <p className="mt-4">
+                                As a member of Bobamayegun Okunrin Akile Ijebu, 
+                                you join a network of Ijebu professionals, leaders, 
+                                and families who are committed to mutual support and 
+                                advancement.
+                            </p>
                         </div>
                     </div>
                 </div>
