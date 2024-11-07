@@ -1,6 +1,8 @@
 import { TbCalendarEvent } from "react-icons/tb";
 import { HiOutlineUserGroup } from "react-icons/hi";
 import { BiNetworkChart } from "react-icons/bi";
+import Carousel from "./Carousel";
+import AnimatedBtn from "../HomePage/AnimatedBtnForAbout";
 
 
 
@@ -8,7 +10,7 @@ import { BiNetworkChart } from "react-icons/bi";
 
 export default function Content () {
     return (
-        <div className = 'membership-content-main py-20'>
+        <div className = 'membership-content-main py-20 bg-purple-200'>
             <div className="membership-intro px-32 flex gap-10">
                 <div className="w-1/2 membership-intro-texts">
                     <h1 className="text-2xl font-semibold text-purple-950">
@@ -32,7 +34,12 @@ export default function Content () {
                 <div className="w-1/2 membership-intro-pic">
                 </div>
             </div>
-            <div className="membership-benefits pt-14 pb-10 bg-purple-100 mt-40">
+            <div className = 'become-a-member-btn mt-20 flex justify-center'>
+                <AnimatedBtn 
+                text={'Join Now'}
+                style={'bg-transparent border border-purple-900 px-4 py-6 w-1/3 text-purple-900 text-center text-2xl'}/>
+            </div>
+            <div className="membership-benefits pt-14 pb-10 mt-40">
                 <div className="benefits-intro">
                     <div className="benefits-intro-texts m-auto w-1/2 mt-10">
                         <h1 className="text-3xl font-medium text-center">
@@ -40,7 +47,7 @@ export default function Content () {
                         </h1>
                         <p className="mt-4 text-lg text-center">
                             Whether you’re seeking a supportive community, connections, 
-                            and/or other opportunities, we have something for you.
+                            or other opportunities, we have something for you.
                         </p>
                     </div>
                 </div>
@@ -70,7 +77,7 @@ export default function Content () {
                             </div>
                         </div>
                         <div className="bic-texts mt-8">
-                            <h1 className="text-xl text-purple-800">CURATED EVENTS</h1>
+                            <h1 className="text-xl text-purple-800">EXCLUSIVE EVENTS</h1>
                             <p className="mt-4">
                                 Enjoy specially curated events designed to bring men together
                                 to connect, reconnect, do business and form valuable
@@ -97,7 +104,20 @@ export default function Content () {
                         </div>
                     </div>
                 </div>
-
+                <div className = 'membership-caro mt-20'>
+                    <div className="membership-caro-header w-1/2 m-auto text-center">
+                        <h1 className="text-3xl">What Members are Saying</h1>
+                        <p className="mt-2 text-lg">Some voices in our Community</p>
+                    </div>
+                    <div className="mem-caro-content mt-16">
+                        <Carousel />
+                    </div>
+                </div>
+                <div className = 'become-a-member-btn mt-20 flex justify-center'>
+                    <AnimatedBtn 
+                    text={'Become a Member Now'}
+                    style={'bg-transparent border border-purple-900 px-4 py-6 w-1/3 text-purple-900 text-center text-2xl'}/>
+                </div>
             </div> 
         </div>
     )

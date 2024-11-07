@@ -1150,6 +1150,74 @@ body {
 		background-image: url(../images/press-banner-iicopy.jpg);
 		background-size: cover;
 	}
+	.container_caro {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	  }
+	  
+	  .carousel-ctr {
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  .item-ctr {
+		display: flex;
+		transition: transform ease .5s;
+	  }
+	  
+	  .item_caro {
+		width: 99%;
+		color: white;
+		margin-right: 6px;
+		margin-left: 6px;
+		flex-shrink: 0;
+	  }
+	  
+	  .carousel-wrapper_caro {
+		width: 80vw;
+		/* width: calc(650px + 100vw - 1024px) !important;; */
+		overflow: hidden;
+	  }
+	  
+	  .btn_caro {
+		height: 40px;
+		width: 40px;
+		opacity: 0.6;
+		border: 0;
+		margin-bottom: 100px;
+	  }
+	  .btn-caro-left{
+		transition:  ease-out .1s;
+	  }
+	  .btn-caro-left:hover{
+		transform: translateX(-20%);
+	  }
+	  .btn-caro-right{
+		transition:  ease-out .1s;
+	  }
+	  .btn-caro-right:hover{
+		transform: translateX(20%);
+	  }
+	  .pagination-ctr {
+		display: flex;
+		margin-top: 24px;
+	  }
+	  
+	  .page_caro {
+		height: 12px;
+		width: 12px;
+		border: 1px solid black;
+		border-radius: 50%;
+		margin-left: 12px;
+		margin-right: 12px;
+	  }
+	  
+	  .page.selected_caro {
+		background-color: black;
+	  }
+	  
 
 
 
