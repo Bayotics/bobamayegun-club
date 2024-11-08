@@ -1,3 +1,6 @@
+'use client'
+
+
 
 import { Banner } from "@/components/HomePage/Banner";
 import { IntroSection } from "../components/HomePage/IntroSection"; 
@@ -11,10 +14,26 @@ import { JoinUs } from "@/components/HomePage/JoinUs";
 import { Slider } from "@/components/HomePage/Slider";
 import { HomeFaqMain } from "@/components/HomePage/FAQApplication";
 import Block from "@/components/HomePage/Reviews/Block";
+// import Spinner from "@/components/Spinner";
+// import { useState } from "react";
 // import { HomeFaq } from "@/components/HomePage/FAQ/HomeFaq";
 
 export default function Home() {
+  // const [loading, setLoading] = useState(true);
+  // const [display, setDisplay] = useState('block');
+
+
+  // setTimeout(() => {
+  //   setDisplay('hidden');
+  //   setLoading(false);
+  // }, 200)
+ 
   return (
+    // <div>
+    //   <div className = {display}>
+    //     <Spinner/>
+    //   </div>
+    // {!loading && (
     <div className="homepage-main">
       <div className = 'home-gradient-top'>
         <div className="home-banner">
@@ -55,5 +74,9 @@ export default function Home() {
         <HomeFaqMain />
       </div>
     </div>
-  );
+    // )}
+    // </div>
+    
+    
+    )
 }

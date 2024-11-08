@@ -39,7 +39,7 @@ export default function Content () {
                 text={'Join Now'}
                 style={'bg-transparent border border-purple-900 px-4 py-6 w-1/3 text-purple-900 text-center text-2xl'}/>
             </div>
-            <div className="membership-benefits pt-14 pb-10 mt-40">
+            <div className="membership-benefits pt-14 pb-10 mt-20">
                 <div className="benefits-intro">
                     <div className="benefits-intro-texts m-auto w-1/2 mt-10">
                         <h1 className="text-3xl font-medium text-center">
@@ -104,7 +104,7 @@ export default function Content () {
                         </div>
                     </div>
                 </div>
-                <div className = 'membership-caro mt-20'>
+                <div className = 'membership-caro mt-40'>
                     <div className="membership-caro-header w-1/2 m-auto text-center">
                         <h1 className="text-3xl">What Members are Saying</h1>
                         <p className="mt-2 text-lg">Some voices in our Community</p>
@@ -115,7 +115,7 @@ export default function Content () {
                 </div>
                 <div className = 'become-a-member-btn mt-20 flex justify-center'>
                     <AnimatedBtn 
-                    text={'Become a Member Now'}
+                    text={'BECOME A MEMBER NOW'}
                     style={'bg-transparent border border-purple-900 px-4 py-6 w-1/3 text-purple-900 text-center text-2xl'}/>
                 </div>
             </div> 

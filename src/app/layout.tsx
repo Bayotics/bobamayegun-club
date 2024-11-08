@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
@@ -20,15 +21,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en" className={poppins.className}>
-      <body>
-        <header className="text-white text-center">
-          <Header />
-        </header>
-        {children}
-        <footer className="bg-black text-white pt-6"><Footer /></footer>
-      </body>
+        <body>
+            <header className="text-white text-center">
+              <Header />
+            </header>
+            {children}
+            <footer className="bg-black text-white pt-6"><Footer /></footer>
+        </body>
     </html>
   );
 }
