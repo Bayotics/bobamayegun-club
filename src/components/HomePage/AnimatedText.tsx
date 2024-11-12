@@ -13,7 +13,7 @@ export default function AnimatedText() {
     { type: "heading1", text: "Preserving Tradition," },
     {
       type: "heading2",
-      text: "Celebrating Heritage"
+      text: "Celebrating Culture"
     }
   ];
 
@@ -25,7 +25,6 @@ export default function AnimatedText() {
     }
   };
 
-  // Quick and dirt for the example
   const handleReplay = () => {
     setReplay(!replay);
     setTimeout(() => {
@@ -45,9 +44,7 @@ export default function AnimatedText() {
           return <AnimatedCharacters {...item} key={index} />;
         })}
       </div>
-      <button onClick={handleReplay}>
-        Replay <span>⟲</span>
-      </button>
+      
     </motion.div>
   );
 }

@@ -6,6 +6,7 @@ import bannerImgtwo from '../../images/banner-image-two.jpg'
 import bannerImgthree from '../../images/banner-image-three.jpg'
 import Image from "next/image"
 import { Fade } from "react-awesome-reveal";
+import AnimatedText from "./AnimatedText"
 
 
 
@@ -18,9 +19,10 @@ export function Banner () {
         <Fade duration={2000}>
           <div className="banner-contents px-32 flex gap-16">
             <div className="banner-content-left w-1/2">
-              <h1 className="text-purple-950 font-semibold text-[3.1rem] mt-32 leading-normal">
+              {/* <h1 className="text-purple-950 font-semibold text-[3.1rem] mt-32 leading-normal">
                 Preserving Tradition,<br/> Celebrating Heritage
-              </h1>
+              </h1> */}
+              <AnimatedText />
               <div className="banner-text-side">
               <h2 className="mt-8 text-gray-600 ml-2 text-xl">
                 <span className="font-semibold text-xl text-gray-600">
