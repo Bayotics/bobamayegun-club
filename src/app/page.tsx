@@ -67,9 +67,9 @@ export default function Home() {
       <div className="home-event mb-44 ">
         <EventHome />
       </div>
-      <div className="home-reviews mb-44 ">
+      {/* <div className="home-reviews mb-44 ">
         <Block />
-      </div>
+      </div> */}
       <div className="home-faq mb-44 ">
         <HomeFaqMain />
       </div>

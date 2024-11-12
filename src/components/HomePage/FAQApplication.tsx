@@ -3,8 +3,8 @@ import faqOne from '@/images/members/memberX.jpg';
 import faqIv from '@/images/faqiv.jpg';
 import faqIII from '@/images/faqiii.jpg';
 import faqII from '@/images/faqii.jpg';
-import faqv from '@/images/faqv.jpg';
 import Image from "next/image";
+import {Fade} from 'react-awesome-reveal';
 
 
 export function HomeFaqMain () {
@@ -64,10 +64,12 @@ export function HomeFaqMain () {
     return (
         <div className="faq-main-grid">
             <div className = 'initiatives-home-texts mt-20 px-40'>
+              <Fade direction="down" triggerOnce>
                 <p className='text-center text-black font-medium'>FAQs</p>
-                <h1 className='text-3xl text-black font-semibold text-center mt-1'>
-                    Frequently Asked Questions
-                </h1>
+                  <h1 className='text-3xl text-black font-semibold text-center mt-1'>
+                      Frequently Asked Questions
+                  </h1>
+              </Fade>
             </div>
             <div className="faq-main-contents flex mt-8">
                 <div className="px-10 faq-cont-images w-[45%]">
@@ -93,7 +95,9 @@ export function HomeFaqMain () {
                     </div>
                 </div>
                 <div className="faq-cont-questions w-[55%] ">
+                  <Fade delay={100} triggerOnce>
                     <FAQ data={questions} />
+                  </Fade>
                 </div>
             </div>
         </div>

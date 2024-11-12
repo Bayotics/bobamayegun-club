@@ -18,13 +18,18 @@ import galleryThirteen from '@/images/gallery/gallery-img-thirteen.jpg'
 import galleryFourteen from '@/images/gallery/gallery-img-fourteen.jpg'
 import galleryFifteen from '@/images/gallery/gallery-img-fifteen.jpg'
 import gallerySixteen from '@/images/gallery/gallery-img-sixteen.jpg'
+import {Fade, Zoom } from 'react-awesome-reveal';
+
 
 const Gallery = () => {
   return (
     <div>
-        <h1 className="text-black text-center mt-4 font-semibold text-3xl">Gallery</h1>
+        <Fade direction="up" triggerOnce>
+          <h1 className="text-black text-center mt-4 font-semibold text-3xl">Gallery</h1>
+        </Fade>
         <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
             <div>
+              <Zoom triggerOnce>
                 <span className="block mb-4 text-xs md:text-sm text-purple-500 font-medium">
                   Browse our gallery
                 </span>
@@ -39,8 +44,9 @@ const Gallery = () => {
                   py-2 rounded-2xl text-white mt-4'>
                   View full gallery
                 </button>
+              </Zoom>
             </div>
-        <ShuffleGrid />
+            <ShuffleGrid />
         </section>
     </div>
     

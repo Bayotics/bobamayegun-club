@@ -10,6 +10,7 @@ import excoOne from '@/images/exco-three.jpg'
 import excoTwo from '@/images/exco-two.jpg'
 import excoThree from '@/images/exco-one.png';
 import AnimatedBtn from "../AnimatedBtnForAbout";
+import {Fade } from 'react-awesome-reveal';
 
 const initialData = [
   {
@@ -58,13 +59,14 @@ export default function OurExcos() {
       {!isLoading && (
         <>
           <div className = 'excos-header'>
-            <p className="text-center text-black">Leadership</p>
-            <h1 className="text-black text-center mt-4 font-semibold text-3xl">
-                Our Excos
-            </h1>
-            <h2 className="mt-2 text-gray-700 text-center text-base">
-                Here are the directing members
-            </h2>
+            <Fade direction = 'up' triggerOnce>
+              <h1 className="text-black text-center mt-4 font-semibold text-3xl">
+                  Our Excos
+              </h1>
+              <h2 className="mt-2 text-gray-700 text-center text-base">
+                  Here are the directing members
+              </h2>
+            </Fade>
           </div>
           <div className="main-content mt-12">
             <div className="content-wrapper flex">
