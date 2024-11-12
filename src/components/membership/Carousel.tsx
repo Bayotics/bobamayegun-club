@@ -9,10 +9,6 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { IoMdArrowBack } from "react-icons/io";
 import { IoMdArrowForward } from "react-icons/io";
 
-
-
-
-
 export default function Carousel() {
 
   const items = [

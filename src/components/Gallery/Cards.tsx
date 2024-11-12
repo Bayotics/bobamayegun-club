@@ -1,4 +1,5 @@
 'use client'
+import { Zoom} from "react-awesome-reveal";
 import React, { useState } from "react"
 
 export default function Gallery   ({images}) {
@@ -25,8 +26,10 @@ export default function Gallery   ({images}) {
             key={index}
             onClick={() => openLightbox(image.src.src, image.alt)}
           >
-            <img className="gallery__image rounded-xl" 
-            src={image.src.src} alt={image.alt}/>
+            <Zoom triggerOnce>
+              <img className="gallery__image rounded-xl" 
+              src={image.src.src} alt={image.alt}/>
+            </Zoom>
           </button>
         ))}
       </div>

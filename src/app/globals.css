@@ -1250,6 +1250,17 @@ body {
 	  .page.selected_caro {
 		background-color: black;
 	  }
+	  .css-13cymwt-control{
+		background: #1e293b;
+    	border: none;
+	  }
+	  .css-13cymwt-control ::before{
+		background: #1e293b;
+    	border: none;
+	  }.css-13cymwt-control ::after{
+		background: #1e293b;
+    	border: none;
+	  }
 	  
 
 

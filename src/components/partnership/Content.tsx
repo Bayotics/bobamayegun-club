@@ -1,3 +1,5 @@
+'use client'
+import { Fade } from "react-awesome-reveal";
 import { ReTab } from "./Tab"
 import Corporate from "./Corporate"; 
 import Event from "./Event";
@@ -18,7 +20,9 @@ const CONTENT_DEFINITION: Array<{
       ),
       panel: (
         <>
-          <Corporate />
+          <Fade duration={1500}>
+            <Corporate />
+          </Fade>
         </>
       ),
     },
@@ -31,7 +35,9 @@ const CONTENT_DEFINITION: Array<{
           ),
         panel: (
           <>
-            <Event />
+            <Fade duration={1500}>
+              <Event />
+            </Fade>
           </>
         ),
       },
@@ -44,7 +50,9 @@ const CONTENT_DEFINITION: Array<{
       ),
       panel: (
         <>
-          <Marketing/>
+          <Fade duration={1500}>
+            <Marketing/>
+          </Fade>
         </>
       ),
     },

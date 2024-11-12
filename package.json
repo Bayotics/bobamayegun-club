@@ -25,6 +25,7 @@
     "react-carousel-mui": "^1.0.0",
     "react-css-spinners": "^4.0.2",
     "react-dom": "^18",
+    "react-select": "^5.8.3",
     "react-swipeable": "^7.0.1",
     "react-use-measure": "^2.1.1"
   },
