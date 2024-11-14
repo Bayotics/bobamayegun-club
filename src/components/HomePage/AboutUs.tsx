@@ -11,7 +11,7 @@ import { CiFaceSmile } from "react-icons/ci";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
-
+import Link from "next/link";
 
 export function AboutUs () {
     const customAnimation = keyframes
@@ -67,8 +67,10 @@ export function AboutUs () {
                                         roots while contributing to the development of the larger society. 
                                     </p>
                                     <div className='join-us-promo-btn mt-3 text-black'>
-                                        <AnimatedBtn text={'Learn More →'}
-                                        style={'bg-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center'} />
+                                        <Link href = '/aboutus'>
+                                            <AnimatedBtn text={'Learn More →'}
+                                            style={'bg-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center'} />
+                                        </Link>
                                     </div>
                                 </Zoom>
                                 

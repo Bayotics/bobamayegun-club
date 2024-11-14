@@ -17,6 +17,7 @@ export default function Content () {
                             Who is A Bobamayegun Okunrin Akile Ijebu Member?
                         </h1>
                         <p className="mt-4 text-lg font-thin text-gray-600">
+                            He is an Indigene of Ijebu born between the years of 1974 and 1976. 
                             He is experienced, culturally, and socially cosmopolitan 
                             and is a male leader who has achieved impact and 
                             success in his chosen field. He is an individual deeply 

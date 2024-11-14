@@ -3,19 +3,24 @@ import logo from '@/images/Bobamayegun-logo.png'
 import flywhisk from '@/images/fly-whisk-logo.png'
 import AnimatedNav from "./AnimatedNav";
 import AnimatedBtn from "./AnimatedBtn";
+import Link from "next/link";
 
 
 export default function NavBar () {
     return(
         <div className="text-black flex navbar-main justify-between ">
             <div className="navbar-logo  flex">
-                <div className="pic-logo">
-                    <Image src={logo} alt="bobamayegun logo" height={20} width={60} className="mt-2"/>
-                </div>
-                <div className="text-logo">
-                    <h1 className="text-3xl font-semibold mt-6">Bóbamàyègùn</h1>
-                    <p className = 'text-xs'>Okunrin Akile Ijebu 74-76</p>
-                </div>
+                <Link href = '/'>
+                    <div className="pic-logo">
+                        <Image src={logo} alt="bobamayegun logo" height={20} width={60} className="mt-2"/>
+                    </div>
+                </Link>
+                <Link href = '/'>
+                    <div className="text-logo">
+                        <h1 className="text-3xl font-semibold mt-6">Bóbamàyègùn</h1>
+                        <p className = 'text-xs'>Okunrin Akile Ijebu 74-76</p>
+                    </div>
+                </Link>
                 <div className="flywhisk-logo pt-2">
                     <Image src={flywhisk} alt="bobamayegun logo" height={20} width={20}/>
                 </div>

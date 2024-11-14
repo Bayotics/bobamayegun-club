@@ -19,6 +19,8 @@ import galleryFourteen from '@/images/gallery/gallery-img-fourteen.jpg'
 import galleryFifteen from '@/images/gallery/gallery-img-fifteen.jpg'
 import gallerySixteen from '@/images/gallery/gallery-img-sixteen.jpg'
 import {Fade, Zoom } from 'react-awesome-reveal';
+import Link from "next/link";
+
 
 
 const Gallery = () => {
@@ -39,11 +41,13 @@ const Gallery = () => {
                 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
                   Lets take you through celebration gallore at Our community
                 </p>
-                <button className='init-btn 
-                  bg-gradient-to-r from-pink-500 to-pink-900 px-4 hover:bg-black
-                  py-2 rounded-2xl text-white mt-4'>
-                  View full gallery
-                </button>
+                <Link href = '/gallery'>
+                  <button className='init-btn 
+                    bg-gradient-to-r from-pink-500 to-pink-900 px-4 hover:bg-black
+                    py-2 rounded-2xl text-white mt-4'>
+                    View full gallery
+                  </button>
+                </Link>
               </Zoom>
             </div>
             <ShuffleGrid />

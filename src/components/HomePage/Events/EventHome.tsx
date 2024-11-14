@@ -4,6 +4,8 @@ import eventsAvi from '@/images/social/social-events-avi.png'
 import Image from 'next/image';
 import ShiftingCountdown from './CountDown';
 import eventPhone from '@/images/social/event-phone.png'
+import Link from "next/link";
+
 
 export function EventHome () {
     return(
@@ -23,10 +25,12 @@ export function EventHome () {
                         </h2>
                         <div className="attend-event flex gap-4 mt-6">
                             <div className="attend-event-btn">
-                                <button className=
-                                "text-white mt-1 px-4 py-2 bg-[#3b82f6] rounded-3xl hover:bg-[#336ac4]">
-                                    Make Inquiry →
-                                </button>
+                                <Link href = '/news'>
+                                    <button className=
+                                    "text-white mt-1 px-4 py-2 bg-[#3b82f6] rounded-3xl hover:bg-[#336ac4]">
+                                        Make Inquiry →
+                                    </button>
+                                </Link>
                             </div>
                             <div className='event avis'>
                                 <Image src={eventsAvi} alt='attending' 

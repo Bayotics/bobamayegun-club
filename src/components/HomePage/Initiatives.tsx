@@ -2,6 +2,8 @@
 import ReactCardCarousel from 'react-card-carousel';
 import AnimatedBtn from './AnimatedBtnForAbout';
 import {Fade } from 'react-awesome-reveal';
+import Link from "next/link";
+
 
 
 export function Initiatives () {
@@ -27,9 +29,10 @@ export function Initiatives () {
                   promoting, and celebrating the rich cultural heritage of the Ijebu people 
                 </p>
                 <div className='initiative-btn'>
-                  <AnimatedBtn text={'Join our Community'}
-                  style={'bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[45%] text-center'} />
-                  
+                  <Link href  = '/membership'>
+                    <AnimatedBtn text={'Join our Community'}
+                    style={'bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[45%] text-center'} />
+                  </Link>
                 </div>
               </div>
             </Fade>
@@ -44,9 +47,11 @@ export function Initiatives () {
                     career development programs, and networking opportunities...
                   </h2>
                   <div className='ic-home-btn mt-20'>
-                    <AnimatedBtn 
-                    text={'Learn More →'}
-                    style = {style}/>
+                    <Link href = '/aboutus'>
+                      <AnimatedBtn 
+                      text={'Learn More →'}
+                      style = {style}/>
+                    </Link>
                   </div>
                 </div>
                 <div className='initiative-card-style init-card-two pl-6 pr-10 pb-10'>
@@ -57,9 +62,11 @@ export function Initiatives () {
                       and ceremonies to showcase Ijebu and Yoruba culture to a wider audience...
                     </h2>
                     <div className='ic-home-btn mt-20'>
-                      <AnimatedBtn 
-                      text={'Learn More →'}
-                      style = {style}/>                  
+                      <Link href = '/socialnetwork'>
+                        <AnimatedBtn 
+                        text={'Learn More →'}
+                        style = {style}/>
+                      </Link>              
                     </div>
                 </div>
                 <div className='initiative-card-style init-card-three pl-6 pr-10 pb-10'>
@@ -72,9 +79,11 @@ export function Initiatives () {
                     particularly within underserved communities...
                   </h2>
                   <div className='ic-home-btn mt-16'>
-                    <AnimatedBtn 
-                    text={'Learn More →'}
-                    style = {style}/>                
+                      <Link href = '/charity'>
+                        <AnimatedBtn 
+                        text={'Learn More →'}
+                        style = {style}/>
+                      </Link>                  
                   </div>
                 </div>
                 <div className='initiative-card-style init-card-four pl-6 pr-10 pb-10'>
@@ -86,9 +95,11 @@ export function Initiatives () {
                     oral histories, and cultural expressions...
                   </h2>
                   <div className='ic-home-btn mt-16'>
-                    <AnimatedBtn 
-                    text={'Learn More →'}
-                    style = {style}/>                 
+                      <Link href = '/aboutus'>
+                        <AnimatedBtn 
+                        text={'Learn More →'}
+                        style = {style}/>
+                      </Link>                    
                   </div>
                 </div>
               </ReactCardCarousel>

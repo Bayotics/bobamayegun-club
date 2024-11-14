@@ -7,6 +7,7 @@ import bannerImgthree from '../../images/banner-image-three.jpg'
 import Image from "next/image"
 import { Fade } from "react-awesome-reveal";
 import AnimatedText from "./AnimatedText"
+import Link from "next/link"
 
 
 
@@ -31,7 +32,9 @@ export function Banner () {
               </h2>
               </div>
               <div className="mt-8 learnmore-btn relative">
-                <AnimatedBtn/>
+                <Link href = '/aboutus'>
+                  <AnimatedBtn/>
+                </Link>
               </div>
             </div>
             <div className="banner-content-right flex justify-center w-1/2">

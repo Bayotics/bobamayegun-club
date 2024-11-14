@@ -11,6 +11,8 @@ import excoTwo from '@/images/exco-two.jpg'
 import excoThree from '@/images/exco-one.png';
 import AnimatedBtn from "../AnimatedBtnForAbout";
 import {Fade } from 'react-awesome-reveal';
+import Link from "next/link";
+
 
 const initialData = [
   {
@@ -82,9 +84,11 @@ export default function OurExcos() {
                 <h2 className="text-lg text-black font-light">{data[activeIndex].memo}</h2>
                 <p className="text-base text-black">{data[activeIndex].socialMedia}</p>
                 <div className="w-1/2 exco-learn-more">
-                  <AnimatedBtn 
-                    text={text}
-                    style = {style}/>
+                  <Link href = '/aboutus'>
+                    <AnimatedBtn 
+                      text={text}
+                      style = {style}/>
+                  </Link>
                 </div>
               </div>
             </div>
