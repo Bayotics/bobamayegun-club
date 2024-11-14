@@ -1271,6 +1271,42 @@ body {
 
 
 
+
+
+
+
+
+
+
+	  /************************ Mobile ******************/
+	  @media screen and (min-width: 279.5px) and (max-width: 380px) {
+		body{
+			width: auto;
+			padding: 0;
+			margin: 0;
+    		position: absolute;
+		}
+		.navbar-menus{
+			display: none;
+		}
+		.navbar-promo{
+			display: none;
+		}
+		.navbar-main{
+			margin: auto;
+			justify-content: center;
+		}
+		
+	  }
+
+
+
+
+
+
+
+
+
   COLOR-TEST{
 	color: #4740d4;
   }

@@ -4,7 +4,7 @@ import flywhisk from '@/images/fly-whisk-logo.png'
 import AnimatedNav from "./AnimatedNav";
 import AnimatedBtn from "./AnimatedBtn";
 import Link from "next/link";
-
+import { Hamburger } from "./Hamburger";
 
 export default function NavBar () {
     return(
@@ -24,6 +24,7 @@ export default function NavBar () {
                 <div className="flywhisk-logo pt-2">
                     <Image src={flywhisk} alt="bobamayegun logo" height={20} width={20}/>
                 </div>
+                <Hamburger />
             </div>
             <div className="navbar-menus  flex justify-between gap-20">
                     <div className="nav-menu-btn  mt-8">
