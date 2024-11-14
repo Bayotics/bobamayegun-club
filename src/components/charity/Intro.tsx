@@ -2,6 +2,8 @@
 
 import AnimatedBtn from "../HomePage/AnimatedBtnForAbout"
 import { Fade } from "react-awesome-reveal";
+import Link from "next/link";
+
 
 
 export function Intro () {
@@ -14,9 +16,11 @@ export function Intro () {
                             We strive to make a <br/> lasting impact on the lives of<br/> people.
                         </h1>
                         <div className="charity-btn mt-4">
-                            <AnimatedBtn 
-                            text = {'Donate →'}
-                            style={'bg-transparent px-2 py-1 text-purple-300'}/>
+                            <Link href = '/donations'>
+                                <AnimatedBtn 
+                                text = {'Donate →'}
+                                style={'bg-transparent px-2 py-1 text-purple-300'}/>
+                            </Link>
                         </div>
                     </Fade>
                 </div>
@@ -27,9 +31,11 @@ export function Intro () {
                         </h1>
                         <p className="mt-2 text-xl text-white ml-6">Winston Churchill</p>
                         <div className="charity-btn mt-4">
-                            <AnimatedBtn 
-                            text = {'Talk to Us →'}
-                            style={'bg-transparent px-2 py-1 text-purple-300'}/>
+                            <Link href = '/donations'>
+                                <AnimatedBtn 
+                                text = {'Talk to Us →'}
+                                style={'bg-transparent px-2 py-1 text-purple-300'}/>
+                            </Link>
                         </div>
                     </Fade>
                 </div>

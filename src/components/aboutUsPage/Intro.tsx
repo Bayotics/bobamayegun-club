@@ -9,6 +9,8 @@ import valueImgi from '@/images/faqv.jpg'
 import valueImgii from '@/images/banner-img.jpg'
 import valueImgiii from '@/images/banner-image-two.jpg'
 import { Fade, Zoom, Slide } from "react-awesome-reveal";
+import Link from "next/link";
+
 
 export function Intro () {
     return(
@@ -39,8 +41,10 @@ export function Intro () {
                                     roots while contributing to the development of the larger society. 
                                 </p>
                                 <div className='join-us-promo-btn mt-3 mb-3 text-black'>
-                                    <AnimatedBtn text={'Talk to Us →'}
-                                    style={'bg-black text-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg mt-12 w-[40%] text-center'} />
+                                    <Link href = '/membership'>
+                                        <AnimatedBtn text={'Join Us →'}
+                                        style={'bg-black text-white px-8 hover:bg-gray-900 hover:text-white py-4 rounded-lg mt-12 w-[40%] text-center'} />
+                                    </Link>
                                 </div>
                             </Slide>
                         </div>

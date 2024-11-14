@@ -162,7 +162,7 @@ const ContactScreen = () => {
                             <div className='w-1/2' >
                               <p className='text-white font-medium text-xl'>Your Social media Profile<span className='text-red-500'>*</span></p>
                                 <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                                id='socialMedia' type="text" placeholder= 'Subject of your inquiry' name="socialMedia" required />
+                                id='socialMedia' type="text" placeholder= 'Facebook, Ig or LinkedIn Profile' name="socialMedia" required />
                             </div>
                         </div>
                       </div>                     
