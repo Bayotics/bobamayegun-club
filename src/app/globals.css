@@ -1294,9 +1294,40 @@ body {
 		}
 		.navbar-main{
 			margin: auto;
-			justify-content: center;
+			justify-content: space-between;
 		}
-		
+		.navbar-logo{
+			width: 70%;
+		}
+		.pic-logo img{
+			height: 150px;
+			width: 150px;
+			margin-bottom: 10px;
+		}
+		.text-logo h1{
+			display: none;
+		}
+		.logo-text-for-mobile{
+			display: block;
+			FONT-SIZE: 60px;
+			font-weight: 600;
+			margin-top: 70px;
+		}
+		.text-logo p{
+			font-size: 1.75rem;
+			margin-top:30px;
+		}
+		.flywhisk-logo img{
+			height: 100px;
+			width: 40px;
+			margin-top: 30px;
+		}
+		.hamburger-box{
+			margin-top: 35px;
+		}
+		.hamburger-mobile{
+			/* width: 30%; */
+		}
 	  }
 
 
