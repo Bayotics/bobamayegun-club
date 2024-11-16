@@ -1329,21 +1329,32 @@ body {
 			display: block;
 			/* width: 30%; */
 		}
-		.hamburgerActive{
-			height: 100%;
-      		overflow: auto;
-		}
 		.mobile-nav-box{
 			display: block;
 			overflow: hidden;
 			height: 0px;
-			transition: height 0.5s ease;
-			/* position: absolute;
+			transition: height 1s ease;
+			position: absolute;
 			left: 0;
-			top: 130px;
-			width: 630px; */
+			top: 170px;
+			/* width: 630px; */
 			z-index: 1;
 		}
+		.hamburgerActive{
+			height: 100%;
+      		overflow: auto;
+		}
+		.mobileFuelActive{
+			height: 100%;
+			overflow: auto;
+		}
+		.fuel-dropdown-contents{
+			overflow: hidden;
+			height: 0px;
+			transition: height 0.1s ease;
+		}
+	  
+		
 	  }
 
 

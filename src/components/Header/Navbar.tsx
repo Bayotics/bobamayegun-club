@@ -11,35 +11,37 @@ import { Hamburger } from "./Hamburger";
 export default function NavBar () {
     const [showHamburger, setShowHamburger] = useState(false);
     const [hamburgerCancel, setHamburgerCancel] = useState('hidden');
-    const [navCancel, setNavCancel] = useState('hidden');
+    const [showFuels, setShowFuels] = useState(false)
+
+    // const [navCancel, setNavCancel] = useState('hidden');
 
 
 
-    const phoneMenuRef = useRef(null);
+    // const phoneMenuRef = useRef(null);
 
 
-    const closeMobileOpenMenus = useCallback(
-        (e) => {
-          if (
-            phoneMenuRef.current &&
-            showHamburger &&
-            !phoneMenuRef.current.contains(e.target)
-          ) {
-            setShowHamburger(false);
-          }
-        },
-        [showHamburger]
-      );
-      useEffect(() => {
-        document.addEventListener("mousedown", closeMobileOpenMenus);
-      }, [closeMobileOpenMenus]);
+    // const closeMobileOpenMenus = useCallback(
+    //     (e) => {
+    //       if (
+    //         phoneMenuRef.current &&
+    //         showHamburger &&
+    //         !phoneMenuRef.current.contains(e.target)
+    //       ) {
+    //         setShowHamburger(false);
+    //       }
+    //     },
+    //     [showHamburger]
+    //   );
+    //   useEffect(() => {
+    //     document.addEventListener("mousedown", closeMobileOpenMenus);
+    //   }, [closeMobileOpenMenus]);
 
       const mobileHamburger = () => {
         setShowHamburger(!showHamburger);
         setHamburgerCancel('hidden');
-        setNavCancel('block')
-
-    
+      }
+      const mobileFuels = () => {
+        setShowFuels(!showFuels);
       }
 
 
@@ -75,53 +77,59 @@ export default function NavBar () {
                 <div className= {`hamburger-mobile hidden ${hamburgerCancel}`} onClick={mobileHamburger}>
                     <Hamburger />
                 </div>
+
+                
             </div>
              {/************** MOBILE NAV ********************/  }
-             <div className={` ${showHamburger ? 'hamburgerActive' : ''} hidden mobile-nav-box w-full bg-[#f4eff7] border-2 border-black text-left  text-black pr-4`}
-                ref={phoneMenuRef}>
-                <div className='mt-6' >
-                    <Link href = "/" className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold w-full'> Home</Link>
+             <div className=
+                {` hidden mobile-nav-box w-full bg-[#f4eff7] border-2 border-black text-left text-black pr-4 ${showHamburger ? 'hamburgerActive' : ''}`}
+                >
+                <div>
+                    <div className='mt-6' >
+                        <Link href = "/" className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold w-full'> Home</Link>
+                    </div>
+                    <div className='mt-6 about-nav-mobile' >
+                        <div className = 'flex justify-between'>
+                            <h1 className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold'>About Us</h1>
+                            <div className = 'mobile-nav-drop text-3xl' onClick={mobileFuels}>+</div>
+                        </div>
+                        <div className = {`about-contents-nav-mob  ${showFuels ? 'mobileFuelActive' : ''}`}>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>Values</Link>
+                            </div>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>History</Link>
+                            </div>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>Council</Link>
+                            </div>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>Leadership</Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mt-6 initiative-nav-mobile' >
+                        <div className = 'flex justify-between'>
+                            <h1 className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold'>Our Initiatives</h1>
+                            <div className = 'mobile-nav-drop text-3xl'>+</div>
+                        </div>
+                        <div className = 'about-contents-nav-mob'>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>Arts & Culture</Link>
+                            </div>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>Charity</Link>
+                            </div>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>Policy</Link>
+                            </div>
+                            <div className = 'mt-2 text-xl'>
+                                <Link href = '/aboutus' className='font-semibold'>Social Networking</Link>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className='mt-6 about-nav-mobile' >
-                    <div className = 'flex justify-between'>
-                        <h1 className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold'>About Us</h1>
-                        <div className = 'mobile-nav-drop text-3xl'>+</div>
-                    </div>
-                    <div className = 'about-contents-nav-mob'>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>Values</Link>
-                        </div>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>History</Link>
-                        </div>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>Council</Link>
-                        </div>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>Leadership</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className='mt-6 initiative-nav-mobile' >
-                    <div className = 'flex justify-between'>
-                        <h1 className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold'>Our Initiatives</h1>
-                        <div className = 'mobile-nav-drop text-3xl'>+</div>
-                    </div>
-                    <div className = 'about-contents-nav-mob'>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>Arts & Culture</Link>
-                        </div>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>Charity</Link>
-                        </div>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>Policy</Link>
-                        </div>
-                        <div className = 'mt-2 text-xl'>
-                            <Link href = '/aboutus' className='font-semibold'>Social Networking</Link>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
        
