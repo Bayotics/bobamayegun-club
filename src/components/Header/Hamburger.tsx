@@ -4,7 +4,7 @@ import { MotionConfig, motion } from "framer-motion";
 
 export const Hamburger = () => {
   return (
-    <div className="grid h-24 place-content-center bg-gradient-to-br from-violet-500 to-indigo-500
+    <div className="grid h-24 place-content-center bg-transparent
     hamburger-box">
       <AnimatedHamburgerButton />
     </div>
@@ -24,7 +24,7 @@ const AnimatedHamburgerButton = () => {
         initial={false}
         animate={active ? "open" : "closed"}
         onClick={() => setActive((pv) => !pv)}
-        className="relative h-32 w-32 rounded-full bg-white/0 transition-colors hover:bg-white/20"
+        className="relative h-40 w-40 rounded-full bg-white/0 transition-colors hover:bg-white/20"
       >
         <motion.span
           variants={VARIANTS.top}

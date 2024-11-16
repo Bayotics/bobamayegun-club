@@ -7,11 +7,17 @@ import AnimatedNav from "./AnimatedNav";
 import AnimatedBtn from "./AnimatedBtn";
 import Link from "next/link";
 import { Hamburger } from "./Hamburger";
+import { FaSortDown } from "react-icons/fa";
+
 
 export default function NavBar () {
     const [showHamburger, setShowHamburger] = useState(false);
     const [hamburgerCancel, setHamburgerCancel] = useState('hidden');
-    const [showFuels, setShowFuels] = useState(false)
+    const [showAbout, setShowAbout] = useState(false);
+    const [showInitiative, setShowInitiative] = useState(false);
+    const [showJoin, setShowJoin] = useState(false);
+
+
 
     // const [navCancel, setNavCancel] = useState('hidden');
 
@@ -40,8 +46,23 @@ export default function NavBar () {
         setShowHamburger(!showHamburger);
         setHamburgerCancel('hidden');
       }
-      const mobileFuels = () => {
-        setShowFuels(!showFuels);
+      const mobileAbout = () => {
+        setShowAbout(!showAbout);
+        setShowInitiative(false);
+        setShowJoin(false);
+      }
+      const mobileInitiative = () => {
+        setShowInitiative(!showInitiative);
+        setShowAbout(false);
+        setShowJoin(false);
+      }
+      const mobileJoin = () => {
+        setShowJoin(!showJoin);
+        setShowAbout(false);
+        setShowInitiative(false);
+      }
+      const closeMobileNavOnClick = ()  => {
+        setShowHamburger(false)
       }
 
 
@@ -82,49 +103,114 @@ export default function NavBar () {
             </div>
              {/************** MOBILE NAV ********************/  }
              <div className=
-                {` hidden mobile-nav-box w-full bg-[#f4eff7] border-2 border-black text-left text-black pr-4 ${showHamburger ? 'hamburgerActive' : ''}`}
+                {` hidden mobile-nav-box w-full bg-[#f4eff7]  
+                   text-left shadow-2xl text-black pl-16 ${showHamburger ? 'hamburgerActive' : ''}`}
                 >
                 <div>
-                    <div className='mt-6' >
-                        <Link href = "/" className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold w-full'> Home</Link>
+                    <div className='mt-10' >
+                        <Link
+                            href = "/"
+                            onClick={closeMobileNavOnClick} 
+                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'>
+                            Home
+                        </Link>
                     </div>
-                    <div className='mt-6 about-nav-mobile' >
-                        <div className = 'flex justify-between'>
-                            <h1 className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold'>About Us</h1>
-                            <div className = 'mobile-nav-drop text-3xl' onClick={mobileFuels}>+</div>
+                    <div className='mt-16 about-nav-mobile' >
+                        <div className = 'flex gap-6'>
+                            <h1 className='text-6xl font-normal hover:text-[#b067da] hover:font-bold'>About Us</h1>
+                            <div className = 'mobile-nav-drop text-5xl' onClick={mobileAbout}>
+                                <FaSortDown/>
+                            </div>
                         </div>
-                        <div className = {`about-contents-nav-mob  ${showFuels ? 'mobileFuelActive' : ''}`}>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>Values</Link>
+                        <div className = 
+                        {`about-dropdown-contents text-5xl ml-4   ${showAbout ? 'mobileAboutActive' : ''}`}>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/aboutus' className=''
+                                onClick={closeMobileNavOnClick} >Values</Link>
                             </div>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>History</Link>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/aboutus' className=''
+                                onClick={closeMobileNavOnClick} >History</Link>
                             </div>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>Council</Link>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/aboutus' className='' 
+                                onClick={closeMobileNavOnClick} >Council</Link>
                             </div>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>Leadership</Link>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/aboutus' className=''
+                                onClick={closeMobileNavOnClick} >Leadership</Link>
                             </div>
                         </div>
                     </div>
-                    <div className='mt-6 initiative-nav-mobile' >
-                        <div className = 'flex justify-between'>
-                            <h1 className='text-3xl font-semibold hover:text-[#b067da] hover:font-bold'>Our Initiatives</h1>
-                            <div className = 'mobile-nav-drop text-3xl'>+</div>
+                    <div className='mt-16 initiative-nav-mobile' >
+                        <div className = 'flex gap-8'>
+                            <h1 className='text-6xl font-normal hover:text-[#b067da] hover:font-bold'>
+                                Our Initiatives
+                            </h1>
+                            <div className = 'mobile-nav-drop text-5xl' onClick={mobileInitiative}>
+                                <FaSortDown/>
+                            </div>
                         </div>
-                        <div className = 'about-contents-nav-mob'>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>Arts & Culture</Link>
+                        <div className = 
+                        {`about-dropdown-contents text-5xl ml-4   ${showInitiative ? 'mobileAboutActive' : ''}`}>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/artsandculture' className=''
+                                onClick={closeMobileNavOnClick} >Arts and Culture</Link>
                             </div>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>Charity</Link>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/charity' className=''
+                                onClick={closeMobileNavOnClick} >Charity</Link>
                             </div>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>Policy</Link>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/policy' className=''
+                                onClick={closeMobileNavOnClick} >Policy</Link>
                             </div>
-                            <div className = 'mt-2 text-xl'>
-                                <Link href = '/aboutus' className='font-semibold'>Social Networking</Link>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/socialnetwork' className=''
+                                onClick={closeMobileNavOnClick} >
+                                    Social Networking
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mt-16' >
+                        <Link href = "/news" 
+                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'
+                            onClick={closeMobileNavOnClick} 
+                        >
+                            News & Events
+                        </Link>
+                    </div>
+                    <div className='mt-16' >
+                        <Link href = "/gallery" 
+                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'
+                            onClick={closeMobileNavOnClick} 
+                        >
+                            Gallery
+                        </Link>
+                    </div>
+                    <div className='mt-16 join-nav-mobile' >
+                        <div className = 'flex gap-8'>
+                            <h1 className='text-6xl font-normal hover:text-[#b067da] hover:font-bold'>
+                                Join & Support
+                            </h1>
+                            <div className = 'mobile-nav-drop text-5xl' onClick={mobileJoin}>
+                                <FaSortDown/>
+                            </div>
+                        </div>
+                        <div className = 
+                        {`about-dropdown-contents text-5xl ml-4   ${showJoin ? 'mobileAboutActive' : ''}`}>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/partnership' className=''
+                                onClick={closeMobileNavOnClick} >Partnership</Link>
+                            </div>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/donations' className=''
+                                onClick={closeMobileNavOnClick} >Donations</Link>
+                            </div>
+                            <div className = 'mt-8 hover:text-[#b067da]'>
+                                <Link href = '/volunteering' className=''
+                                onClick={closeMobileNavOnClick} >Volunteering</Link>
                             </div>
                         </div>
                     </div>
