@@ -20,10 +20,13 @@ export function Banner () {
         <Fade duration={2000}>
           <div className="banner-contents px-32 flex gap-16">
             <div className="banner-content-left w-1/2">
-              {/* <h1 className="text-purple-950 font-semibold text-[3.1rem] mt-32 leading-normal">
-                Preserving Tradition,<br/> Celebrating Heritage
-              </h1> */}
-              <AnimatedText />
+              <h1 className="text-white font-semibold text-[3.1rem] mt-32 leading-normal 
+                hidden home-banner-title-heading">
+                Preserving Tradition, Celebrating Heritage
+              </h1>
+              <div className = 'animated-text-banner'>
+                <AnimatedText />
+              </div>
               <div className="banner-text-side">
               <h2 className="mt-8 text-gray-600 ml-2 text-xl">
                 <span className="font-semibold text-xl text-gray-600">

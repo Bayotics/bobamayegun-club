@@ -1354,6 +1354,39 @@ body {
 			height: 100%;
 			overflow: auto;
 		}
+		.home-banner{
+			background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
+		}
+		.banner-contents{
+			display: block;
+		}
+		.banner-content-right{
+			display: none;
+		}
+		.banner-content-left{
+			width: 90%;
+			color: white;
+			text-align: center;
+		}
+		.animated-text-banner{
+			display: none;
+		}
+		.home-banner-title-heading{
+			display: block;
+		}	
+		.banner-text-side span, h2{
+			color: white;
+			font-size: 45px;
+    		line-height: 1.5;
+		}
+		.anim-btn-home-banner{
+			margin: auto;
+			padding: 2rem;
+		}
+		.anim-btn-home-banner button{
+			font-size: 45px;
+			margin-top: 150px;
+		}
 		
 	  
 		

@@ -4,7 +4,7 @@ import React from "react";
 
 const AnimatedBtn = () => {
   return (
-    <div className="grid  place-content-center bg-black p-4 mt-2 w-1/2 border-2 border-white">
+    <div className="grid  place-content-center bg-black p-4 mt-2 w-1/2 border-2 border-white anim-btn-home-banner">
       <DrawOutlineButton> 
         <div><h1>Learn More →</h1></div>
     </DrawOutlineButton>

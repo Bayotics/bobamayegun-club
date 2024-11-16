@@ -69,6 +69,7 @@ const AnimatedCharacters = props => {
                   <motion.span
                     style={{ display: "inline-block" }}
                     variants={item}
+                    className="home-banner-title-heading"
                   >
                     {element}
                   </motion.span>
