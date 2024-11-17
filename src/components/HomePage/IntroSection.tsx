@@ -49,7 +49,7 @@ export function IntroSection () {
                                 </div>
                         </Zoom>
                     </div>
-                    <div className="w-[33%]">
+                    <div className="w-[33%] anim-box-middle">
                         <Zoom delay = {300} triggerOnce>
                             <div className = 'animated-about-content flex gap-6 py-4 px-6 mt-2'>
                                 <div className='anim-about-icon'>
@@ -96,7 +96,7 @@ export function IntroSection () {
                         </Zoom>
                     </div>
                 </div>
-                <div className = 'flex justify-center gap-7 anim-about-main mt-6'>
+                <div className = 'flex justify-center gap-7 anim-about-main anim-about-main-bottom mt-6'>
                     <div className="animated-border-box">
                         <Zoom triggerOnce>
                             <div className = 'animated-about-content flex gap-6 py-4 px-6 mt-2'>
@@ -120,7 +120,7 @@ export function IntroSection () {
                             </div>
                         </Zoom>
                     </div>
-                    <div className="w-[33%]">
+                    <div className="w-[33%] anim-box-middle">
                         <Zoom delay={300} triggerOnce>
                             <div className = 'animated-about-content flex gap-6 py-4 px-6 mt-2'>
                                 <div className='anim-about-icon'>

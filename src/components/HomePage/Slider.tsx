@@ -1,6 +1,5 @@
 'use client'
 import memberI from '@/images/members/memberIX.jpg'
-import memberII from '@/images/members/memberII.jpeg'
 import memberIV from '@/images/members/memberIV.jpg'
 import memberV from '@/images/members/memberV.jpg'
 import memberVI from '@/images/members/memberVI.jpg'

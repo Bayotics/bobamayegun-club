@@ -1373,19 +1373,68 @@ body {
 		}
 		.home-banner-title-heading{
 			display: block;
+			font-size: 85px;
 		}	
-		.banner-text-side span, h2{
+		.banner-text-side span{
+			color: white;
+			font-size: 45px;
+    		line-height: 1.5;
+		}
+		.banner-text-side h2{
 			color: white;
 			font-size: 45px;
     		line-height: 1.5;
 		}
 		.anim-btn-home-banner{
 			margin: auto;
-			padding: 2rem;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			margin-top: 150px;
 		}
 		.anim-btn-home-banner button{
 			font-size: 45px;
+		}
+		.intro-section-main{
 			margin-top: 150px;
+		}
+		.intro-sec-texts h1{
+			font-size: 50px;
+		}
+		.intro-sec-texts p{
+			font-size: 38px;
+		}
+		.anim-about-main{
+			display: block;
+		}
+		.animated-border-box{
+			width: 70%;
+			margin: auto;
+			margin-top: 100px;
+		}
+		.anim-about-icon svg{
+			font-size: 7rem;
+		}
+		.anim-about-icons h1{
+			font-size: 40px;
+		}
+		.anim-about-icons p{
+			font-size: 30px;
+			margin-top: 60px;
+		}
+		.amin-about-btn{
+			margin-top: 30px;
+		}
+		.anim-box-middle{
+			width: 70%;
+			margin-bottom: 100px;
+			margin: auto;
+		}
+		.anim-box-middle{
+			margin-top: 100px;
+		}
+		.animated-about-content{
+			padding-top: 3rem;
+			padding-bottom: 3rem;
 		}
 		
 	  
