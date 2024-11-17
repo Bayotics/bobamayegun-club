@@ -5,14 +5,14 @@ import Diversity3OutlinedIcon from '@mui/icons-material/Diversity3Outlined';
 import whyUsI from '@/images/why-us-i.jpeg';
 import whyUsIII from '@/images/why-us-iii.jpeg';
 import aboutImg from '@/images/banner-img.jpg'
-import { WhyUsAnimate } from './WhyUsAnimation';
+// import { WhyUsAnimate } from './WhyUsAnimation';
 import Image from 'next/image';
 import { Zoom, Fade } from 'react-awesome-reveal';
 
 export function WhyUs () {
     return(
         <div className = 'why-us-content bg-[#1e1b24] py-20 px-10'>
-            <div className = 'flex'>
+            <div className = 'flex wuc-top-text'>
                 <div className='why-us-left w-1/2'>
                     <Fade direction = 'up' triggerOnce>
                         <p className='text-gray-200'>Why join us?</p>
@@ -31,7 +31,7 @@ export function WhyUs () {
                     </Fade>                   
                 </div>
             </div> 
-            <div className='flex gap-8'>
+            <div className='flex gap-8 wuc-pics-display'>
                 <div className='why-us-cards mt-12 w-1/2'>
                 <Fade direction = 'left' cascade triggerOnce>
                     <div className='wuc-i bg-[#26232c] ml-8 w-[90%] rounded-3xl pl-8 pr-10 py-6'>
