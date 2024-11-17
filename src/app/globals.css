@@ -1436,6 +1436,72 @@ body {
 			padding-top: 3rem;
 			padding-bottom: 3rem;
 		}
+		.blurry-bg{
+			display: block;
+		}
+		.ash-content-left{
+			width: 100%;
+			margin: auto;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			margin-top: 50px;
+		}.ash-content-right{
+			width: 100%;
+			margin: auto;
+		}
+		.ash-content-img img{
+			height: 800px;
+		}
+		.ash-cont-left-texts h2{
+			font-size: 40px;
+		}
+		.ash-cont-left-texts h1{
+			font-size: 64px;
+			line-height: 1.5;
+		}
+		.ash-cont-left-texts p{
+			font-size: 34px;
+		}
+		.join-us-promo-btn h1{
+			font-size: 35px;
+		}
+		.home-about-buttom{
+			display: block;
+		}
+		.hab-i{
+			width: 70%;
+			margin: auto;
+			margin-bottom: 80px;
+		}
+		.hab-i svg{
+			font-size: 200px;
+		}
+		.hab-i h1{
+			font-size: 74px;
+		}
+		.hab-i p{
+			font-size: 70px;
+			line-height: 1.1;
+			margin-top: 90px;
+		}
+		.initiatives-home-texts{
+			display: none;
+		}
+		.initiative-grid{
+			display: block;
+		}
+		.initiative-grid-texts{
+			width: 90%;
+			margin: auto;
+			text-align: center;
+		}
+		.initiative-grid-texts p{
+			font-size: 40px;
+			line-height: 1.1;
+		}
+		.initiative-btn{
+			display: none;
+		}
 		
 	  
 		
