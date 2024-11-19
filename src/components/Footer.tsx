@@ -23,10 +23,10 @@ export default function Footer () {
                             "fc-content text-center rounded-2xl bg-gradient-to-tr from-[#4f46e5] to-[#7b3db6] py-16 px-8">
                             <div className="footer-logo">
                                 <div className="footer-logo-grid  flex gap-2 justify-center">
-                                    <div className="pic-logo">
+                                    <div className="pic-logo-footer">
                                         <Image src={logo} alt="bobamayegun logo" className="mt-2 h-10 w-10"/>
                                     </div>
-                                    <div className="text-logo">
+                                    <div className="text-logo-footer">
                                         <h1 className="text-lg font-semibold mt-4">Bobamayegun</h1>
                                     </div>
                                 </div>
@@ -35,20 +35,20 @@ export default function Footer () {
                                 <p className="text-sm">Fostering unity, growth, and cultural pride. 
                                     Have any inquiry or contribution? Contact us, we are here for you.</p>
                             </div>
-                            <div className="footer-socials flex mt-8 justify-center gap-4">
-                                <div className="footer-x bg-white p-2 rounded-full">
+                            <section className="footer-socials flex mt-8 justify-center gap-4">
+                                <section className="footer-x bg-white p-2 rounded-full">
                                     <RiTwitterXFill className="text-purple-700" />
-                                </div>
-                                <div className="footer-ig bg-white p-2 rounded-full">
+                                </section>
+                                <section className="footer-ig bg-white p-2 rounded-full">
                                     <RxInstagramLogo className="text-purple-700" />
-                                </div>
-                                <div className="footer-fb bg-white p-2 rounded-full">
+                                </section>
+                                <section className="footer-fb bg-white p-2 rounded-full">
                                     <FaFacebookF className="text-purple-700" />
-                                </div>
-                                <div className="footer-youtube bg-white p-2 rounded-full">
+                                </section>
+                                <section className="footer-youtube bg-white p-2 rounded-full">
                                     <FaYoutube className="text-purple-700" />
-                                </div>
-                            </div>
+                                </section>
+                            </section>
 
                         </div>
                     </div>

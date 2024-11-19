@@ -59,7 +59,7 @@ export function Slider () {
                             <Image src={memberIV} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-semibold'>Ogunmakin Babatunde</h1>
+                                    <h1 className='text-lg font-semibold'>Oguns Tunde</h1>
                                     <p className='mt-2'>Aviator</p>
                             </div>
                         </div>
@@ -131,7 +131,7 @@ export function Slider () {
                             <Image src={memberIV} className='h-[85%] w-full rounded-xl'
                              alt='member' />
                                 <div className='slide-member-content mt-2'>
-                                    <h1 className='text-lg font-semibold'>Ogunmakin Babatunde</h1>
+                                    <h1 className='text-lg font-semibold'>Oguns Tunde</h1>
                                     <p className='mt-2'>Aviator</p>
                             </div>
                         </div>

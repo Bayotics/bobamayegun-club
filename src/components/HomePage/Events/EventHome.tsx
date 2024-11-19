@@ -32,7 +32,7 @@ export function EventHome () {
                                     </button>
                                 </Link>
                             </div>
-                            <div className='event avis'>
+                            <div className='event-avis'>
                                 <Image src={eventsAvi} alt='attending' 
                                 className='h-[80%] '/>
                             </div>

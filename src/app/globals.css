@@ -1612,9 +1612,266 @@ body {
 			height: 350px;
 			border-radius: 50px;
 		}
-		
-
-		
+		.exco-socials{
+			display: none;
+		}
+		.excos-header h1{
+			font-size: 60px;
+		}
+		.excos-header h2{
+			font-size: 40px;
+			margin-top: 40px;
+		}
+		.exco-name{
+			position: absolute;
+			top: 950px;
+			left: 100px;
+			font-size: 5rem;
+		}
+		.main-text h2{
+			position: absolute;
+			top: 1080px;
+			left: 300px;
+			font-size: 3rem;
+		}
+		.main-text p{
+			position: absolute;
+			top: 1140px;
+			font-size: 3rem;
+			left: 300px;
+		}
+		.exco-learn-more{
+			display: none;
+		}
+		.exco-carousel{
+			bottom: 300px;
+		}
+		.inner{
+			/* padding-left: 20px;
+			padding-right: 20px; */
+		}
+		.carousel-item-exco{
+			height: 1100px;
+		}
+		.bottomnav{
+			margin-top: 100px;
+		}
+		.bottomnav .label{
+			font-size: 41px;
+		}
+		.bottomnav .nav{
+			font-size: 85px;
+			width: 700px;
+		}
+		.lifetime-members-head h1{
+			font-size: 4rem;
+    		margin-top: 100px;
+		}
+		.lifetime-members-head p{
+			margin-top: 60px;
+			font-size: 2.5rem;
+			font-weight: 600;
+			line-height: 1.5;
+		}
+		.lifetime-members-head{
+			padding-left: 90px;
+			padding-right: 90px;
+		}
+		.slide-member-content h1{
+			font-size: 2rem;
+			margin-top: 20px;
+		}
+		.slide-member-content p{
+			font-size: 1.8rem;
+		}
+		.slide{
+			padding-bottom: 40px;
+		}
+		.home-gallery-heading{
+			font-size: 4rem;
+		}
+		.homepage-gallery-texts span{
+			display: none;
+		}
+		.homepage-gallery-texts h3{
+			display: none;
+		}
+		.homepage-gallery-texts p{
+			font-size: 2.5rem;
+			text-align: center;
+			line-height: 1.2;
+		}
+		.gallery-btn-home{
+			position: relative;
+			top: 1150px;
+			text-align: center;
+		}
+		.gallery-btn-home button{
+			font-size: 2.5rem;
+			padding-left: 3rem;
+			padding-right: 3rem;
+			border-radius: 100px;
+		}
+		.home-gallery-squares{
+			height: 900px;
+		}
+		.join-us-header{
+			margin-top: 350px;
+		}
+		.join-us-contents{
+			display: block;
+		}
+		.join-us-handles{
+			display: none;
+		}
+		.join-us-promo{
+			width: 100%;
+			margin-top: 50px;
+			text-align: center;
+		}
+		.social-promo-texts{
+			margin-top: 100px;
+		}
+		.social-promo-texts p{
+			font-size: 2rem;
+			line-height: 1.1;
+		}
+		.join-us-promo-btn-community{
+			font-size: 2rem;
+			text-align: -webkit-center;
+		}
+		.event-home-hero{
+			display: block;
+		}
+		.event-phone{
+			top: 2380px;
+			height: 1300px;
+			width: 70%;
+			left: 16%;
+		}
+		.event-left{
+			width: 100%;
+			border-radius: 0;
+			padding-top: 120px;
+			padding-bottom: 120px;
+		}
+		.event-home-contents{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.event-left-texts h1{
+			font-size: 5rem;
+			text-align: center;
+		}
+		.event-left-texts h2{
+			font-size: 3rem;
+			text-align: center;
+			line-height: 1.1;
+			color: rgb(241, 230, 230);
+			margin-top: 80px;
+		}
+		.attend-event{
+			display: block;
+		}
+		.attend-event-btn{
+			display: flex;
+			justify-content: center;
+			margin-top: 50px;
+		}
+		.attend-event-btn button{
+			font-size: 3rem;
+			border-radius: 100px;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		.event-avis{
+			display: flex;
+			justify-content: center;
+			margin-top: 30px;
+		}
+		.event-avis img{
+			width: 200px;
+		}
+		.attend-event p{
+			text-align: center;
+			font-size: 3rem;
+			color: rgb(235, 225, 225);
+		}
+		.countdown-box span{
+			font-size: 3rem;
+			margin-top: 45px;
+			color: rgb(241, 228, 228);
+		}
+		.faq-main-grid{
+			margin-top: 3200px;
+		}
+		.faq-cont-images{
+			display: none;
+		}
+		.faq-cont-questions{
+			width: 100%;
+		}
+		.faqs-home-texts p{
+			display: none;
+		}
+		.faqs-home-texts h1{
+			font-size: 4rem;
+		}
+		.faq-form{
+			width: 45rem;
+		}
+		.faq-form input{
+			font-size: 2rem;
+		}
+		.question-wrapper{
+			width: 45rem;
+		}
+		.question h3{
+			font-size: 1.8rem;
+			text-align: left;
+		}
+		.answer.active{
+			font-size: 1.7rem;
+			text-align: left;
+		}
+		.footer-top{
+			display: block;
+		}
+		.footer-top div{
+			width: 100%;
+			margin: auto;
+		}
+		.pic-logo-footer img{
+			height: 500px;
+			width: 500px;
+		}
+		.text-logo-footer h1{
+			font-size: 4rem;
+		}
+		.footer-card-text p{
+			margin-top: 60px;
+			font-size: 4rem;
+			text-align: center;
+			line-height: 1.2;
+		}
+		.footer-socials{
+			margin-top: 170px;
+			gap: 70px
+		}
+		.footer-socials svg{
+			font-size: 4rem;
+		}
+		.footer-contact{
+			margin-top: 170px;
+			text-align: center;
+		}
+		.footer-contact h1{
+			font-size: 4rem;
+		}
+		.footer-contact p{
+			font-size: 3rem;
+			margin-top: 15px;
+		}
 	  
 		
 	  }

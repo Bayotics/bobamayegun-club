@@ -63,7 +63,7 @@ export function HomeFaqMain () {
       ];
     return (
         <div className="faq-main-grid">
-            <div className = 'initiatives-home-texts mt-20 px-40'>
+            <div className = 'faqs-home-texts mt-20 px-40'>
               <Fade direction="down" triggerOnce>
                 <p className='text-center text-black font-medium'>FAQs</p>
                   <h1 className='text-3xl text-black font-semibold text-center mt-1'>

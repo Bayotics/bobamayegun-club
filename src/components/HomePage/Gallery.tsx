@@ -27,10 +27,12 @@ const Gallery = () => {
   return (
     <div>
         <Fade direction="up" triggerOnce>
-          <h1 className="text-black text-center mt-4 font-semibold text-3xl">Gallery</h1>
+          <h1 className="text-black text-center mt-4 font-semibold text-3xl home-gallery-heading">
+            Gallery
+          </h1>
         </Fade>
         <section className="w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-            <div>
+            <div className="homepage-gallery-texts">
               <Zoom triggerOnce>
                 <span className="block mb-4 text-xs md:text-sm text-purple-500 font-medium">
                   Browse our gallery
@@ -41,13 +43,15 @@ const Gallery = () => {
                 <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
                   Lets take you through celebration gallore at Our community
                 </p>
-                <Link href = '/gallery'>
-                  <button className='init-btn 
-                    bg-gradient-to-r from-pink-500 to-pink-900 px-4 hover:bg-black
-                    py-2 rounded-2xl text-white mt-4'>
-                    View full gallery
-                  </button>
-                </Link>
+                <div className = 'gallery-btn-home'>
+                  <Link href = '/gallery'>
+                    <button className='init-btn 
+                      bg-gradient-to-r from-pink-500 to-pink-900 px-4 hover:bg-black
+                      py-2 rounded-2xl text-white mt-4'>
+                      View full gallery
+                    </button>
+                  </Link>
+                </div>
               </Zoom>
             </div>
             <ShuffleGrid />
@@ -173,7 +177,7 @@ const ShuffleGrid = () => {
   };
 
   return (
-    <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1">
+    <div className="grid grid-cols-4 grid-rows-4 h-[450px] gap-1 home-gallery-squares">
       {squares.map((sq) => sq)}
     </div>
   );
