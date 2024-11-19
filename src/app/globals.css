@@ -1848,6 +1848,11 @@ body {
 		.text-logo-footer h1{
 			font-size: 4rem;
 		}
+		.footer-card{
+			width: 100%;
+			margin: auto;
+			margin-top: 100px;
+		}
 		.footer-card-text p{
 			margin-top: 60px;
 			font-size: 4rem;
@@ -1864,13 +1869,57 @@ body {
 		.footer-contact{
 			margin-top: 170px;
 			text-align: center;
+			width: 100%;
 		}
 		.footer-contact h1{
 			font-size: 4rem;
+			margin-bottom: 50px;
 		}
 		.footer-contact p{
 			font-size: 3rem;
 			margin-top: 15px;
+			line-height: 1.4;
+		}
+		.footer-links{
+			text-align: center;
+		}
+		.footer-links h1{
+			font-size: 4rem;
+		}
+		.fql-left{
+			margin-top: 80px;
+			width: 100%;
+		}
+		.fql-right{
+			margin-top:80px;
+			width: 100%;
+		}
+		.fql-left p{
+			font-size: 3rem;
+			line-height: 1.4;
+		}
+		.fql-right p{
+			font-size: 3rem;
+			line-height: 1.4;
+		}
+		.footer-newsletter{
+			margin-top: 50px;
+			width: 100%;
+			width: auto;
+		}
+		.footer-newsletter h1{
+			font-size: 3rem;
+			text-align: center;
+		}
+		.newsletter-input{
+			display: flex;
+			justify-content: center;
+		}
+		.newsletter-input input{
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+			font-size: 2rem;
+			width: 100%;
 		}
 	  
 		

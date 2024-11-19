@@ -42,7 +42,7 @@ export function AboutUs () {
                                     <Image src= {aboutPix} alt="about us"
                                     className="rounded-xl w-full h-[450px]"/>
                                 </div>    
-                            </Reveal>;
+                            </Reveal>
                             {/* <Fade direction = 'left' duration = {2000}>
                                 
                             </Fade> */}

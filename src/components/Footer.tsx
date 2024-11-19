@@ -17,7 +17,7 @@ export default function Footer () {
         <div className="text-white">
             <Fade direction =  'up' triggerOnce>
                 <div className = 'footer-top flex px-24 py-10'>
-                    <div className="footer-card w-1/4">
+                    <section className="footer-card w-1/4">
                         <div 
                             className=
                             "fc-content text-center rounded-2xl bg-gradient-to-tr from-[#4f46e5] to-[#7b3db6] py-16 px-8">
@@ -51,42 +51,42 @@ export default function Footer () {
                             </section>
 
                         </div>
-                    </div>
-                    <div className="footer-contact w-1/4 pt-16 pl-12">
+                    </section>
+                    <section className="footer-contact w-1/4 pt-16 pl-12">
                         <h1 className="font-semibold mt-4 text-lg">Get In Touch</h1>
                         <p className="mt-8 text-sm">contact@bobamayegun.com</p>
                         <p className="mt-4 text-sm">+234 123 456 7890</p>
                         <p className="mt-4 text-sm">13, Test Ave, FictiousLand, Lagos</p>
 
-                    </div>
+                    </section>
                     <div className="footer-links w-1/4 pt-16 pl-20">
                         <h1 className="font-semibold mt-4 text-lg">Quick Links</h1>
                         <div className="flex gap-10 footer-quick-links mt-8">
-                            <div className="fql-left">
+                            <section className="fql-left">
                                 <p className=" text-sm">Home</p>
                                 <p className="mt-4 text-sm">History</p>
                                 <p className="mt-4 text-sm">Events</p>
                                 <p className="mt-4 text-sm">Support</p>
-                            </div>
-                            <div className="fql-right">
+                            </section>
+                            <section className="fql-right">
                                 <p className=" text-sm">Values</p>
                                 <p className="mt-4 text-sm">Leadership</p>
                                 <p className="mt-4 text-sm">Partnership</p>
                                 <p className="mt-4 text-sm">Donations</p>
-                            </div>
+                            </section>
                         </div>
                     </div>
-                    <div className="footer-newsletter w-1/4 pt-16 pl-6">
+                    <section className="footer-newsletter w-1/4 pt-16 pl-6">
                         <h1 className="font-semibold mt-4 text-lg">Newsletter</h1>
-                        <div className="newsletter-input mt-8">
+                        <section className="newsletter-input mt-8">
                             <input className="w-[80%] px-4 py-4 rounded-full text-black"
                             placeholder="Enter email..." />
-                        </div>
-                        <div className="footer-btn mt-6">
+                        </section>
+                        <section className="footer-btn mt-6">
                             <AnimatedBtn text={'Subscribe →'}
                             style={'bg-gradient-to-r from-[#4f46e5] to-[#7b3db6] px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[80%] text-center'} />
-                        </div>
-                    </div>
+                        </section>
+                    </section>
                 </div>
                 <div className="footer-bottom mt-10 bg-slate-900 py-4 ">
                     <p className="text-center text-xs text-gray-400">
