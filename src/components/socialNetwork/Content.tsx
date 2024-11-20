@@ -27,7 +27,7 @@ export function Content () {
                 </Fade>
             </div>
             <div className="socialnetwork-info mt-4 px-10 py-16">
-                <div className="flex gap-8">
+                <div className="flex gap-8 socialnetwork-info-inner">
                     <div className="sni-grid-i w-1/3">
                         <Fade direction='up'>
                             <div className="sni-img-i rounded-lg"></div>

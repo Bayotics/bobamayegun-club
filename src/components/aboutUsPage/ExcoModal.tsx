@@ -67,7 +67,7 @@ const SpringModal = ({
             className="bg-gradient-to-br from-violet-600 to-indigo-600 text-white p-6 rounded-lg w-full max-w-lg shadow-xl cursor-default relative overflow-hidden"
           >
             <FiUser className="text-white/10 rotate-12 text-[250px] absolute z-0 -top-24 -left-24" />
-            <div className="relative z-10">
+            <div className="relative z-10 team-modal-box">
               <div className="bg-white w-16 h-16 mb-2 rounded-full text-3xl text-indigo-600 grid place-items-center mx-auto">
                 <FiUser />
               </div>
@@ -80,7 +80,7 @@ const SpringModal = ({
               <p className="text-center mt-6">
                 {description}
               </p>
-              <div className="footer-socials flex mt-8 justify-center gap-4">
+              <div className="flex mt-8 justify-center gap-4 socials-for-teams">
                 <div className="footer-x bg-white p-2 rounded-full">
                     <Link href={xLink}>
                         <RiTwitterXFill className="text-purple-700" />

@@ -1461,6 +1461,7 @@ body {
 		}
 		.ash-cont-left-texts p{
 			font-size: 34px;
+			line-height: 1;
 		}
 		.join-us-promo-btn h1{
 			font-size: 35px;
@@ -1921,6 +1922,189 @@ body {
 			font-size: 2rem;
 			width: 100%;
 		}
+		.join-us-promo-btn{
+			text-align: -webkit-center;
+		}
+		.values-grid{
+			display: block;
+		}
+		.values-left{
+			width: 100%;
+		}
+		.values-right{
+			width: 100%;
+			margin-top: 200px;
+			padding-top: 50px;
+			padding-bottom: 100px;
+		}
+		.val-left-lef img{
+			height: 900px;
+		}
+		.val-left-right img{
+			height: 900px;
+			margin-top: 100px;
+		}
+		.value-left-last{
+			display: none;
+		}
+		.values-right p{
+			font-size: 2rem;
+		}
+		.values-right p{
+			font-size: 1.5rem;
+			margin-top: 50px;
+		}
+		.values-right h1{
+			font-size: 3rem;
+			margin-top: 20px;
+		}
+		.values-right h2{
+			font-size: 1.5rem;
+			line-height: 1.1;
+			margin-top: 20px;
+		}
+		.history-content{
+			display: block;
+		}
+		.history-text{
+			width: 100%;
+		}
+		.history-text p{
+			font-size: 1.8rem;
+			margin-top: 50px;
+		}
+		.history-text h1{
+			font-size: 3rem;
+			margin-top: 20px;
+			line-height: 1.1;
+		}
+		.animated-btn-history{
+			width: 70%;
+			margin-top: 100px;
+			margin-bottom: 50px;
+		}
+		.animated-btn-history button {
+			padding-bottom: 1.5rem;
+		}
+		.history-bg{
+			display: none;
+		}
+		.team-intro{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.team-intro h1{
+			font-size: 3rem;
+		}
+		.team-intro p{
+			font-size: 1.8rem;
+		}
+		.about-exco-grid{
+			display: block;
+		}
+		.aeg-i{
+			margin-top: 100px;
+		}
+		.exco-img-about img{
+			height: 700px;
+		}
+		.exco-title h1{
+			font-size: 2rem;
+		}
+		.exco-title p{
+			font-size: 1.5rem;
+		}
+		.exco-popup svg{
+			font-size: 3rem;
+		}
+		.team-modal-box{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		.team-modal-box h6{
+			font-size: 1.5rem;
+		}
+		.team-modal-box p{
+			font-size: 1.5rem;
+		}
+		.charity-page-banner p{
+			font-size: 1.5rem;
+		}
+		.charity-btn button {
+			font-size: 1.5rem;
+		}
+		.charity-info-content{
+			display: block;
+		}
+		.cicontent-left{
+			width: 100%;
+			text-align: center;
+		}
+		.cicontent-left p{
+			display: none;
+		}
+		.cicontent-right{
+			display: block;
+			width: 80%;
+			margin: auto;
+		}
+		.cic-grid-i{
+			margin-bottom: 100px;
+		}
+		.cic-grid-i h1{
+			font-size: 2.5rem;
+		}
+		.cic-grid-i p{
+			font-size: 1.5rem;
+		}
+		.cic-grid-icon svg{
+			font-size: 5rem;
+		}
+		.orphanage-text p {
+			display: none;
+		}
+		.orphanage-text h2 {
+			font-size: 1.5rem;
+		}
+		.policy-page-banner p{
+			font-size: 1.5rem;
+		}
+		.policyontent-right{
+			display: block;
+			width: 80%;
+			margin: auto;
+		}
+		.policy-grid-i{
+			margin-top: 100px;
+		}
+		.policy-grid-i svg{
+			font-size: 5rem;
+		}
+		.policy-grid-text h1{
+			font-size: 3rem;
+			line-height: 1;
+		}
+		.policy-grid-text p{
+			font-size: 1.8rem;
+			line-height: 1.1;
+			margin-top: 30px;
+		}
+		.socialnetwork-page-banner p{
+			font-size: 1.5rem;
+		}
+		.socialnetwork-intro p{
+			display: none;
+		}
+		.socialnetwork-info-inner{
+			display: block
+		}
+		.sni-grid-i{
+			width: 70%;
+			margin: auto
+		}
+		
+
+
 	  
 		
 	  }
