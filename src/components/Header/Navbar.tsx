@@ -1,13 +1,15 @@
 'use client'
-import { useState, useCallback, useEffect, useRef } from "react"
+import { useState} from "react"
 import Image from "next/image"
-import logo from '@/images/Bobamayegun-logo.png'
+import logo from '../../images/bobamayegun-logo.png'
+// import logo from '@/images/Bobamayegun-logo.png'
 import flywhisk from '@/images/fly-whisk-logo.png'
 import AnimatedNav from "./AnimatedNav";
 import AnimatedBtn from "./AnimatedBtn";
 import Link from "next/link";
 import { Hamburger } from "./Hamburger";
 import { FaSortDown } from "react-icons/fa";
+
 
 
 export default function NavBar () {

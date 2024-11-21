@@ -2,7 +2,7 @@
 
 
 import Image from "next/image"
-import logo from '@/images/Bobamayegun-logo.png'
+import logo from '../../images/bobamayegun-logo.png'
 import { RiTwitterXFill } from "react-icons/ri";
 import { RxInstagramLogo } from "react-icons/rx";
 import { FaFacebookF } from "react-icons/fa";
