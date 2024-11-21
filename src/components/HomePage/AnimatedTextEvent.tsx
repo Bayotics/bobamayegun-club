@@ -38,8 +38,9 @@ const AnimatedCharacters = props => {
   // Create storage array
   const words = [];
 
-  // Push each word into words array
-  for (const [index, item] of splitWords.entries()) {
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  for (const [index, item] of splitWords.entries()) { 
     words.push(item.split(""));
   }
 
@@ -49,6 +50,9 @@ const AnimatedCharacters = props => {
   });
 
   // Get the tag name from tagMap
+
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
   const Tag = tagMap[props.type];
 
   return (

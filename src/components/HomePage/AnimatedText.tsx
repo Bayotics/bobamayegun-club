@@ -25,13 +25,6 @@ export default function AnimatedText() {
     }
   };
 
-  const handleReplay = () => {
-    setReplay(!replay);
-    setTimeout(() => {
-      setReplay(true);
-    }, 600);
-  };
-
   return (
     <motion.div
       className=""

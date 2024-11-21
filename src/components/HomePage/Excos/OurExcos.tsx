@@ -94,7 +94,9 @@ export default function OurExcos() {
             </div>
             <Carousel activeIndex={activeIndex} updateIndex={updateIndex}>
               {data.map((url) => (
-                <CarouselItem  imageUrl={url.image} />
+                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+                // @ts-ignore
+                <CarouselItem key={url.name} imageUrl={url.image.src} />
               ))}
             </Carousel>
           </div>
