@@ -38,8 +38,8 @@ const AnimatedCharacters = props => {
   // Create storage array
   const words = [];
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
+ 
+  // eslint-disable-next-line
   for (const [index, item] of splitWords.entries()) { 
     words.push(item.split(""));
   }

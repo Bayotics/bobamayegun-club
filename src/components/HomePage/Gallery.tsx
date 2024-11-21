@@ -161,7 +161,7 @@ const generateSquares = () => {
 };
 
 const ShuffleGrid = () => {
-  
+  // eslint-disable-next-line
   const timeoutRef = useRef<any>(null);
   const [squares, setSquares] = useState(generateSquares());
 

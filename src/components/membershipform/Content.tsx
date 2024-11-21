@@ -53,7 +53,7 @@ const ContactScreen = () => {
 
         setSubmitted(true);
       })
-      .catch((err) => {
+      .catch(() => {
         e.target.submit();
       });
   };

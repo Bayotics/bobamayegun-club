@@ -8,7 +8,7 @@ interface PlaceholderText {
 }
 
 export default function AnimatedText() {
-  const [replay, setReplay] = useState<boolean>(true);
+  const [replay] = useState<boolean>(true);
   const placeholderText: PlaceholderText[] = [
     { type: "heading1", text: "Preserving Tradition," },
     {
