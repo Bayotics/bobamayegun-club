@@ -19,7 +19,7 @@ export function Content () {
     return (
         <div className =  'socialnetwork-content-main'>
             <div className="socialnetwork-intro mt-20 text-center w-1/2 m-auto">
-                <Fade direction='down'>
+                <Fade direction='down' triggerOnce>
                     <p>A Safe Space - A Cultural and Social Hub</p>
                     <h1 className="text-4xl font-semibold mt-4">
                         At Bobamayegun, You Network, Unwind, and Relax
@@ -29,7 +29,7 @@ export function Content () {
             <div className="socialnetwork-info mt-4 px-10 py-16">
                 <div className="flex gap-8 socialnetwork-info-inner">
                     <div className="sni-grid-i w-1/3">
-                        <Fade direction='up'>
+                        <Fade direction='up' triggerOnce>
                             <div className="sni-img-i rounded-lg"></div>
                             <div className="sni-captions mt-6">
                                 <h1 className="text-2xl font-semibold text-purple-950">
@@ -51,7 +51,7 @@ export function Content () {
                         </Fade>
                     </div>
                     <div className="sni-grid-i w-1/3">
-                        <Fade direction='up'>
+                        <Fade direction='up' triggerOnce>
                             <div className="sni-img-ii rounded-lg"></div>
                             <div className="sni-captions mt-6">
                                 <h1 className="text-2xl font-semibold text-purple-950">
@@ -73,7 +73,7 @@ export function Content () {
                         </Fade>
                     </div>
                     <div className="sni-grid-i w-1/3">
-                        <Fade direction='up'>
+                        <Fade direction='up' triggerOnce>
                             <div className="sni-img-iii rounded-lg"></div>
                             <div className="sni-captions mt-6">
                                 <h1 className="text-2xl font-semibold text-purple-950">
@@ -99,7 +99,7 @@ export function Content () {
             </div>
             <div className="social-network-press mt-10">
                 <div className="w-2/5 m-auto snp-header">
-                    <Zoom>
+                    <Zoom triggerOnce>
                         <h1 className="text-3xl font-semibold text-center">
                             Bobamayegun Okunrin Akile Ijebu in the Press
                         </h1>
@@ -114,7 +114,7 @@ export function Content () {
                     </div>
                 </div>
                 <div className='mt-20 press-header px-16'>
-                    <Fade direction='left'>
+                    <Fade direction='left' triggerOnce>
                         <h1 className = 'text-2xl font-light text-gray-600'>
                             Bobamayegun okunrin Akile Ijebu is proud to be a prominent 
                             voice in the preservation and celebration of Ijebu culture, 
@@ -128,8 +128,10 @@ export function Content () {
                 </div>
                 <div className='mt-20 bg-purple-400 px-10 pt-24 pb-44'>
                     <div className='press-notes-main mt-10  flex '>
+                        <div className='press-notes-right pressnotes-for-mobile hidden w-1/2 '>
+                        </div>
                         <div className='press-notes-left w-1/2  py-16 px-16'>
-                            <Fade direction = 'up'>
+                            <Fade direction = 'up' triggerOnce>
                                 <div className='pnl-content'>
                                     <h1 className='text-white text-2xl font-normal text-center'>
                                         Egbe Bobamayegun Okunrin Akile Ijebu Emerges
@@ -180,47 +182,47 @@ export function Content () {
                     <div className='social-gallery-main mt-20'>
                         <div className='sgm-content grid grid-cols-3 gap-9'>
                             <div className='sgm-pic'>
-                                <Zoom>
+                                <Zoom triggerOnce>
                                     <Image src={pici} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {100}>
+                                <Zoom delay = {100} triggerOnce>
                                     <Image src={picii} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {200}>
+                                <Zoom delay = {200} triggerOnce>
                                     <Image src={piciii} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {100}>
+                                <Zoom delay = {100} triggerOnce>
                                     <Image src={piciv} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {200}>
+                                <Zoom delay = {200} triggerOnce>
                                     <Image src={picv} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {300}>
+                                <Zoom delay = {300} triggerOnce>
                                     <Image src={picvi} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {100}>
+                                <Zoom delay = {100} triggerOnce>
                                     <Image src={picvii} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {200}>
+                                <Zoom delay = {200} triggerOnce>
                                     <Image src={picviii} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
-                                <Zoom delay = {300}>
+                                <Zoom delay = {300} triggerOnce>
                                     <Image src={picix} className='h-[300px] w-full' alt='social gallery'/>
                                 </Zoom>
                             </div>

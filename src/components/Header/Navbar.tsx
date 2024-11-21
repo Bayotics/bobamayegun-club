@@ -214,6 +214,14 @@ export default function NavBar () {
                             </div>
                         </div>
                     </div>
+                    <div className='mt-16' >
+                        <Link href = "/membership" 
+                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'
+                            onClick={closeMobileNavOnClick} 
+                        >
+                            Membership
+                        </Link>
+                    </div>
                 </div>
                 
             </div>

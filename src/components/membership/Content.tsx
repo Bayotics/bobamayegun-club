@@ -11,6 +11,8 @@ export default function Content () {
     return (
         <div className = 'membership-content-main py-20 bg-purple-200'>
             <div className="membership-intro px-32 flex gap-10">
+                <div className="w-1/2 membership-intro-pic hidden mip-for-mobile">
+                </div>
                 <div className="w-1/2 membership-intro-texts">
                     <Fade direction = 'down' triggerOnce>
                         <h1 className="text-2xl font-semibold text-purple-950">
@@ -127,7 +129,7 @@ export default function Content () {
                         <Carousel />
                     </div>
                 </div>
-                <div className = 'become-a-member-btn mt-20 flex justify-center'>
+                <div className = 'become-a-member-btn mt-20 flex justify-center bamb-bottom'>
                     <Link href = '/membershipform'>
                         <AnimatedBtn 
                         text={'BECOME A MEMBER NOW'}

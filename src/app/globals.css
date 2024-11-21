@@ -1341,7 +1341,7 @@ body {
 			z-index: 1;
 		}
 		.hamburgerActive{
-			height: 1200px;
+			height: 1300px;
       		overflow: auto;
 			padding-bottom: 100px;
 		}
@@ -2099,10 +2099,217 @@ body {
 			display: block
 		}
 		.sni-grid-i{
-			width: 70%;
-			margin: auto
+			width: 80%;
+			margin: auto;
+			margin-bottom: 100px;
 		}
-		
+		.sni-captions h1{
+			font-size: 2.5rem;
+		}
+		.sni-captions p{
+			font-size: 1.5rem;
+			line-height: 1.2;
+		}
+		.press-header h1{
+			font-size: 2rem;
+		}
+		.press-notes-main{
+			display: block;
+		}
+		.press-notes-left{
+			width: 100%;
+		}
+		.pressnotes-for-mobile{
+			display: block;
+			height: 600px;
+			width: 100%
+		}
+		.pnl-content h1{
+			font-size: 2rem;
+		}
+		.pnl-content button{
+			margin-top: 20px;
+			font-size: 1.5rem;
+			padding-bottom: 18px;
+		}
+		.sgm-content{
+			display: block;
+		}
+		.sgm-pic{
+			margin-bottom: 100px;
+		}
+		.sgm-pic img{
+			height: 700px;
+		}
+		.news-page-banner p{
+			font-size: 1.5rem;
+		}
+		.news-header h1{
+			font-size: 2rem;
+		}
+		.news-header p{
+			font-size: 1.5rem;
+			line-height: 1.2;
+		}
+		.news-cards{
+			display: block;
+		}
+		.news-card{
+			margin-bottom: 100px;
+		}
+		.news-card-image-i{
+			height: 550px;
+		}
+		.news-date{
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.news-card-image-i h1{
+			font-size: 2rem;
+			line-height: 1.2;
+		}
+		.news-card-texts h1{
+			font-size: 2rem;
+		}
+		.news-card-texts p{
+			font-size: 1.5rem;
+			margin-top: 30px;
+			line-height: 1.2;
+		}
+		.news-paragraph{
+			font-size: 1.7rem;
+			line-height: 1.2;
+		}
+		.gallery-page-banner p{
+			font-size: 1.5rem;
+		}
+		.gallery{
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+		.partnership-page-banner p{
+			font-size: 1.5rem;
+		}
+		.partner-corporate-main h1{
+			font-size: 1.8rem;
+			line-height: 1.2;
+		}
+		.partner-corporate-main h2{
+			font-size: 2.3rem;
+			line-height: 1.2;
+		}
+		.partner-corporate-main p{
+			font-size: 1.8rem;
+			line-height: 1.2;
+		}
+		.retab__tablist p{
+			font-size: 2rem;
+			margin-bottom: 50px;
+		}
+		.partner-event-main h1{
+			font-size: 1.8rem;
+		}
+		.marketing-tab-main h1{
+			font-size: 1.8rem;
+		}
+		.marketing-tab-main p{
+			font-size: 1.8rem;
+		}
+		.membership-page-banner p{
+			font-size: 1.5rem;
+		}
+		.membership-intro{
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		.mip-for-mobile{
+			display: block;
+			height: 600px;
+			width: 100%;
+		}
+		.membership-intro-texts{
+			width: 100%;
+			margin-top: 100px;
+		}
+		.membership-intro-texts h1{
+			font-size: 2.5rem;
+			line-height: 1.2;
+			text-align: center;
+		}
+		.membership-intro-texts p{
+			font-size: 2rem;
+			line-height: 1.2;
+			text-align: center;
+			margin-top: 50px;
+			font-weight: 400;
+		}
+		.become-a-member-btn button{
+			font-size: 2rem;
+		}
+		.benefits-intro-texts{
+			width: 70%
+		}
+		.benefits-intro-texts h1{
+			font-size: 2.5rem;
+		}
+		.benefits-intro-texts p{
+			font-size: 1.5rem;
+			line-height: 1.2;
+			margin-top: 30px;
+		}
+		.benefits-cards{
+			display: block;
+		}
+		.benefits-card{
+			width: 90%;
+			margin: auto;
+			margin-bottom: 100px;
+		}
+		.bic-texts h1{
+			font-size: 2rem;
+			text-align: center;
+		}
+		.bic-texts p{
+			font-size: 1.5rem;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.membership-caro{
+			display: none
+		}
+		.bamb-bottom{
+			margin-top: 200px;
+		}
+		.membersh-banner{
+			text-align: center;
+		}
+		.contact-screen-contents{
+			display: block;
+		}
+		.contact-screen-texts{
+			width: 100%;
+			text-align: center;
+		}
+		.home-svg{
+			display: flex;
+			justify-content: center;
+		}
+		.contact-screen-text p{
+			font-size: 2rem;
+			margin-top: 30px;
+		}
+		.contact-input{
+			width: 100%;
+			margin-top: 100px;
+			font-size: 1.5rem;
+		}
+		.contact-input p{
+			font-size: 1.5rem;
+		}
+		.contact-input button{
+			font-size: 2rem;
+		}
+
 
 
 	  

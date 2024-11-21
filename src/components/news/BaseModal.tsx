@@ -28,7 +28,7 @@ export const BaseModal = ({title, newsDate, newsMonth, newsYear, newsDetails}) =
             </h2>
             <p className="text-sm mt-4 mb-10 text-neutral-300">{newsDate} {newsMonth}, {newsYear}</p>
           </div>
-          <h3 className="mt-10 text-xl text-neutral-50">
+          <h3 className="mt-10 text-xl text-neutral-50 news-paragraph">
             {newsDetails}
           </h3>
         </div>
