@@ -5,7 +5,7 @@
 import { Banner } from "@/components/HomePage/Banner";
 import { IntroSection } from "../components/HomePage/IntroSection"; 
 import { AboutUs } from "@/components/HomePage/AboutUs";
-import { Initiatives } from "../components/HomePage/Initiatives";
+// import { Initiatives } from "../components/HomePage/Initiatives";
 import { WhyUs } from "@/components/HomePage/WhyUs";
 import OurExcos from "@/components/HomePage/Excos/OurExcos";
 import Gallery from "@/components/HomePage/Gallery";
@@ -13,7 +13,7 @@ import { EventHome } from "@/components/HomePage/Events/EventHome";
 import { JoinUs } from "@/components/HomePage/JoinUs";
 import { Slider } from "@/components/HomePage/Slider";
 import { HomeFaqMain } from "@/components/HomePage/FAQApplication";
-import Block from "@/components/HomePage/Reviews/Block";
+// import Block from "@/components/HomePage/Reviews/Block";
 // import Spinner from "@/components/Spinner";
 // import { useState } from "react";
 // import { HomeFaq } from "@/components/HomePage/FAQ/HomeFaq";
@@ -46,9 +46,9 @@ export default function Home() {
       <div className="">
         <AboutUs />
       </div>
-      <div className = 'initiatives-home-main'>
+      {/* <div className = 'initiatives-home-main'>
         <Initiatives />
-      </div>
+      </div> */}
       <div className="home-why-us mt-20">
         <WhyUs />
       </div>

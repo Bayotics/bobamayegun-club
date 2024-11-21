@@ -10,11 +10,10 @@ export const metadata: Metadata = {
   title: "Egbe bobamayegun",
   description: "Bobamayegun okunrin akile Ijebu",
 };
-
-const poppins = Poppins ({
+const inter = Poppins ({
   subsets: ['latin'],
   display: 'swap',
-  weight: '400'
+  weight: '400',
 })
 export default function RootLayout({
   children,
@@ -22,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={poppins.className}>
+    <html lang="en" className={inter.className}>
         <body>
             <header className="text-white text-center">
               <Header />

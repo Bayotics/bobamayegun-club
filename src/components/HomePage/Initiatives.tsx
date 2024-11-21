@@ -1,25 +1,25 @@
 'use client'
-import ReactCardCarousel from 'react-card-carousel';
-import AnimatedBtn from './AnimatedBtnForAbout';
-import {Fade } from 'react-awesome-reveal';
-import Link from "next/link";
+// import ReactCardCarousel from 'react-card-carousel';
+// import AnimatedBtn from './AnimatedBtnForAbout';
+// import {Fade } from 'react-awesome-reveal';
+// import Link from "next/link";
 
 
 
 export function Initiatives () {
-  const style = 'p-4 mt-2 w-2/3 border-2 grid place-content-center border-white bg-black'
+  // const style = 'p-4 mt-2 w-2/3 border-2 grid place-content-center border-white bg-black'
 
     return (
       <div className='initiatives-content-home py-1'>
-        <div className = 'initiatives-home-texts mt-20 px-40'>
+        {/* <div className = 'initiatives-home-texts mt-20 px-40'>
           <Fade direction = 'up' cascade triggerOnce>
             <p className='text-center text-black font-medium'>Our Initiatives</p>
             <h1 className='text-3xl text-black font-semibold text-center mt-1'>
               What We Do
             </h1>
           </Fade>
-        </div>
-        <div className='flex initiative-grid'>
+        </div> */}
+        {/* <div className='flex initiative-grid'>
           <div className='initiative-grid-texts w-1/2'>
             <Fade direction='left' triggerOnce>
               <div className='init-grid-text-box mt-32 pl-10'>
@@ -104,7 +104,7 @@ export function Initiatives () {
                 </div>
               </ReactCardCarousel>
           </div>
-        </div>
+        </div> */}
         
       </div>
     );
