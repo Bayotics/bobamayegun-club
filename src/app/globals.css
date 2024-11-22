@@ -1278,9 +1278,10 @@ body {
 
 
 
-	  /************************ Mobile ******************/
-	  @media screen and (min-width: 279.5px) and (max-width: 380px) {
-		body{
+	  /************************ Mobile ******************/ 
+	  /* @media screen and (min-width: 279.5px) and (max-width: 380px) { */
+		@media screen and (min-width: 279.5px) and (max-width: 420px) {
+			body{
 			width: auto;
 			padding: 0;
 			margin: 0;
@@ -1817,6 +1818,7 @@ body {
 		}
 		.faqs-home-texts h1{
 			font-size: 4rem;
+			line-height: 1.2;
 		}
 		.faq-form{
 			width: 45rem;
@@ -1842,10 +1844,6 @@ body {
 			width: 100%;
 			margin: auto;
 		}
-		.pic-logo-footer img{
-			height: 500px;
-			width: 500px;
-		}
 		.text-logo-footer h1{
 			font-size: 4rem;
 		}
@@ -1856,7 +1854,7 @@ body {
 		}
 		.footer-card-text p{
 			margin-top: 60px;
-			font-size: 4rem;
+			font-size: 3rem;
 			text-align: center;
 			line-height: 1.2;
 		}
@@ -1865,27 +1863,31 @@ body {
 			gap: 70px
 		}
 		.footer-socials svg{
-			font-size: 4rem;
+			font-size: 3rem;
 		}
 		.footer-contact{
 			margin-top: 170px;
 			text-align: center;
 			width: 100%;
+			padding-left: 0;
 		}
 		.footer-contact h1{
-			font-size: 4rem;
+			font-size: 3rem;
 			margin-bottom: 50px;
 		}
 		.footer-contact p{
-			font-size: 3rem;
+			font-size: 2rem;
 			margin-top: 15px;
 			line-height: 1.4;
 		}
 		.footer-links{
+			margin-top: 100px;
 			text-align: center;
+			padding-left: 0;
 		}
 		.footer-links h1{
-			font-size: 4rem;
+			font-size: 3rem;
+			margin-top: 100px;
 		}
 		.fql-left{
 			margin-top: 80px;
@@ -1896,11 +1898,11 @@ body {
 			width: 100%;
 		}
 		.fql-left p{
-			font-size: 3rem;
+			font-size: 2rem;
 			line-height: 1.4;
 		}
 		.fql-right p{
-			font-size: 3rem;
+			font-size: 2rem;
 			line-height: 1.4;
 		}
 		.footer-newsletter{
@@ -2308,6 +2310,20 @@ body {
 		}
 		.contact-input button{
 			font-size: 2rem;
+		}
+		.footer-logo-grid{
+			display: block;
+		}
+		.pic-logo-footer{
+			display: flex;
+			justify-content: center;
+		}
+		.pic-logo-footer img{
+			height: 300px;
+			width: 300px;
+		}
+		.text-logo-footer{
+			margin-top: 100px;
 		}
 
 

@@ -1,8 +1,8 @@
 'use client'
 
 
-// import Image from "next/image"
-// import logo from '../../images/bobamayegun-logo.png'
+import Image from "next/image"
+import logo from '../images/bobamayegun-logo.png'
 import { RiTwitterXFill } from "react-icons/ri";
 import { RxInstagramLogo } from "react-icons/rx";
 import { FaFacebookF } from "react-icons/fa";
@@ -22,14 +22,14 @@ export default function Footer () {
                             className=
                             "fc-content text-center rounded-2xl bg-gradient-to-tr from-[#4f46e5] to-[#7b3db6] py-16 px-8">
                             <div className="footer-logo">
-                                <div className="footer-logo-grid  flex gap-2 justify-center">
-                                    <div className="pic-logo-footer">
-                                        {/* <Image src={logo} alt="bobamayegun logo" className="mt-2 h-10 w-10"/> */}
-                                    </div>
-                                    <div className="text-logo-footer">
+                                <section className="footer-logo-grid  flex gap-2 justify-center">
+                                    <section className="pic-logo-footer">
+                                        <Image src={logo} alt="bobamayegun logo" className="mt-2 h-10 w-10"/>
+                                    </section>
+                                    <section className="text-logo-footer">
                                         <h1 className="text-lg font-semibold mt-4">Bobamayegun</h1>
-                                    </div>
-                                </div>
+                                    </section>
+                                </section>
                             </div>
                             <div className="footer-card-text mt-8">
                                 <p className="text-sm">Fostering unity, growth, and cultural pride. 

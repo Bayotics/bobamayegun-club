@@ -13,7 +13,7 @@ export const CarouselItem: React.FC<CarouselItemProps> = ({ children, width, ima
   return (
     <div
       className="carousel-item-exco"
-      style={{ width: width, backgroundImage: `url(${imageUrl.src})` }}
+      style={{ width: width, backgroundImage: `url(${imageUrl})` }}
     >
       {children}
     </div>
