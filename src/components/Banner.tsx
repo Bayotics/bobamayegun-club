@@ -1,7 +1,8 @@
+
 'use client'
 
-import { Fade } from "react-awesome-reveal";
 
+import { Fade } from "react-awesome-reveal";
 
 export function Banner ({bannerBgName, textHeader, subText}) {
     return(
