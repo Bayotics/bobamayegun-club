@@ -15,7 +15,7 @@ import {Fade} from 'react-awesome-reveal';
 export default function Footer () {
     return (
         <div className="text-white">
-            <Fade direction =  'up' triggerOnce>
+            <Fade triggerOnce>
                 <div className = 'footer-top flex px-24 py-10'>
                     <section className="footer-card w-1/4">
                         <div 
