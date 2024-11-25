@@ -4,12 +4,18 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Poppins } from "next/font/google";
+import type { Viewport } from 'next'
 
 
 export const metadata: Metadata = {
   title: "Egbe bobamayegun",
   description: "Bobamayegun okunrin akile Ijebu",
 };
+export const viewport: Viewport = {
+  initialScale: 1,
+  width: 'device-width',
+  maximumScale: 1,
+}
 const inter = Poppins ({
   subsets: ['latin'],
   display: 'swap',
