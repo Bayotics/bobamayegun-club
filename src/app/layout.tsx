@@ -15,6 +15,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   width: 'device-width',
   maximumScale: 1,
+  userScalable: true
 }
 const inter = Poppins ({
   subsets: ['latin'],
