@@ -8,14 +8,12 @@ import { RxInstagramLogo } from "react-icons/rx";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import AnimatedBtn from "./HomePage/AnimatedBtnForAbout";
-import {Fade} from 'react-awesome-reveal';
 
 
 
 export default function Footer () {
     return (
         <div className="text-white">
-            <Fade triggerOnce>
                 <div className = 'footer-top flex px-24 py-10'>
                     <section className="footer-card w-1/4">
                         <div 
@@ -94,7 +92,6 @@ export default function Footer () {
                         Design and Development by @unclebayotics
                     </p>
                 </div>
-            </Fade>
         </div> 
     )
 }
