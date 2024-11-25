@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 const inter = Poppins ({
   subsets: ['latin'],
   display: 'swap',
-  weight: '400',
+  weight: '300',
 })
 export default function RootLayout({
   children,
