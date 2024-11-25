@@ -1,7 +1,7 @@
 'use client'
 
 
-
+import { useEffect } from "react";
 import { Banner } from "@/components/HomePage/Banner";
 import { IntroSection } from "../components/HomePage/IntroSection"; 
 import { AboutUs } from "@/components/HomePage/AboutUs";
@@ -19,6 +19,9 @@ import { HomeFaqMain } from "@/components/HomePage/FAQApplication";
 // import { HomeFaq } from "@/components/HomePage/FAQ/HomeFaq";
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+}, []);
   // const [loading, setLoading] = useState(true);
   // const [display, setDisplay] = useState('block');
 
