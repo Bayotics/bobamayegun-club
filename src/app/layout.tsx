@@ -9,13 +9,11 @@ import type { Viewport } from 'next'
 
 export const metadata: Metadata = {
   title: "Egbe bobamayegun",
-  description: "Bobamayegun okunrin akile Ijebu",
+  description: "Bobamayegun okunrin akile Ijebu 74-76",
 };
 export const viewport: Viewport = {
-  initialScale: 1,
   width: 'device-width',
-  maximumScale: 1,
-  userScalable: true
+  initialScale: -1
 }
 // const inter = Poppins ({
 //   subsets: ['latin'],
