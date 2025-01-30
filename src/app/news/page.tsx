@@ -6,7 +6,7 @@ export default function News () {
         <div className = 'news-main'>
             <Banner
              bannerBgName={'news-page-banner'}
-             textHeader={'News & Evens'}
+             textHeader={'News & Events'}
              subText={'Our recent and upcoming activities '}
              />
             <Content />

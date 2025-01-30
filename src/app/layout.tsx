@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import {  Raleway } from "next/font/google";
+import {  Poppins } from "next/font/google";
 import type { Viewport } from 'next'
 
 
@@ -15,23 +15,19 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: -1
 }
-// const inter = Poppins ({
-//   subsets: ['latin'],
-//   display: 'swap',
-//   weight: ['100', '200', '300', '400', ]
-// })
-const raleway = Raleway ({
+const inter = Poppins ({
   subsets: ['latin'],
   display: 'swap',
-  weight: ['100', '200', '300', '400', ]
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900' ]
 })
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={raleway.className}>
+    <html lang="en" className={inter.className}>
         <body>
             <header className="text-white text-center">
               <Header />

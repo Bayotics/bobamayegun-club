@@ -41,6 +41,19 @@ body {
 	margin: 0px;
 	background: #f4eff7;
 }
+/* Modified font weights */
+
+.font-semibold{
+	font-weight: 400;
+}
+.font-bold{
+	font-weight: 500;
+}
+.font-medium{
+	font-weight: 400;
+}
+
+/* End of modified font weights */
 ::-webkit-scrollbar {
 	width: 5px;
   }
@@ -1145,7 +1158,7 @@ body {
 		color: black;
    }
 	.tab-title {
-		font-weight: bold;
+		font-weight: 400;
 		font-size: 22px;
    }
 	.tab-subtitle {
@@ -1153,7 +1166,7 @@ body {
    }
 	.tabpanel-title {
 		font-size: 1.5rem;
-		font-weight: bold;
+		font-weight: 400;
    }
 	.tabpanel-subtitle {
 		color: #b588df;
