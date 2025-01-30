@@ -1465,15 +1465,18 @@ body {
 		.ash-content-img img{
 			height: 800px;
 		}
+		.ash-cont-left-texts{
+			text-align: center;
+		}
 		.ash-cont-left-texts h2{
-			font-size: 40px;
+			font-size: 30px;
 		}
 		.ash-cont-left-texts h1{
-			font-size: 64px;
-			line-height: 1.5;
+			font-size: 42px;
+			line-height: 1.2;
 		}
 		.ash-cont-left-texts p{
-			font-size: 34px;
+			font-size: 2.1rem;
 			line-height: 1;
 		}
 		.join-us-promo-btn h1{
@@ -1488,13 +1491,13 @@ body {
 			margin-bottom: 80px;
 		}
 		.hab-i svg{
-			font-size: 200px;
+			font-size: 120px;
 		}
 		.hab-i h1{
-			font-size: 74px;
+			font-size: 66px;
 		}
 		.hab-i p{
-			font-size: 70px;
+			font-size: 50px;
 			line-height: 1.1;
 			margin-top: 90px;
 		}
@@ -1857,7 +1860,7 @@ body {
 			margin: auto;
 		}
 		.text-logo-footer h1{
-			font-size: 4rem;
+			font-size: 2.5rem;
 		}
 		.footer-card{
 			width: 100%;
@@ -1866,16 +1869,16 @@ body {
 		}
 		.footer-card-text p{
 			margin-top: 60px;
-			font-size: 3rem;
+			font-size: 2rem;
 			text-align: center;
 			line-height: 1.2;
 		}
 		.footer-socials{
 			margin-top: 170px;
-			gap: 70px
+			gap: 35px
 		}
 		.footer-socials svg{
-			font-size: 3rem;
+			font-size: 2.2rem;
 		}
 		.footer-contact{
 			margin-top: 170px;
@@ -1884,7 +1887,7 @@ body {
 			padding-left: 0;
 		}
 		.footer-contact h1{
-			font-size: 3rem;
+			font-size: 2.5rem;
 			margin-bottom: 50px;
 		}
 		.footer-contact p{
@@ -1923,7 +1926,7 @@ body {
 			width: auto;
 		}
 		.footer-newsletter h1{
-			font-size: 3rem;
+			font-size: 2.5rem;
 			text-align: center;
 		}
 		.newsletter-input{
@@ -1994,6 +1997,7 @@ body {
 		}
 		.animated-btn-history{
 			width: 70%;
+			margin: auto;
 			margin-top: 100px;
 			margin-bottom: 50px;
 		}
@@ -2331,8 +2335,8 @@ body {
 			justify-content: center;
 		}
 		.pic-logo-footer img{
-			height: 300px;
-			width: 300px;
+			height: 200px;
+			width: 200px;
 		}
 		.text-logo-footer{
 			margin-top: 100px;
@@ -2358,6 +2362,9 @@ body {
 		}
 		.navbar-logo{
 			width: 70%;
+		}
+		.pic-logo{
+			width: 9.375rem;
 		}
 		.pic-logo img{
 			height: 150px;
@@ -2512,15 +2519,18 @@ body {
 		.ash-content-img img{
 			height: 800px;
 		}
+		.ash-cont-left-texts{
+			text-align: center;
+		}
 		.ash-cont-left-texts h2{
-			font-size: 40px;
+			font-size: 30px;
 		}
 		.ash-cont-left-texts h1{
-			font-size: 64px;
-			line-height: 1.5;
+			font-size: 42px;
+			line-height: 1.2;
 		}
 		.ash-cont-left-texts p{
-			font-size: 34px;
+			font-size: 2.1rem;
 			line-height: 1;
 		}
 		.join-us-promo-btn h1{
@@ -2535,13 +2545,13 @@ body {
 			margin-bottom: 80px;
 		}
 		.hab-i svg{
-			font-size: 200px;
+			font-size: 120px;
 		}
 		.hab-i h1{
-			font-size: 74px;
+			font-size: 66px;
 		}
 		.hab-i p{
-			font-size: 70px;
+			font-size: 50px;
 			line-height: 1.1;
 			margin-top: 90px;
 		}
@@ -2904,7 +2914,7 @@ body {
 			margin: auto;
 		}
 		.text-logo-footer h1{
-			font-size: 4rem;
+			font-size: 3rem;
 		}
 		.footer-card{
 			width: 100%;
@@ -2913,16 +2923,16 @@ body {
 		}
 		.footer-card-text p{
 			margin-top: 60px;
-			font-size: 3rem;
+			font-size: 2rem;
 			text-align: center;
 			line-height: 1.2;
 		}
 		.footer-socials{
 			margin-top: 170px;
-			gap: 70px
+			gap: 35px
 		}
 		.footer-socials svg{
-			font-size: 3rem;
+			font-size: 2.2rem;
 		}
 		.footer-contact{
 			margin-top: 170px;
@@ -2931,7 +2941,7 @@ body {
 			padding-left: 0;
 		}
 		.footer-contact h1{
-			font-size: 3rem;
+			font-size: 2.5rem;
 			margin-bottom: 50px;
 		}
 		.footer-contact p{
@@ -2945,7 +2955,7 @@ body {
 			padding-left: 0;
 		}
 		.footer-links h1{
-			font-size: 3rem;
+			font-size: 2.5rem;
 			margin-top: 100px;
 		}
 		.fql-left{
@@ -2970,7 +2980,7 @@ body {
 			width: auto;
 		}
 		.footer-newsletter h1{
-			font-size: 3rem;
+			font-size: 2.5rem;
 			text-align: center;
 		}
 		.newsletter-input{
@@ -3041,6 +3051,7 @@ body {
 		}
 		.animated-btn-history{
 			width: 70%;
+			margin: auto;
 			margin-top: 100px;
 			margin-bottom: 50px;
 		}
@@ -3378,8 +3389,8 @@ body {
 			justify-content: center;
 		}
 		.pic-logo-footer img{
-			height: 300px;
-			width: 300px;
+			height: 200px;
+			width: 200px;
 		}
 		.text-logo-footer{
 			margin-top: 100px;

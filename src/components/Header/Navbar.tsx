@@ -113,19 +113,19 @@ export default function NavBar () {
                         <Link
                             href = "/"
                             onClick={closeMobileNavOnClick} 
-                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'>
+                            className='text-5xl font-normal hover:text-[#b067da] hover:font-bold w-full'>
                             Home
                         </Link>
                     </div>
                     <div className='mt-16 about-nav-mobile' >
                         <div className = 'flex gap-6'>
-                            <h1 className='text-6xl font-normal hover:text-[#b067da] hover:font-bold'>About Us</h1>
+                            <h1 className='text-5xl font-normal hover:text-[#b067da] hover:font-bold'>About Us</h1>
                             <div className = 'mobile-nav-drop text-5xl' onClick={mobileAbout}>
                                 <FaSortDown/>
                             </div>
                         </div>
                         <div className = 
-                        {`about-dropdown-contents text-5xl ml-4   ${showAbout ? 'mobileAboutActive' : ''}`}>
+                        {`about-dropdown-contents text-4xl ml-4   ${showAbout ? 'mobileAboutActive' : ''}`}>
                             <div className = 'mt-8 hover:text-[#b067da]'>
                                 <Link href = '/aboutus' className=''
                                 onClick={closeMobileNavOnClick} >Values</Link>
@@ -146,7 +146,7 @@ export default function NavBar () {
                     </div>
                     <div className='mt-16 initiative-nav-mobile' >
                         <div className = 'flex gap-8'>
-                            <h1 className='text-6xl font-normal hover:text-[#b067da] hover:font-bold'>
+                            <h1 className='text-5xl font-normal hover:text-[#b067da] hover:font-bold'>
                                 Our Initiatives
                             </h1>
                             <div className = 'mobile-nav-drop text-5xl' onClick={mobileInitiative}>
@@ -154,7 +154,7 @@ export default function NavBar () {
                             </div>
                         </div>
                         <div className = 
-                        {`about-dropdown-contents text-5xl ml-4   ${showInitiative ? 'mobileAboutActive' : ''}`}>
+                        {`about-dropdown-contents text-4xl ml-4   ${showInitiative ? 'mobileAboutActive' : ''}`}>
                             <div className = 'mt-8 hover:text-[#b067da]'>
                                 <Link href = '/artsandculture' className=''
                                 onClick={closeMobileNavOnClick} >Arts and Culture</Link>
@@ -177,7 +177,7 @@ export default function NavBar () {
                     </div>
                     <div className='mt-16' >
                         <Link href = "/news" 
-                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'
+                            className='text-5xl font-normal hover:text-[#b067da] hover:font-bold w-full'
                             onClick={closeMobileNavOnClick} 
                         >
                             News & Events
@@ -185,7 +185,7 @@ export default function NavBar () {
                     </div>
                     <div className='mt-16' >
                         <Link href = "/gallery" 
-                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'
+                            className='text-5xl font-normal hover:text-[#b067da] hover:font-bold w-full'
                             onClick={closeMobileNavOnClick} 
                         >
                             Gallery
@@ -193,10 +193,10 @@ export default function NavBar () {
                     </div>
                     <div className='mt-16 join-nav-mobile' >
                         <div className = 'flex gap-8'>
-                            <h1 className='text-6xl font-normal hover:text-[#b067da] hover:font-bold'>
+                            <h1 className='text-5xl font-normal hover:text-[#b067da] hover:font-bold'>
                                 Join & Support
                             </h1>
-                            <div className = 'mobile-nav-drop text-5xl' onClick={mobileJoin}>
+                            <div className = 'mobile-nav-drop text-4xl' onClick={mobileJoin}>
                                 <FaSortDown/>
                             </div>
                         </div>
@@ -218,7 +218,7 @@ export default function NavBar () {
                     </div>
                     <div className='mt-16' >
                         <Link href = "/membership" 
-                            className='text-6xl font-normal hover:text-[#b067da] hover:font-bold w-full'
+                            className='text-5xl font-normal hover:text-[#b067da] hover:font-bold w-full'
                             onClick={closeMobileNavOnClick} 
                         >
                             Membership
