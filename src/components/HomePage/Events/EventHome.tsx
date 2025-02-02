@@ -15,8 +15,8 @@ export function EventHome () {
                 <div className = 'event-left py-16 px-20 w-2/3 rounded-l-3xl bg-gradient-to-tr from-[#1e293b] from-50% via-[#46269e] via-70% to-[#da5296] to-90%'>
                     <div className="event-left-texts">
                         <h1 className="text-white font-semibold text-4xl leading-tight">
-                            Join us for our next incredible <br/> event at the <span className="event-span">
-                            MUSON CENTER
+                            Join us for our <br/> <span className="event-span">
+                            10th YEAR ANNIVERSARY!!
                             </span>.
                         </h1>
                         <h2 className="text-gray-400 text-lg mt-4">

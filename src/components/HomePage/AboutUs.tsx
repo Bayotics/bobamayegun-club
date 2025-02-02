@@ -40,7 +40,7 @@ export function AboutUs () {
                             <Reveal keyframes={customAnimation} triggerOnce>
                                 <div className="ash-content-img">
                                     <Image src= {aboutPix} alt="about us"
-                                    className="rounded-xl w-full h-[450px]"/>
+                                    className="rounded-xl w-full h-[450px] object-cover"/>
                                 </div>    
                             </Reveal>
                             {/* <Fade direction = 'left' duration = {2000}>

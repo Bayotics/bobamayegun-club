@@ -1,6 +1,6 @@
 'use client'
 import { Slide} from "react-awesome-reveal";
-import { OjudeObaimages, OjudeObaimages2017, atlanta2024, conference2018, donations, wedding } from "./imageFiles"
+import { OjudeObaimages, OjudeObaimages2017, atlanta2024, conference2018, donations, wedding, getTogetherImgs } from "./imageFiles"
 import Gallery from "./Cards"
 
 export default function Content () {
@@ -11,7 +11,7 @@ export default function Content () {
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>
                         <h1 className="text-3xl font-semibold text-center">
-                            Ojude Oba Festival 2024
+                            Ojude Oba Festival 2018
                         </h1>
                     </Slide>
                 </div>
@@ -23,7 +23,7 @@ export default function Content () {
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>
                         <h1 className="text-3xl font-semibold text-center">
-                            Ojude Oba Festival 2017
+                            Ojude Oba Festival 2019
                         </h1>
                     </Slide>
                 </div>
@@ -31,11 +31,25 @@ export default function Content () {
                     <Gallery images={OjudeObaimages2017} />
                 </div>      
             </div>
+            <div className="snp-contents mt-40 px-16">
+                <div className="gallery-content-header">
+                    <Slide direction = 'up'>
+                        <h1 className="text-3xl font-semibold text-center">
+                            Ojude Oba Festival 2022
+                        </h1>
+                    </Slide>
+                </div>
+                <div className="gallery-vid-display mt-16">
+                    {/* <iframe height="515" src="https://www.youtube.com/embed/CtR-py5VJuw?si=O2aiAy1AJt486QFU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                     */}
+
+                    <iframe height="515" src="https://www.youtube.com/embed/z5iYVABtk_4?si=89YBQmep9jaNhgxw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
             <div className = 'gallery-container mt-40'>
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>
                         <h1 className="text-3xl font-semibold text-center">
-                            Annual General Meeting, Atlanta 2024
+                            Mayegun Day, North America Chapter 2024
                         </h1>
                     </Slide>
                 </div>
@@ -47,19 +61,19 @@ export default function Content () {
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>
                         <h1 className="text-3xl font-semibold text-center">
-                            Ileya party at Conference Hotel 2018
+                            First Get together outside Ijebu 2024
                         </h1>
                     </Slide>
                 </div>
                 <div className="pics-display mt-16">
-                    <Gallery images={conference2018} />
+                    <Gallery images={getTogetherImgs} />
                 </div>      
             </div>
             <div className = 'gallery-container mt-40'>
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>
                         <h1 className="text-3xl font-semibold text-center">
-                            Donation of School Uniforms at different Schools
+                            Donation of Educational Materials across multiple Schools
                         </h1>
                     </Slide>
                 </div>
@@ -77,6 +91,18 @@ export default function Content () {
                 </div>
                 <div className="pics-display mt-16">
                     <Gallery images={wedding} />
+                </div>      
+            </div>
+            <div className = 'gallery-container mt-40'>
+                <div className="gallery-content-header">
+                    <Slide direction = 'up'>
+                        <h1 className="text-3xl font-semibold text-center">
+                            More Events
+                        </h1>
+                    </Slide>
+                </div>
+                <div className="pics-display mt-16">
+                    <Gallery images={conference2018} />
                 </div>      
             </div>
                   

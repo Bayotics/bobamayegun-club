@@ -20,7 +20,7 @@ export function Banner () {
         <Fade duration={2000}>
           <div className="banner-contents px-32 flex gap-16">
             <div className="banner-content-left w-1/2">
-              <h1 className="text-white font-semibold text-[3.1rem] mt-32 leading-normal 
+              <h1 className="text-white font-semibold text-[3rem] mt-32 leading-tight 
                 hidden home-banner-title-heading">
                 Preserving Tradition, Celebrating Heritage
               </h1>
@@ -42,10 +42,10 @@ export function Banner () {
             </div>
             <div className="banner-content-right flex justify-center w-1/2">
               <div className = 'bcr-images-left w-1/2 mt-10'>
-                <Image className="h-[300px] w-[70%] rounded-full m-auto border-4 border-purple-400"
+                <Image className="h-[300px] w-[70%] rounded-full m-auto border-4 border-purple-400 object-cover"
                 src= {bannerImgtwo} alt="bobamayegun">
                 </Image> 
-                <Image className="h-[300px] w-[70%] rounded-full mt-4 m-auto border-4 border-purple-400"
+                <Image className="h-[300px] w-[70%] rounded-full mt-4 m-auto border-4 border-purple-400 object-cover"
                 src= {bannerImg} alt="bobamayegun">
                 </Image> 
               </div> 

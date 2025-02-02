@@ -98,17 +98,17 @@ export function WhyUs () {
                 <div className='flex wur-pics gap-4 mt-12 ml-4 w-1/2'>
                     <div className='wur-pic-left w-1/2'>
                         <Image src={whyUsI} alt='bobamayegun' 
-                            className='rounded-3xl h-full' />
+                            className='rounded-3xl h-full object-cover' />
                     </div>
                     <div className='wur-pic-right w-1/2'>
                         <Zoom duration = {2000} >
                             <div className='wpr-top'>
                                 <Image src={aboutImg} alt='bobamayegun' 
-                                className='rounded-3xl h-[265px] w-full'/>
+                                className='rounded-3xl h-[265px] w-full object-cover'/>
                             </div>
                             <div className='wpr-bottom mt-4'>
                                 <Image src={whyUsIII} alt='bobamayegun' 
-                                    className='rounded-3xl h-[265px] w-full' />
+                                    className='rounded-3xl h-[265px] w-full object-cover' />
                             </div>
                         </Zoom>
                     </div>

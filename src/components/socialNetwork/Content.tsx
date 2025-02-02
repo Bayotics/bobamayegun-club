@@ -1,8 +1,8 @@
 'use client'
 import AnimatedBtn from '../HomePage/AnimatedBtnForAbout'
 import Link from 'next/link'
-import pici from '@/images/social-gatherings/social-g-i-transformed.png'
-import picii from '@/images/social-gatherings/social-g-ii-transformed.png'
+import pici from '@/images/social-gatherings/social-g-i-transformed.jpg'
+import picii from '@/images/social-gatherings/social-g-ii-transformed.jpg'
 import piciii from '@/images/social-gatherings/social-g-iii.jpg'
 import piciv from '@/images/social-gatherings/social-g-iv.jpg'
 import picv from '@/images/social-gatherings/social-g-v.jpg'
@@ -33,7 +33,7 @@ export function Content () {
                             <div className="sni-img-i rounded-lg"></div>
                             <div className="sni-captions mt-6">
                                 <h1 className="text-2xl font-semibold text-purple-950">
-                                    Connect For Business
+                                    Connect For Opportunities
                                 </h1>
                                 <p className="mt-4 text-gray-700">
                                     Our society provides a unique platform for members 
@@ -106,12 +106,7 @@ export function Content () {
                     </Zoom>
                 </div>
                 <div className="snp-contents mt-16 px-16">
-                    <div className="snp-video flex justify-center">
-                        <video loop autoPlay controls className='w-full'>
-                            <source src="https://media.istockphoto.com/id/1768638896/video/shot-of-a-village-in-the-western-part-of-nigeria.mp4?s=mp4-640x640-is&k=20&c=nuN7MM1ZakhSDiavXJ-TykiPP6O5BPp8dxMvnGZE1IQ=" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
-                    </div>
+                    <iframe height="515" src="https://www.youtube.com/embed/CtR-py5VJuw?si=O2aiAy1AJt486QFU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    
                 </div>
                 <div className='mt-20 press-header px-16'>
                     <Fade direction='left' triggerOnce>
@@ -183,47 +178,47 @@ export function Content () {
                         <div className='sgm-content grid grid-cols-3 gap-9'>
                             <div className='sgm-pic'>
                                 <Zoom triggerOnce>
-                                    <Image src={pici} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={pici} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {100} triggerOnce>
-                                    <Image src={picii} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={picii} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {200} triggerOnce>
-                                    <Image src={piciii} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={piciii} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {100} triggerOnce>
-                                    <Image src={piciv} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={piciv} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {200} triggerOnce>
-                                    <Image src={picv} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={picv} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {300} triggerOnce>
-                                    <Image src={picvi} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={picvi} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {100} triggerOnce>
-                                    <Image src={picvii} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={picvii} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {200} triggerOnce>
-                                    <Image src={picviii} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={picviii} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                             <div className='sgm-pic'>
                                 <Zoom delay = {300} triggerOnce>
-                                    <Image src={picix} className='h-[300px] w-full' alt='social gallery'/>
+                                    <Image src={picix} className='h-[300px] w-full object-cover' alt='social gallery'/>
                                 </Zoom>
                             </div>
                         </div> 

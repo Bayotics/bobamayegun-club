@@ -20,7 +20,7 @@ export function Intro () {
                     <div className="ash-content-right w-[40%]  ">
                         <div className="ash-content-img">
                             <Image src= {aboutPix} alt="about us"
-                                className="rounded-xl w-full h-[450px]"/>
+                                className="rounded-xl w-full h-[450px] object-cover"/>
                         </div>
                     </div>
                     <div className="ash-content-left w-[60%] px-12 bg-white rounded-xl">
@@ -96,17 +96,17 @@ export function Intro () {
                             <Slide direction="left" triggerOnce>
                                 <div className="val-left-lef">
                                     <Image src = {valueImgi} alt="our values" 
-                                    className="rounded-xl h-[250px] w-full"/>
+                                    className="rounded-xl h-[250px] w-full object-cover"/>
                                 </div>
                                 <div className="val-left-right mt-6">
                                     <Image src = {valueImgii} alt="our values"
-                                    className="rounded-xl h-[250px] w-full"/>
+                                    className="rounded-xl h-[250px] w-full object-cover"/>
                                 </div>
                             </Slide>
                         </div>
                         <div className="value-left-last">
                             <Image src = {valueImgiii} alt="our values" 
-                            className="h-[524px] w-full rounded-2xl"/>
+                            className="h-[524px] w-full rounded-2xl object-cover"/>
                         </div>
                         
                     </div>

@@ -14,7 +14,7 @@ import ojudeObaxi from '@/images/galleryPage/OjudeOba2024/ojude-oba11.jpg';
 import ojudei from '@/images/galleryPage/OjudeOba2017/ojude-oba-01.jpg'
 import ojudeii from '@/images/galleryPage/OjudeOba2017/ojude-oba-02.jpg'
 import ojudeiii from '@/images/galleryPage/OjudeOba2017/ojude-oba-03.jpg'
-import ojudeiv from '@/images/galleryPage/OjudeOba2017/ojude-oba-01.jpg'
+import ojudeiv from '@/images/galleryPage/OjudeOba2017/ojude-oba-04.jpg'
 import ojudev from '@/images/galleryPage/OjudeOba2017/ojude-oba-05.jpg'
 import ojudevi from '@/images/galleryPage/OjudeOba2017/ojude-oba-06.jpg'
 import ojudevii from '@/images/galleryPage/OjudeOba2017/ojude-oba-07.jpg'
@@ -47,12 +47,29 @@ import conferenceThirteen from '@/images/galleryPage/_2018_Ileya_Party_at_Confer
 import conferenceFourteen from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-14.jpg'
 import conferenceFifteen from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-15.jpg'
 import conferenceSixteen from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-16.jpg'
+import conferenceSeventeen from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-17.jpg'
+import conferenceEighteen from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-18.jpg'
+import conferenceNineteen from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-19.jpg'
+import conferenceTwenty from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-20.jpg'
+import conference21 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-21.jpg'
+import conference22 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-22.jpg'
+import conference23 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-23.jpg'
+import conference24 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-24.jpg'
+import conference25 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-25.jpg'
+import conference26 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-26.jpg'
+import conference27 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-27.jpg'
+import conference28 from '@/images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-28.jpg'
+
 
 // Donation of School Uniforms
 import donationi from '@/images/galleryPage/donation/donation1.jpg'
 import donationii from '@/images/galleryPage/donation/donation2.jpg'
 import donationiii from '@/images/galleryPage/donation/donation3.jpg'
 import donationiv from '@/images/galleryPage/donation/donation4.jpg'
+import donationv from '@/images/galleryPage/donation/donation5.jpg'
+import donationvi from '@/images/galleryPage/donation/donation6.jpg'
+import donationvii from '@/images/galleryPage/donation/donation7.jpg'
+import donationviii from '@/images/galleryPage/donation/donation8.jpg'
 
 // Alhaji Ogunleyes wedding Texas
 import weddingi from '@/images/galleryPage/Wedding/wedding1.jpg'
@@ -60,6 +77,19 @@ import weddingii from '@/images/galleryPage/Wedding/wedding2.jpg'
 import weddingiii from '@/images/galleryPage/Wedding/wedding3.jpg'
 import weddingiv from '@/images/galleryPage/Wedding/wedding4.jpg'
 
+// Get together 2024
+import getTogetheri from '@/images/galleryPage/getTogether/get-together1.jpg'
+import getTogetherii from '@/images/galleryPage/getTogether/get-together2.jpg'
+import getTogetheriii from '@/images/galleryPage/getTogether/get-together3.jpg'
+import getTogetheriv from '@/images/galleryPage/getTogether/get-together4.jpg'
+  
+
+  export const getTogetherImgs = [
+    {src: getTogetheri, alt: "get together 2024"},
+    {src: getTogetherii, alt: "get together 2024"},
+    {src: getTogetheriii, alt: "get together 2024"},
+    {src: getTogetheriv, alt: "get together 2024"},
+  ]
   
   export const OjudeObaimages = [
     { src: ojudeObai, alt: "Ojude Oba 2024" },
@@ -99,22 +129,34 @@ import weddingiv from '@/images/galleryPage/Wedding/wedding4.jpg'
   ];
 
   export const conference2018 = [
-    { src: conferenceOne, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceTwo, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceThree, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceFour, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceFive, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceSix, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceSeven, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceEight, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceNine, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceTen, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceEleven, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceTwelve, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceThirteen, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceFourteen, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceFifteen, alt: "Ileya party at conference Hotel 2018" },
-    { src: conferenceSixteen, alt: "Ileya party at conference Hotel 2018" },
+    { src: conferenceOne, alt: "Bobamayegun Events gallery" },
+    { src: conferenceTwo, alt: "Bobamayegun Events gallery" },
+    { src: conferenceThree, alt: "Bobamayegun Events gallery" },
+    { src: conferenceFour, alt: "Bobamayegun Events gallery" },
+    { src: conferenceFive, alt: "Bobamayegun Events gallery" },
+    { src: conferenceSix, alt: "Bobamayegun Events gallery" },
+    { src: conferenceSeven, alt: "Bobamayegun Events gallery" },
+    { src: conferenceEight, alt: "Bobamayegun Events gallery" },
+    { src: conferenceNine, alt: "Bobamayegun Events gallery" },
+    { src: conferenceTen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceEleven, alt: "Bobamayegun Events gallery" },
+    { src: conferenceTwelve, alt: "Bobamayegun Events gallery" },
+    { src: conferenceThirteen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceFourteen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceFifteen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceSixteen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceSeventeen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceEighteen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceNineteen, alt: "Bobamayegun Events gallery" },
+    { src: conferenceTwenty, alt: "Bobamayegun Events gallery" },
+    { src: conference21, alt: "Bobamayegun Events gallery" },
+    { src: conference22, alt: "Bobamayegun Events gallery" },
+    { src: conference23, alt: "Bobamayegun Events gallery" },
+    { src: conference24, alt: "Bobamayegun Events gallery" },
+    { src: conference25, alt: "Bobamayegun Events gallery" },
+    { src: conference26, alt: "Bobamayegun Events gallery" },
+    { src: conference27, alt: "Bobamayegun Events gallery" },
+    { src: conference28, alt: "Bobamayegun Events gallery" },
   ]
 
   export const donations = [
@@ -122,6 +164,10 @@ import weddingiv from '@/images/galleryPage/Wedding/wedding4.jpg'
     { src: donationii, alt: "Donation of School Uniforms" },
     { src: donationiii, alt: "Donation of School Uniforms" },
     { src: donationiv, alt: "Donation of School Uniforms" },
+    { src: donationv, alt: "Donation of School Uniforms" },
+    { src: donationvi, alt: "Donation of School Uniforms" },
+    { src: donationvii, alt: "Donation of School Uniforms" },
+    { src: donationviii, alt: "Donation of School Uniforms" },
   ]
 
   export const wedding = [

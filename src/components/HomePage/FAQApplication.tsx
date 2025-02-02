@@ -1,5 +1,5 @@
 import FAQ from "./FAQ";
-import faqOne from '@/images/members/memberX.jpg';
+import faqOne from '@/images/faqxx.jpg';
 import faqIv from '@/images/faqiv.jpg';
 import faqIII from '@/images/faqiii.jpg';
 import faqII from '@/images/faqii.jpg';
@@ -13,12 +13,12 @@ export function HomeFaqMain () {
         {
           id: 1,
           question: 'What is Bobamayegun omo Okunrin Akile Ijebu?',
-          answer: 'Bobamayegun is an online community dedicated to preserving, promoting, and celebrating the rich culture, history, and heritage of the Ijebu people.',
+          answer: 'Bobamayegun is a society for indigenes of Ijebu land born between the years of 1974 to 1976, dedicated to preserving, promoting, and celebrating the rich culture, history, and heritage of the Ijebu people.',
         },
         {
           id: 2,
           question: 'Who are the Ijebu people?',
-          answer: 'The Ijebu are a subgroup of the Yoruba people, primarily located in southwestern Nigeria, known for their distinctive cultural practices, entrepreneurial spirit, and historical significance in West Africa.',
+          answer: 'The Ijebu are a group of the Yoruba people, primarily located in southwestern Nigeria, known for their distinctive cultural practices, entrepreneurial spirit, and historical significance in West Africa.',
         },
         {
           id: 3,
@@ -80,17 +80,17 @@ export function HomeFaqMain () {
                         </div>
                         <div className="fci-top-ii w-1/2">
                             <Image src={faqIII} alt="faq"
-                            className=" h-[200px] mt-24 rounded-2xl" />
+                            className=" h-[200px] mt-24 rounded-2xl object-cover" />
                         </div>
                     </div>
                     <div className="fci-bottom flex gap-4 mt-4">
                         <div className="fci-bottom-i w-1/2 flex justify-end mr-4">
                             <Image src={faqOne} alt="faq"
-                            className=" h-[250px] w-[70%] rounded-2xl" />
+                            className=" h-[250px] w-[70%] rounded-2xl object-cover" />
                         </div>
                         <div className="fci-bottom-ii w-1/2">
                             <Image src={faqII} alt="faq"
-                            className=" h-[300px] w-[95%] rounded-2xl" />
+                            className=" h-[300px] w-[95%] rounded-2xl object-cover" />
                         </div>
                     </div>
                 </div>

@@ -972,7 +972,7 @@ body {
 
 /* About us page */
 :root{
-	--aboutprimary: hsla(240, 4%, 50%, 0.65);
+	--aboutprimary: hsla(240, 2%, 8%, 0.65);
 	--secondary: hsla(262, 73%, 54%, 0.753);
 	--charity: hsla(261, 32%, 14%, 0.753);
 	--charitySecondary: hsla(262, 89%, 17%, 0.753);
@@ -986,9 +986,9 @@ body {
 
 }
 .history-bg{
-	background-image: url(../images/gallery/gallery-img-eight.jpg);
+	background-image: url(../images/history-bg.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: cover;
 }
 /* Arts and culture Page */
 .artsandculture-page-banner{
@@ -1012,7 +1012,7 @@ body {
 }
 .orphanage-cover{
 	background-image: url(../images/charity-bg-iii.jpg);
-	background-size: 100% 100%;
+	background-size: cover;
 }
 .orphanage-cover-ii{
 	background-image: url(../images/charity-bg-ii.jpg);
@@ -1033,9 +1033,10 @@ body {
 	 url(../images/network-bg.jpg) no-repeat center center / cover;
 }
 .sni-img-i{
-	background-image: url(../images/social-network-i.png);
+	background-image: url(../images/social-network-one.jpg);
 	height: 300px;
 	width: 100%;
+	background-size: cover;
 }
 .sni-img-ii{
 	background-image: url(../images/banner-img.jpg);
@@ -1044,7 +1045,7 @@ body {
 	width: 100%;
 }
 .sni-img-iii{
-	background-image: url(../images/social-network-ii.png);
+	background-image: url(../images/social-network-three.jpg);
 	height: 300px;
 	width: 100%;
 	background-size: cover;
@@ -1053,16 +1054,19 @@ body {
 	background-image: url(../images/press-banner-ii.jpg);
 	background-size: cover;
 }
+iframe{
+	width: 100%;
+}
 
 /* News and Events */
 .news-page-banner{
 	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
-	 url(../images/press-banner.jpg) no-repeat center center / cover;
+	 url(../images/faqiii.jpg) no-repeat center center / cover;
 }
 /* Gallery Page */
 .gallery-page-banner{
 	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
-	 url(../images/gallery-bg.png) no-repeat center center / cover;
+	 url(../images/gallery-bg.jpg) no-repeat center center / cover;
 }
   .gallery__item {
 	overflow: hidden;
@@ -1976,8 +1980,7 @@ body {
 			margin-top: 20px;
 		}
 		.values-right h2{
-			font-size: 1.5rem;
-			line-height: 1.1;
+			font-size: 1.8rem;
 			margin-top: 20px;
 		}
 		.history-content{
@@ -1991,7 +1994,7 @@ body {
 			margin-top: 50px;
 		}
 		.history-text h1{
-			font-size: 3rem;
+			font-size: 2rem;
 			margin-top: 20px;
 			line-height: 1.1;
 		}
@@ -3030,8 +3033,7 @@ body {
 			margin-top: 20px;
 		}
 		.values-right h2{
-			font-size: 1.5rem;
-			line-height: 1.1;
+			font-size: 1.8rem;
 			margin-top: 20px;
 		}
 		.history-content{
@@ -3045,7 +3047,7 @@ body {
 			margin-top: 50px;
 		}
 		.history-text h1{
-			font-size: 3rem;
+			font-size: 2rem;
 			margin-top: 20px;
 			line-height: 1.1;
 		}
