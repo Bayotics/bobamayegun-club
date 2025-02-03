@@ -1194,10 +1194,10 @@ iframe{
 	/* Membership Page */
 	.membership-page-banner{
 	background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
-		url(../images/membership-bg.jpeg) no-repeat center center / cover;
+		url(../images/galleryPage/_2018_Ileya_Party_at_Conference_Hotel/ileya-party-1.jpg) no-repeat center center / cover;
 	}
 	.membership-intro-pic {
-		background-image: url(../images/press-banner-iicopy.jpg);
+		background-image: url(../images/why-us-ii.jpeg);
 		background-size: cover;
 	}
 	.container_caro {
@@ -1277,6 +1277,11 @@ iframe{
 	  }.css-13cymwt-control ::after{
 		background: #1e293b;
     	border: none;
+	  }
+	  /* Anniversary Page */
+	  .anniversary-page-banner{
+		background: linear-gradient(135deg, var(--charity), var(--charitySecondary) ),
+		url(../images/press-banner-ii.jpg)
 	  }
 	  
 

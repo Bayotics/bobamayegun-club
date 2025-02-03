@@ -25,7 +25,7 @@ export function EventHome () {
                         </h2>
                         <div className="attend-event flex gap-4 mt-6">
                             <div className="attend-event-btn">
-                                <Link href = '/news'>
+                                <Link href = '/anniversary'>
                                     <button className=
                                     "text-white mt-1 px-4 py-2 bg-[#3b82f6] rounded-3xl hover:bg-[#336ac4]">
                                         Make Inquiry →
