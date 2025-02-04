@@ -13,6 +13,7 @@ const AnniversaryForm = () => {
 
   const [countries, setCountries] = useState([]);
   const [selectedCountry, setSelectedCountry] = useState({});
+  const yearOptions = ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'];
 
   useEffect(() => {
     fetch(
@@ -101,17 +102,11 @@ const AnniversaryForm = () => {
                 <Slide direction='left' triggerOnce>
                   <form className='bg-black w-full px-10 py-12 rounded-[30px]' 
                     action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
-                      <div className='name-input flex gap-8'>
-                        <div className='w-1/2'>
-                            <p className='text-white font-medium text-xl'>First Name<span className='text-red-500'>*</span></p>
-                            <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                            id='firstName' type="text" name="firstName" required />
-                        </div>
-                        <div className='w-1/2'>
-                            <p className='text-white font-medium text-xl'>Last Name<span className='text-red-500'>*</span></p>
-                            <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                            id='lastName' type="text" name="lastName" required />
-                        </div>
+                      
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Full Name (As in passport)<span className='text-red-500'>*</span></p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='fullName' type="text" name="fullName" required />
                       </div>
                       <div className='w-full mt-10' >
                         <p className='text-white font-medium text-xl'>Your Email<span className='text-red-500'>*</span></p>
@@ -124,8 +119,20 @@ const AnniversaryForm = () => {
                           id='phone' type="tel" name="phone" placeholder='call or Whatsapp Number' required />
                       </div>
                       <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Passport Number<span className='text-red-500'>*</span></p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='passportNumber' type="text" name="passportNumber" required />
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Passport Expiry Date<span className='text-red-500'>*</span></p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='passportExpiry' type="date" name="passportExpiry" required />
+                      </div>
+                      <div className='w-full mt-10' >
                         <p className='text-white font-medium text-xl'>Country of Residence<span className='text-red-500'>*</span></p>
                         <Select
+                          id='country'
+                          name='country'
                           className='w-full bg-slate-800 py-4 rounded-xl mt-4 text-neutral-500'
                           options={countries}
                           value={selectedCountry}
@@ -141,18 +148,95 @@ const AnniversaryForm = () => {
                         </select>
                       </div>
                       <div className='w-full mt-10' >
-                        <p className='text-white font-medium text-xl'>Do you require a Visa invitation Letter?<span className='text-red-500'>*</span></p>
+                        <p className='text-white font-medium text-xl'>Year of Joining Bobamayegun<span className='text-red-500'>*</span></p>
                         <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
                             id='currentMember' itemType='' name="currentMember" required>
+                            {yearOptions.map((e, index) => {
+                              return(
+                                <option key={index}>{e}</option>
+                              )
+                            })}
+                        </select>
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Role/Position in Bobamayegun (if any)<span className='text-red-500'>*</span></p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='role' type="text" name="role" required />
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Have you ever applied for a US visa?<span className='text-red-500'>*</span></p>
+                        <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
+                            id='ever_applied_for_a_us_visa' itemType='' name="ever_applied_for_a_us_visa" required>
                             <option>Yes</option>
                             <option>No</option>
                         </select>
                       </div>
                       <div className='w-full mt-10' >
-                        <p className='text-white font-medium text-xl'>Expected Date of Arrival (if known)</p>
-                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                          id='phone' type="date" name="phone" placeholder='call or Whatsapp Number' />
+                        <p className='text-white font-medium text-xl'>Do you require a Visa invitation Letter?<span className='text-red-500'>*</span></p>
+                        <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
+                            id='VisaRequired' itemType='' name="VisaRequired" required>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
                       </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Preferred consulate for visa application<span className='text-red-500'>*</span></p>
+                        <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
+                            id='preferred_consulate' itemType='' name="preferred_consulate" required>
+                            <option>Lagos</option>
+                            <option>Abuja</option>
+                        </select>
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Travel funding source<span className='text-red-500'>*</span></p>
+                        <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
+                            id='travel_funding_source' itemType='' name="travel_funding_source" required>
+                            <option>Self funded</option>
+                            <option>Sponsored by family</option>
+                            <option>Sponsored by organization</option>
+                            <option>Other</option>
+                        </select>
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Will you be attending alone or with family<span className='text-red-500'>*</span></p>
+                        <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
+                            id='modeOfAttendance' itemType='' name="modeOfAttendance" required>
+                            <option>Individual</option>
+                            <option>With Family</option>
+                        </select>
+                      </div>
+                      <div className='w-full mt-10'>
+                          <p className='text-white font-medium text-xl'>List their Names, ages and relationship<span className='text-red-500'>*</span></p>
+                          <textarea 
+                            className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white' 
+                            id='familyInfo' placeholder="List Each family member's name, age and relationship on separate lines" name="familyInfo" required rows={10}/>
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Preferred accommodation type<span className='text-red-500'>*</span></p>
+                        <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
+                            id='modeOfAttendance' itemType='' name="modeOfAttendance" required>
+                            <option>Hotel</option>
+                            <option>Host Family</option>
+                            <option>Self Arranged</option>
+                        </select>
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Expected Date of Arrival</p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='arrivalDate' type="date" name="arrivalDate" />
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Expected Date of Departure</p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='departureDate' type="date" name="departureDate" />
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Special Assistance required (if any)<span className='text-red-500'>*</span></p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='special_assistance_required' type="text" name="special_assistance_required" required />
+                      </div>
+
+
                       <div className='w-full mt-10' >
                         <p className='text-white font-medium text-xl'>which activities are you most 
                             interested in?
@@ -183,8 +267,13 @@ const AnniversaryForm = () => {
                                 <label htmlFor="op6" className='text-white'>Others <br/> Not Specified</label>
                             </div>
                         </div>
+                      </div>
+
+                      <div className='anniversary-declaration flex gap-2 mt-28 px-14'>
+                        <p className='text-white'>I confirm that the information provided is accurate and that I intend to participate in the Bobamayegun 10th Anniversary Celebration in the USA.</p>
+                        <input type="checkbox" id="declaration" name="declaration" value="agree" />
                       </div>                 
-                      <div className='submit-btn mt-20 justify-center text-center'>
+                      <div className='submit-btn mt-10 justify-center text-center'>
                           <button className='bg-purple-600 py-4 px-6 rounded text-white font-medium text-xl hover:bg-purple-500 ' id='submit' type="submit"> Submit </button>
                       </div>
                     </form>
