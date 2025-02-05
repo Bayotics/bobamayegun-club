@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import Select from "react-select";
 import ContactSvg from './ContactSvg';
 import Link from 'next/link';
@@ -16,6 +17,8 @@ const AnniversaryForm = () => {
   const yearOptions = ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025'];
   const [membershipDetails, setMembershipDetails] = useState("");
   const [visaAppStatus, setVisaAppStatus] = useState("");
+  const [consent, setConsent] = useState(true);
+  const router = useRouter()
 
   const membershipSelector = [
     {
@@ -40,6 +43,15 @@ const AnniversaryForm = () => {
     setVisaAppStatus(e.target.value);
   }
 
+  const handleConsent = (e) => {
+    if (e === 'checked'){
+      if(consent === true){
+        console.log(e, "Our value");
+      }
+      setConsent(!consent);
+    }
+  } 
+
   useEffect(() => {
     fetch(
       "https://valid.layercode.workers.dev/list/countries?format=select&flags=true&value=code"
@@ -54,9 +66,13 @@ const AnniversaryForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    const inputs = e.target.elements;
-    const data = {};
+    if(membershipDetails != 'Yes'){
+      router.push('/noteligible');
+    } 
+    else
+    {
+      const inputs = e.target.elements;
+      const data = {};
 
     for (let i = 0; i < inputs.length; i++) {
       if (inputs[i].name) {
@@ -82,6 +98,7 @@ const AnniversaryForm = () => {
       .catch(() => {
         e.target.submit();
       });
+    }
   };
 
   if (submitted) {
@@ -144,22 +161,13 @@ const AnniversaryForm = () => {
                           id='phone' type="tel" name="phone" placeholder='call or Whatsapp Number' required />
                       </div>
                       <div className='w-full mt-10' >
-                        <p className='text-white font-medium text-xl'>Passport Number<span className='text-red-500'>*</span></p>
-                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                          id='passportNumber' type="text" name="passportNumber" required />
-                      </div>
-                      <div className='w-full mt-10' >
-                        <p className='text-white font-medium text-xl'>Passport Expiry Date<span className='text-red-500'>*</span></p>
-                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                          id='passportExpiry' type="date" name="passportExpiry" required />
-                      </div>
-                      <div className='w-full mt-10' >
                         <p className='text-white font-medium text-xl'>Country of Residence<span className='text-red-500'>*</span></p>
                         <Select
                           id='country'
                           name='country'
                           className='w-full bg-slate-800 py-4 rounded-xl mt-4 text-neutral-500'
                           options={countries}
+                          required
                           value={selectedCountry}
                           onChange={(selectedOption) => setSelectedCountry(selectedOption)}
                         />
@@ -193,9 +201,9 @@ const AnniversaryForm = () => {
                           </select>
                         </div>
                         <div className='w-full mt-10' >
-                          <p className='text-white font-medium text-xl'>Role/Position in Bobamayegun (if any)<span className='text-red-500'>*</span></p>
+                          <p className='text-white font-medium text-xl'>Role/Position in Bobamayegun (if any)</p>
                             <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                            id='role' type="text" name="role" required />
+                            id='role' type="text" name="role" />
                         </div>
                       </div>
                         </div>
@@ -225,6 +233,16 @@ const AnniversaryForm = () => {
                         </select>
                       </div>
                       {visaAppStatus === "Yes" ? (<div className='visa-application-inputs'>
+                        <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Passport Number<span className='text-red-500'>*</span></p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='passportNumber' type="text" name="passportNumber" required />
+                      </div>
+                      <div className='w-full mt-10' >
+                        <p className='text-white font-medium text-xl'>Passport Expiry Date<span className='text-red-500'>*</span></p>
+                          <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
+                          id='passportExpiry' type="date" name="passportExpiry" required />
+                      </div>
                         <div className='w-full mt-10' >
                           <p className='text-white font-medium text-xl'>Preferred consulate for visa application<span className='text-red-500'>*</span></p>
                           <select className='w-full bg-slate-800 py-4 rounded-xl px-3 mt-4 text-white'
@@ -280,9 +298,9 @@ const AnniversaryForm = () => {
                       (<div></div>)
                       }
                       <div className='w-full mt-10' >
-                        <p className='text-white font-medium text-xl'>Special Assistance required (if any)<span className='text-red-500'>*</span></p>
+                        <p className='text-white font-medium text-xl'>Special Assistance required (if any)</p>
                           <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                          id='special_assistance_required' type="text" name="special_assistance_required" required />
+                          id='special_assistance_required' type="text" name="special_assistance_required" />
                       </div>
 
 
@@ -320,10 +338,13 @@ const AnniversaryForm = () => {
 
                       <div className='anniversary-declaration flex gap-2 mt-28 px-14'>
                         <p className='text-white'>I confirm that the information provided is accurate and that I intend to participate in the Bobamayegun 10th Anniversary Celebration in the USA.</p>
-                        <input type="checkbox" id="declaration" name="declaration" value="agree" />
-                      </div>                 
+                        <input onChange={ () => handleConsent('checked')} value={consent} type="checkbox" id='declaration' name="declaration"/>
+                      </div>
+                                       
                       <div className='submit-btn mt-10 justify-center text-center'>
-                          <button className='bg-purple-600 py-4 px-6 rounded text-white font-medium text-xl hover:bg-purple-500 ' id='submit' type="submit"> Submit </button>
+                          <button disabled = {consent === true} 
+                          className=' bg-purple-600 py-4 px-6 rounded disabled:bg-gray-500 text-white font-medium text-xl hover:bg-purple-500 ' 
+                          id='submit' type="submit"> Submit </button>
                       </div>
                     </form>
                 </Slide>

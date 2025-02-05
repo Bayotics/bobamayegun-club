@@ -23,6 +23,7 @@
     "react-awesome-reveal": "^4.2.14",
     "react-css-spinners": "^4.0.2",
     "react-dom": "^18",
+    "react-router-dom": "^7.1.5",
     "react-select": "^5.8.3",
     "react-swipeable": "^7.0.1",
     "react-use-measure": "^2.1.1"
