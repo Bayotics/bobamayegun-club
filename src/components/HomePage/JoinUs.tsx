@@ -111,7 +111,7 @@ export function JoinUs () {
                     <Zoom triggerOnce>
                         <div className='social-promo-img'>
                             <Image src={socialRight} alt='bobamayegun' 
-                            className='ml-20 w-[80%] h-350px]'/>
+                            className='ml-20 w-[87%] h-350px]'/>
                         </div>
                     </Zoom>
                     <div className='social-promo-texts mt-8 pr-10 ml-20'>
