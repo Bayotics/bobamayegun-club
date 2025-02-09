@@ -30,7 +30,7 @@ export function AboutUs () {
            <div className="bgGridWrapper">
             <div className="about-sec-home px-20 py-16">
                 <Slide direction = 'up' duration={2000} triggerOnce>
-                    <h1 className="text-white font-semibold text-4xl text-center">
+                    <h1 className="text-white font-semibold text-4xl text-center about-sh-heading">
                         Unity Through Culture,<br/> Strength Through Community
                     </h1>
                 </Slide>
@@ -80,7 +80,8 @@ export function AboutUs () {
                     <div className="home-about-buttom flex mt-20 justify-between gap-8">
                         <div className="hab-i  w-1/4">
                             <Zoom triggerOnce>
-                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full">
+                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full
+                                hab-i-inner-box">
                                     <div className="  flex justify-center">
                                         <CiCalendar className="text-blue-500 font-thin text-5xl"/>
                                     </div>
@@ -91,7 +92,8 @@ export function AboutUs () {
                         </div>
                         <div className="hab-i  w-1/4">
                             <Zoom delay={200} triggerOnce>
-                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full">
+                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full 
+                                hab-i-inner-box">
                                     <div className="  flex justify-center">
                                         <GoPerson className="text-pink-400 font-thin text-5xl"/>
                                     </div>
@@ -102,7 +104,8 @@ export function AboutUs () {
                         </div>
                         <div className="hab-i  w-1/4">
                             <Zoom delay={400} triggerOnce>
-                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full">
+                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full 
+                                hab-i-inner-box">
                                     <div className="  flex justify-center">
                                         <PiCheckCircleThin className="text-green-400 font-thin text-5xl"/>
                                     </div>
@@ -113,7 +116,8 @@ export function AboutUs () {
                         </div>
                         <div className="hab-i  w-1/4">
                             <Zoom delay={600} triggerOnce>
-                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full">
+                                <div className="bg-[#26232c] py-6 px-10  rounded-xl text-center w-full 
+                                hab-i-inner-box">
                                     <div className="  flex justify-center">
                                         <CiFaceSmile className="text-orange-400 font-thin text-5xl"/>
                                     </div>

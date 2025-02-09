@@ -1469,8 +1469,8 @@ iframe{
 		.ash-content-left{
 			width: 100%;
 			margin: auto;
-			padding-top: 50px;
-			padding-bottom: 50px;
+			padding-top: 150px;
+			padding-bottom: 150px;
 			margin-top: 50px;
 		}.ash-content-right{
 			width: 100%;
@@ -1503,6 +1503,10 @@ iframe{
 			width: 70%;
 			margin: auto;
 			margin-bottom: 80px;
+		}
+		.hab-i-inner-box{
+			padding-top: 150px;
+			padding-bottom: 150px;
 		}
 		.hab-i svg{
 			font-size: 120px;
@@ -2539,8 +2543,8 @@ iframe{
 		.ash-content-left{
 			width: 100%;
 			margin: auto;
-			padding-top: 50px;
-			padding-bottom: 50px;
+			padding-top: 150px;
+			padding-bottom: 150px;
 			margin-top: 50px;
 		}.ash-content-right{
 			width: 100%;
@@ -2573,6 +2577,10 @@ iframe{
 			width: 70%;
 			margin: auto;
 			margin-bottom: 80px;
+		}
+		.hab-i-inner-box{
+			padding-top: 150px;
+			padding-bottom: 150px;
 		}
 		.hab-i svg{
 			font-size: 120px;
@@ -2935,6 +2943,7 @@ iframe{
 		.answer.active{
 			font-size: 1.7rem;
 			text-align: left;
+			margin-bottom: 150px;
 		}
 		.footer-top{
 			display: block;
@@ -3441,7 +3450,7 @@ iframe{
 	  }
 
 
-	  @media screen and (min-width: 481px)  and (max-width: 587px) {
+	  @media screen and (min-width: 481px)  and (max-width: 600px) {
 		body{
 			width: auto;
 			padding: 0;
@@ -3610,8 +3619,8 @@ iframe{
 		.ash-content-left{
 			width: 100%;
 			margin: auto;
-			padding-top: 50px;
-			padding-bottom: 80px;
+			padding-top: 150px;
+			padding-bottom: 150px;
 			margin-top: 50px;
 		}.ash-content-right{
 			width: 100%;
@@ -3646,6 +3655,10 @@ iframe{
 			width: 70%;
 			margin: auto;
 			margin-bottom: 80px;
+		}
+		.hab-i-inner-box{
+			padding-top: 150px;
+			padding-bottom: 150px;
 		}
 		.hab-i svg{
 			font-size: 120px;
@@ -4527,7 +4540,7 @@ iframe{
 	  }
 
 
-	  @media screen and (min-width: 588px)  and (max-width: 770px) {
+	  @media screen and (min-width: 601px)  and (max-width: 770px) {
 		body{
 			width: auto;
 			padding: 0;
@@ -4669,10 +4682,10 @@ iframe{
 			font-size: 7rem;
 		}
 		.anim-about-icons h1{
-			font-size: 40px;
+			font-size: 45px;
 		}
 		.anim-about-icons p{
-			font-size: 30px;
+			font-size: 35px;
 			margin-top: 60px;
 		}
 		.amin-about-btn{
@@ -4693,11 +4706,14 @@ iframe{
 		.blurry-bg{
 			display: block;
 		}
+		.about-sh-heading{
+			font-size: 3rem;
+		}
 		.ash-content-left{
 			width: 100%;
 			margin: auto;
-			padding-top: 50px;
-			padding-bottom: 80px;
+			padding-top: 150px;
+			padding-bottom: 150px;
 			margin-top: 50px;
 		}.ash-content-right{
 			width: 100%;
@@ -4732,6 +4748,10 @@ iframe{
 			width: 70%;
 			margin: auto;
 			margin-bottom: 80px;
+		}
+		.hab-i-inner-box{
+			padding-top: 150px;
+			padding-bottom: 150px;
 		}
 		.hab-i svg{
 			font-size: 120px;
@@ -4805,7 +4825,8 @@ iframe{
 			line-height: 1.2;
 		}
 		.why-us-right p{
-			font-size: 30px;
+			font-size: 33px;
+			line-height: 1.3;
 		}
 		.wuc-pics-display{
 			display: block;
@@ -4862,15 +4883,21 @@ iframe{
 		}
 		.wur-pic-left img{
 			border-radius: 50px;
-			height: 900px;
+			height: 1150px;
 		}
 		.wpr-top img{
-			height: 450px;
+			height: 575px;
 			border-radius: 50px;
 		}
 		.wpr-bottom img{
-			height: 430px;
+			height: 555px;
 			border-radius: 50px;
+		}
+		.home-our-excos{
+			display: none;
+		}
+		.slider-home-main{
+			margin-top: 200px;
 		}
 		.exco-socials{
 			display: none;
@@ -4970,6 +4997,8 @@ iframe{
 			font-size: 2.5rem;
 			padding-left: 3rem;
 			padding-right: 3rem;
+			padding-top: 20px;
+			padding-bottom: 20px;
 			border-radius: 100px;
 		}
 		.home-gallery-squares{
@@ -4993,7 +5022,7 @@ iframe{
 			margin-top: 100px;
 		}
 		.social-promo-texts p{
-			font-size: 2rem;
+			font-size: 2.3rem;
 			line-height: 1.1;
 		}
 		.join-us-promo-btn-community{
@@ -5005,7 +5034,7 @@ iframe{
 		}
 		.event-phone{
 			top: 2380px;
-			height: 1300px;
+			height: 1500px;
 			width: 70%;
 			left: 16%;
 		}
@@ -5063,7 +5092,7 @@ iframe{
 			color: rgb(241, 228, 228);
 		}
 		.faq-main-grid{
-			margin-top: 3200px;
+			margin-top: 3500px;
 		}
 		.faq-cont-images{
 			display: none;
