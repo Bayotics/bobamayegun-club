@@ -73,7 +73,7 @@ export default function Content () {
                                 <h1 className="text-xl text-purple-800">BOARD TALENT</h1>
                                 <p className="mt-4">
                                     We have reputable investment and consulting firms as partners which
-                                    are seeking to place our members on variuos boards
+                                    are seeking to place our members on various boards
                                 </p>
                             </div>
                         </Zoom>

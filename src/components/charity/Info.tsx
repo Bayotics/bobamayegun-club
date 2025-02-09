@@ -17,7 +17,7 @@ export function Info () {
                     <Fade direction = 'up' triggerOnce>
                         <p className="text-gray-500">What we do</p>
                         <h1 className="mt-6 text-5xl">
-                            Variuos things we help<br/> with in the society
+                            Various things we help<br/> with in the society
                         </h1>
                     </Fade>
                 </div>
