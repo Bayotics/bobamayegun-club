@@ -61,7 +61,7 @@ const ContactScreen = () => {
   if (submitted) {
     return (
       <>
-      <div className='mt-20 mb-20 py-24 px-52 bg-slate-600'>
+      <div className='mt-20 mb-20 py-24 px-52 bg-slate-600 email-confirmation-content'>
         <h2 className='text-white text-center font-semibold text-3xl'>Thank you!</h2>
         <h2 className='text-white text-center font-semibold text-xl mt-5'>We received your message. Your membership application will be reviewed and you will receive a response soon.</h2>
         <div className = 'w-1/3 mt-8 m-auto'>

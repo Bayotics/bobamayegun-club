@@ -95,7 +95,7 @@ export function AboutUs () {
                                     <div className="  flex justify-center">
                                         <GoPerson className="text-pink-400 font-thin text-5xl"/>
                                     </div>
-                                    <h1 className="text-4xl mt-12 font-medium text-gray-200">150+</h1>
+                                    <h1 className="text-4xl mt-12 font-medium text-gray-200">500+</h1>
                                     <p className="mt-4 text-gray-400 text-lg">Members</p>
                                 </div>
                             </Zoom>

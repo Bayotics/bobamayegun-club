@@ -10,12 +10,12 @@ export default function notEligible () {
                 <h1 className="text-6xl font-semibold text-white">
                     Not Eligible :(
                 </h1>
-                <p className="mt-8 font-normal text-lg text-white">
+                <p className="mt-8 font-normal text-lg text-white banner-subtext">
                     Get a Bobamayegun okunrin Akile Ijebu membership and be eligible for exclusive events in our society 
                 </p>
             </div>
             <div className="noteligible-content mt-20 px-20 py-10 mb-20">
-                <div className='mt-20 mb-20 py-24 px-52 bg-slate-600'>
+                <div className='mt-20 mb-20 py-24 px-52 bg-slate-600 email-confirmation-content'>
                     <h2 className='text-white text-center font-semibold text-3xl'>Sorry, You are not 
                         eligible to attend this event because you are not a Bobamayegun Okunrin Akile Ijebu member!</h2>
                     <h2 className='text-white text-center font-semibold text-xl mt-5'>Click the button below

@@ -43,7 +43,7 @@ export function Intro () {
                                 <div className='join-us-promo-btn mt-3 mb-3 text-black'>
                                     <Link href = '/membership'>
                                         <AnimatedBtn text={'Join Us →'}
-                                        style={'bg-black text-white px-8 hover:bg-gray-900 hover:text-white py-4 rounded-lg mt-12 w-[40%] text-center'} />
+                                        style={'bg-black text-white px-8 hover:bg-gray-900 hover:text-white py-4 rounded-lg mt-12 w-[40%] text-center jupb-btn'} />
                                     </Link>
                                 </div>
                             </Slide>
@@ -65,7 +65,7 @@ export function Intro () {
                             <div className="  flex justify-center">
                                 <GoPerson className="text-pink-400 font-thin text-5xl"/>
                             </div>
-                            <h1 className="text-4xl mt-12 font-medium text-black">150+</h1>
+                            <h1 className="text-4xl mt-12 font-medium text-black">500+</h1>
                             <p className="mt-4 text-gray-600 text-lg">Members</p>
                         </Zoom>                            
                     </div>

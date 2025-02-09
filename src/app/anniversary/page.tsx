@@ -7,7 +7,7 @@ export default function Anniversary () {
             <div className = 'anniversary-banner'>
                 <Banner
                     bannerBgName={'anniversary-page-banner'}
-                    textHeader={'Bobamayegun Turns 10!'}
+                    textHeader={'Bobamayegun is Turning 10!'}
                     subText={'Celebrating a Decade of Tradition, Passion, and Togetherness. Join Us for a Grand Celebration!'}
                 />
             </div>

@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { Roller } from 'react-css-spinners'
 import Select from "react-select";
 import ContactSvg from './ContactSvg';
 import Link from 'next/link';
@@ -18,7 +19,9 @@ const AnniversaryForm = () => {
   const [membershipDetails, setMembershipDetails] = useState("");
   const [visaAppStatus, setVisaAppStatus] = useState("");
   const [consent, setConsent] = useState(true);
-  const router = useRouter()
+  const router = useRouter();
+  const [loading, setloading] = useState(false);
+  
 
   const membershipSelector = [
     {
@@ -66,8 +69,12 @@ const AnniversaryForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
+    setloading(true)
     if(membershipDetails != 'Yes'){
       router.push('/noteligible');
+      setTimeout(() => {
+        setloading(false)
+   }, 4000)
     } 
     else
     {
@@ -98,13 +105,16 @@ const AnniversaryForm = () => {
       .catch(() => {
         e.target.submit();
       });
+      setTimeout(() => {
+        setloading(false)
+   }, 4000)
     }
   };
 
   if (submitted) {
     return (
       <>
-      <div className='mt-20 mb-20 py-24 px-52 bg-slate-600'>
+      <div className='mt-20 mb-20 py-24 px-52 bg-slate-600 email-confirmation-content'>
         <h2 className='text-white text-center font-semibold text-3xl'>Thank you for registering!</h2>
         <h2 className='text-white text-center font-semibold text-xl mt-5'>We received your message. Your registration will be reviewed and you will receive a response soon.</h2>
         <div className = 'w-1/3 mt-8 m-auto'>
@@ -122,7 +132,7 @@ const AnniversaryForm = () => {
 
     return (
         <div className="contact-screen-main">
-            <div className='contact-screen-contents flex mt-24 px-20 mb-40 gap-24'>
+            <div className='contact-screen-contents anniversary-form-content flex mt-24 px-20 mb-40 gap-24'>
               <div className='contact-screen-texts w-1/3 '>
                 <Slide direction='left' triggerOnce>
                   <h1 className='text-[64px] font-black leading-[70px]'>
@@ -345,6 +355,14 @@ const AnniversaryForm = () => {
                           <button disabled = {consent === true} 
                           className=' bg-purple-600 py-4 px-6 rounded disabled:bg-gray-500 text-white font-medium text-xl hover:bg-purple-500 ' 
                           id='submit' type="submit"> Submit </button>
+                          {loading ? 
+                          (<div>
+                            <Roller 
+                              color="#d36ac2"
+                              size={60}
+                             />
+                          </div>) :
+                           (<div></div>)}
                       </div>
                     </form>
                 </Slide>
