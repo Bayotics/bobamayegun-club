@@ -2943,8 +2943,8 @@ iframe{
 		.answer.active{
 			font-size: 1.7rem;
 			text-align: left;
-			margin-bottom: 150px;
-			background-color: red;
+			margin-bottom: 180px;
+			background-color: transparent;
 		}
 		.footer-top{
 			display: block;
