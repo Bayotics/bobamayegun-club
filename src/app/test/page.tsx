@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Wave } from 'react-css-spinners'
-import { useState, useEffect } from "react";
+import { useState } from "react";
 function Main() {
 
      const [tableData, setTableData] = useState([])
