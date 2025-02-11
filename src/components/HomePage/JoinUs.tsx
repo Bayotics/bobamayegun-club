@@ -124,7 +124,7 @@ export function JoinUs () {
                             <div className='join-us-promo-btn-community mt-3'>
                                 <Link href = '/membership'>
                                     <AnimatedBtn text={'Join our Community'}
-                                    style={'bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[60%] text-center'} />
+                                    style={'bg-gradient-to-r from-purple-500 to-purple-900 px-8 hover:bg-black py-4 rounded-full text-white mt-12 w-[60%] text-center jupbc-btn'} />
                                 </Link>
                             </div>
                         </Fade>

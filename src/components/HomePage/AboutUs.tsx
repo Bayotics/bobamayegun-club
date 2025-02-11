@@ -69,7 +69,7 @@ export function AboutUs () {
                                     <div className='join-us-promo-btn mt-3 text-black'>
                                         <Link href = '/aboutus'>
                                             <AnimatedBtn text={'Learn More →'}
-                                            style={'bg-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center'} />
+                                            style={'bg-white px-8 hover:bg-gray-600 hover:text-white py-4 rounded-lg text-gray-900 mt-12 w-[40%] text-center abbtn'} />
                                         </Link>
                                     </div>
                                 </Zoom>

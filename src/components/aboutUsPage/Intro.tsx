@@ -20,10 +20,10 @@ export function Intro () {
                     <div className="ash-content-right w-[40%]  ">
                         <div className="ash-content-img">
                             <Image src= {aboutPix} alt="about us"
-                                className="rounded-xl w-full h-[450px] object-cover"/>
+                                className="rounded-xl w-full h-[450px] object-cover aci-img"/>
                         </div>
                     </div>
-                    <div className="ash-content-left w-[60%] px-12 bg-white rounded-xl">
+                    <div className="ash-content-left w-[60%] px-12 bg-white rounded-xl acl-about-page">
                         <div className="ash-cont-left-texts mt-10">
                             <Slide direction = 'up' triggerOnce>
                                 <h2 className="text-md font-normal">About Us</h2>

@@ -32,7 +32,7 @@ export default function AnimatedText() {
       animate={replay ? "visible" : "hidden"}
       variants={container}
     >
-      <div className="text-purple-950 font-semibold text-[3.1rem] mt-32 leading-normal home-banner-head-text">
+      <div className="text-purple-950 font-[500] text-[3rem] mt-32 leading-[1.3] home-banner-head-text">
         {placeholderText.map((item, index) => {
           return <AnimatedCharacters {...item} key={index} />;
         })}

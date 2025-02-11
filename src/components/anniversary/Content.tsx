@@ -10,7 +10,7 @@ export function AnniversaryContent () {
                     <h1 className="text-center text-xl text-gray-600">
                         Bobamayegun Okunrin Akile Ijebu is turning 10, and we are celebrating in 
                         grand style! Join us in <span className="text-black font-extrabold">
-                        June 2026</span> in the <span className="text-black font-extrabold">USA
+                        August 2026</span> in the <span className="text-black font-extrabold">USA
                         </span> as we mark a decade of 
                         cultural heritage, unity, and progress. This milestone event will 
                         bring together members from across the world for an unforgettable 

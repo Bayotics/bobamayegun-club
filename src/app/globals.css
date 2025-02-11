@@ -5656,6 +5656,1447 @@ iframe{
 		}
 	  }
 
+	  @media screen and (min-width: 771px)  and (max-width: 995px) {
+		body{
+			width: auto;
+			padding: 0;
+			margin: 0;
+    		position: absolute;
+		}
+		.navbar-menus{
+			display: none;
+		}
+		.navbar-promo{
+			display: none;
+		}
+		.navbar-main{
+			margin: auto;
+			justify-content: space-between;
+		}
+		.navbar-logo{
+			width: 70%;
+		}
+		.pic-logo{
+			width: 9.375rem;
+		}
+		.pic-logo img{
+			height: 150px;
+			width: 150px;
+			margin-bottom: 10px;
+		}
+		.text-logo h1{
+			display: none;
+		}
+		.logo-text-for-mobile{
+			display: block;
+			font-size: 60px;
+			font-weight: 600;
+			margin-top: 70px;
+		}
+		.text-bottom-logo{
+			font-size: 1.75rem;
+			margin-top:30px;
+		}
+		.flywhisk-logo img{
+			height: 100px;
+			width: 40px;
+			margin-top: 30px;
+		}
+		.hamburger-box{
+			margin-top: 35px;
+		}
+		.hamburger-mobile{
+			display: block;
+			/* width: 30%; */
+		}
+		.mobile-nav-box{
+			display: block;
+			overflow: hidden;
+			height: 0px;
+			transition: height 1s ease;
+			position: absolute;
+			left: 0;
+			top: 170px;
+			/* width: 630px; */
+			z-index: 1;
+		}
+		.hamburgerActive{
+			height: 1300px;
+      		overflow: auto;
+			padding-bottom: 100px;
+		}
+		.about-dropdown-contents{
+			overflow: hidden;
+			height: 0px;
+			transition: height 0.1s ease;
+		}
+		.mobileAboutActive{
+			height: 100%;
+			overflow: auto;
+		}
+		.home-banner{
+			background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
+			padding-top: 70px;
+			padding-bottom: 70px;
+		}
+		.banner-contents{
+			display: block;
+		}
+		.banner-content-right{
+			display: none;
+		}
+		.banner-content-left{
+			width: 90%;
+			color: white;
+			text-align: center;
+			margin: auto;
+		}
+		.animated-text-banner{
+			display: none;
+		}
+		.home-banner-title-heading{
+			display: block;
+			font-size: 95px;
+		}	
+		.banner-text-side span{
+			color: white;
+			font-size: 45px;
+    		line-height: 1.5;
+		}
+		.banner-text-side h2{
+			color: white;
+			font-size: 45px;
+    		line-height: 1.5;
+		}
+		.anim-btn-home-banner{
+			margin: auto;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			margin-top: 150px;
+		}
+		.anim-btn-home-banner button{
+			font-size: 45px;
+		}
+		.intro-section-main{
+			margin-top: 150px;
+		}
+		.intro-sec-texts h1{
+			font-size: 50px;
+		}
+		.intro-sec-texts p{
+			font-size: 38px;
+		}
+		.anim-about-main{
+			display: block;
+		}
+		.animated-border-box{
+			width: 70%;
+			margin: auto;
+			margin-top: 100px;
+		}
+		.anim-about-icon svg{
+			font-size: 7rem;
+		}
+		.anim-about-icons h1{
+			font-size: 45px;
+		}
+		.anim-about-icons p{
+			font-size: 35px;
+			margin-top: 60px;
+		}
+		.amin-about-btn{
+			margin-top: 30px;
+		}
+		.anim-box-middle{
+			width: 70%;
+			margin-bottom: 100px;
+			margin: auto;
+		}
+		.anim-box-middle{
+			margin-top: 100px;
+		}
+		.animated-about-content{
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+		}
+		.blurry-bg{
+			display: block;
+		}
+		.about-sh-heading{
+			font-size: 3rem;
+		}
+		.ash-content-left{
+			width: 100%;
+			margin: auto;
+			padding-top: 150px;
+			padding-bottom: 150px;
+			margin-top: 50px;
+		}.ash-content-right{
+			width: 100%;
+			margin: auto;
+		}
+		.ash-content-img img{
+			height: 800px;
+		}
+		.ash-cont-left-texts{
+			text-align: center;
+		}
+		.ash-cont-left-texts h2{
+			font-size: 30px;
+		}
+		.ash-cont-left-texts h1{
+			font-size: 42px;
+			line-height: 1.2;
+		}
+		.ash-cont-left-texts p{
+			font-size: 2.1rem;
+			line-height: 1;
+			line-height: 1.4;
+        	font-weight: 300;
+		}
+		.join-us-promo-btn h1{
+			font-size: 35px;
+		}
+		.home-about-buttom{
+			display: block;
+		}
+		.hab-i{
+			width: 70%;
+			margin: auto;
+			margin-bottom: 80px;
+		}
+		.hab-i-inner-box{
+			padding-top: 150px;
+			padding-bottom: 150px;
+		}
+		.hab-i svg{
+			font-size: 120px;
+		}
+		.hab-i h1{
+			font-size: 66px;
+		}
+		.hab-i p{
+			font-size: 50px;
+			line-height: 1.1;
+			margin-top: 90px;
+		}
+		.initiatives-home-texts{
+			display: none;
+		}
+		.initiative-grid{
+			display: block;
+		}
+		.initiative-grid-texts{
+			width: 90%;
+			margin: auto;
+			text-align: center;
+		}
+		.initiative-grid-texts p{
+			font-size: 40px;
+			line-height: 1.1;
+		}
+		.initiative-btn{
+			display: none;
+		}
+		.initiative-card-style p{
+			font-size: 30px;
+			margin-top: 50px;
+		}
+		.initiative-card-style h1{
+			font-size: 45px;
+		}
+		.initiative-card-style h2{
+			font-size: 29px;
+			line-height: 1.2;
+			margin-top: 140px;
+		}
+		.initiative-container-style{
+			margin-top: 300px;
+			margin-bottom: 300px;
+		}
+		.ic-home-btn{
+			margin-top: 100px;
+			margin-bottom: 50px;
+		}
+		.ic-home-btn h1{
+			font-size: 30px;
+		}
+		.wuc-top-text{
+			display: block;
+			text-align: center;
+		}
+		.why-us-left{
+			width: 90%;
+			margin: auto;
+		}
+		.why-us-right{
+			width: 90%;
+			margin: auto;
+		}
+		.why-us-left p{
+			font-size: 30px;
+		}
+		.why-us-left h1{
+			font-size: 50px;
+			line-height: 1.2;
+		}
+		.why-us-right p{
+			font-size: 33px;
+			line-height: 1.3;
+		}
+		.wuc-pics-display{
+			display: block;
+		}
+		.why-us-cards{
+			width: 100%;
+			margin: auto;
+			margin-top: 100px;
+		}
+		.wuc-i{
+			margin-left: 0;
+			margin: auto;
+			padding: 100px 150px 100px 150px;
+		}
+		.wuc-ii{
+			margin: auto;
+			margin-top: 80px;
+			padding: 100px 150px 100px 150px;
+		}
+		.wuc-iii{
+			margin: auto;
+			margin-top: 80px;
+			padding: 100px 150px 100px 150px;
+		}
+		.wuc-icon{
+			width: 11.5%;
+			margin: auto;
+		}
+		.wuc-content{
+			display: block;
+		}
+		.wug-icon{
+			padding: 10px;
+		}
+		.wug-icon svg{
+			font-size: 60px;
+		}
+		.wuc-texts{
+			margin-top: 50px;
+			text-align: center;
+		}
+		.wuc-texts h1{
+			font-size: 40px;
+		}
+		.wuc-texts p{
+			font-size: 30px;
+			line-height: 1.2;
+			margin-top: 60px;
+		}
+		.wur-pics{
+			width: 90%;
+			margin: auto;
+			margin-top: 100px;
+		}
+		.wur-pic-left img{
+			border-radius: 50px;
+			height: 1150px;
+		}
+		.wpr-top img{
+			height: 575px;
+			border-radius: 50px;
+		}
+		.wpr-bottom img{
+			height: 555px;
+			border-radius: 50px;
+		}
+		.home-our-excos{
+			display: none;
+		}
+		.slider-home-main{
+			margin-top: 200px;
+		}
+		.exco-socials{
+			display: none;
+		}
+		.excos-header h1{
+			font-size: 60px;
+		}
+		.excos-header h2{
+			font-size: 40px;
+			margin-top: 40px;
+		}
+		.exco-name{
+			position: absolute;
+			top: 950px;
+			left: 100px;
+			font-size: 5rem;
+		}
+		.main-text h2{
+			position: absolute;
+			top: 1080px;
+			left: 300px;
+			font-size: 3rem;
+		}
+		.main-text p{
+			position: absolute;
+			top: 1140px;
+			font-size: 3rem;
+			left: 300px;
+		}
+		.exco-learn-more{
+			display: none;
+		}
+		.exco-carousel{
+			bottom: 300px;
+		}
+		.inner{
+			/* padding-left: 20px;
+			padding-right: 20px; */
+		}
+		.carousel-item-exco{
+			height: 1100px;
+		}
+		.bottomnav{
+			margin-top: 100px;
+		}
+		.bottomnav .label{
+			font-size: 41px;
+		}
+		.bottomnav .nav{
+			font-size: 85px;
+			width: 700px;
+		}
+		.lifetime-members-head h1{
+			font-size: 4rem;
+    		margin-top: 100px;
+		}
+		.lifetime-members-head p{
+			margin-top: 60px;
+			font-size: 2.5rem;
+			font-weight: 600;
+			line-height: 1.5;
+		}
+		.lifetime-members-head{
+			padding-left: 90px;
+			padding-right: 90px;
+		}
+		.slide-member-content h1{
+			font-size: 2rem;
+			margin-top: 20px;
+		}
+		.slide-member-content p{
+			font-size: 1.8rem;
+		}
+		.slide{
+			padding-bottom: 40px;
+		}
+		.home-gallery-heading{
+			font-size: 4rem;
+		}
+		.homepage-gallery-texts span{
+			display: none;
+		}
+		.homepage-gallery-texts h3{
+			display: none;
+		}
+		.homepage-gallery-texts p{
+			font-size: 2.5rem;
+			text-align: center;
+			line-height: 1.2;
+		}
+		.gallery-btn-home{
+			position: relative;
+			top: 1150px;
+			text-align: center;
+		}
+		.gallery-btn-home button{
+			font-size: 2.5rem;
+			padding-left: 3rem;
+			padding-right: 3rem;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			border-radius: 100px;
+		}
+		.home-gallery-squares{
+			height: 900px;
+		}
+		.join-us-header{
+			margin-top: 350px;
+		}
+		.join-us-contents{
+			display: block;
+		}
+		.join-us-handles{
+			display: none;
+		}
+		.join-us-promo{
+			width: 100%;
+			margin-top: 50px;
+			text-align: center;
+		}
+		.social-promo-texts{
+			margin-top: 100px;
+		}
+		.social-promo-texts p{
+			font-size: 2.3rem;
+			line-height: 1.1;
+		}
+		.join-us-promo-btn-community{
+			font-size: 2rem;
+			text-align: -webkit-center;
+		}
+		.event-home-hero{
+			display: block;
+		}
+		.event-phone{
+			top: 2380px;
+			height: 1500px;
+			width: 70%;
+			left: 16%;
+		}
+		.event-left{
+			width: 100%;
+			border-radius: 0;
+			padding-top: 120px;
+			padding-bottom: 120px;
+		}
+		.event-home-contents{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.event-left-texts h1{
+			font-size: 5rem;
+			text-align: center;
+		}
+		.event-left-texts h2{
+			font-size: 3rem;
+			text-align: center;
+			line-height: 1.1;
+			color: rgb(241, 230, 230);
+			margin-top: 80px;
+		}
+		.attend-event{
+			display: block;
+		}
+		.attend-event-btn{
+			display: flex;
+			justify-content: center;
+			margin-top: 50px;
+		}
+		.attend-event-btn button{
+			font-size: 3rem;
+			border-radius: 100px;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		.event-avis{
+			display: flex;
+			justify-content: center;
+			margin-top: 30px;
+		}
+		.event-avis img{
+			width: 200px;
+		}
+		.attend-event p{
+			text-align: center;
+			font-size: 3rem;
+			color: rgb(235, 225, 225);
+		}
+		.countdown-box span{
+			font-size: 3rem;
+			margin-top: 45px;
+			color: rgb(241, 228, 228);
+		}
+		.faq-main-grid{
+			margin-top: 3500px;
+		}
+		.faq-cont-images{
+			display: none;
+		}
+		.faq-cont-questions{
+			width: 100%;
+		}
+		.faqs-home-texts p{
+			display: none;
+		}
+		.faqs-home-texts h1{
+			font-size: 4rem;
+			line-height: 1.2;
+		}
+		.faq-form{
+			width: 45rem;
+		}
+		.faq-form input{
+			font-size: 2rem;
+		}
+		.question-wrapper{
+			width: 55rem;
+		}
+		.question h3{
+			font-size: 2.2rem;
+			text-align: left;
+		}
+		.answer.active{
+			font-size: 2rem;
+			text-align: left;
+		}
+		.footer-top{
+			display: block;
+		}
+		.footer-top div{
+			width: 100%;
+			margin: auto;
+		}
+		.text-logo-footer h1{
+			font-size: 3rem;
+		}
+		.footer-card{
+			width: 100%;
+			margin: auto;
+			margin-top: 100px;
+		}
+		.footer-card-text p{
+			margin-top: 60px;
+			font-size: 2rem;
+			text-align: center;
+			line-height: 1.2;
+		}
+		.footer-socials{
+			margin-top: 170px;
+			gap: 35px
+		}
+		.footer-socials svg{
+			font-size: 2.2rem;
+		}
+		.footer-contact{
+			margin-top: 170px;
+			text-align: center;
+			width: 100%;
+			padding-left: 0;
+		}
+		.footer-contact h1{
+			font-size: 2.5rem;
+			margin-bottom: 50px;
+		}
+		.footer-contact p{
+			font-size: 2rem;
+			margin-top: 15px;
+			line-height: 1.4;
+		}
+		.footer-links{
+			margin-top: 100px;
+			text-align: center;
+			padding-left: 0;
+		}
+		.footer-links h1{
+			font-size: 2.5rem;
+			margin-top: 100px;
+		}
+		.fql-left{
+			margin-top: 80px;
+			width: 100%;
+		}
+		.fql-right{
+			margin-top:80px;
+			width: 100%;
+		}
+		.fql-left p{
+			font-size: 2rem;
+			line-height: 1.4;
+		}
+		.fql-right p{
+			font-size: 2rem;
+			line-height: 1.4;
+		}
+		.footer-newsletter{
+			margin-top: 50px;
+			width: 100%;
+			width: auto;
+		}
+		.footer-newsletter h1{
+			font-size: 2.5rem;
+			text-align: center;
+		}
+		.newsletter-input{
+			display: flex;
+			justify-content: center;
+		}
+		.newsletter-input input{
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+			font-size: 2rem;
+			width: 100%;
+		}
+		.join-us-promo-btn{
+			text-align: -webkit-center;
+		}
+		.values-grid{
+			display: block;
+		}
+		.values-left{
+			width: 100%;
+		}
+		.values-right{
+			width: 100%;
+			margin-top: 200px;
+			padding-top: 50px;
+			padding-bottom: 100px;
+		}
+		.val-left-lef img{
+			height: 900px;
+		}
+		.val-left-right img{
+			height: 900px;
+			margin-top: 100px;
+		}
+		.value-left-last{
+			display: none;
+		}
+		.values-right p{
+			font-size: 2rem;
+		}
+		.values-right p{
+			font-size: 1.5rem;
+			margin-top: 50px;
+		}
+		.values-right h1{
+			font-size: 3rem;
+			margin-top: 20px;
+		}
+		.values-right h2{
+			font-size: 1.8rem;
+			margin-top: 20px;
+		}
+		.history-content{
+			display: block;
+		}
+		.history-text{
+			width: 100%;
+		}
+		.history-text p{
+			font-size: 1.8rem;
+			margin-top: 50px;
+		}
+		.history-text h1{
+			font-size: 2rem;
+			margin-top: 20px;
+			line-height: 1.1;
+		}
+		.animated-btn-history{
+			width: 70%;
+			margin: auto;
+			margin-top: 100px;
+			margin-bottom: 50px;
+		}
+		.animated-btn-history button {
+			padding-bottom: 1.5rem;
+		}
+		.history-bg{
+			display: none;
+		}
+		.team-intro{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.team-intro h1{
+			font-size: 3rem;
+		}
+		.team-intro p{
+			font-size: 1.8rem;
+		}
+		.about-exco-grid{
+			display: block;
+		}
+		.aeg-i{
+			margin-top: 100px;
+		}
+		.exco-img-about img{
+			height: 700px;
+		}
+		.exco-title h1{
+			font-size: 2rem;
+		}
+		.exco-title p{
+			font-size: 1.5rem;
+		}
+		.exco-popup svg{
+			font-size: 3rem;
+		}
+		.team-modal-box{
+			margin-top: 50px;
+			margin-bottom: 50px;
+		}
+		.team-modal-box h6{
+			font-size: 1.5rem;
+		}
+		.team-modal-box p{
+			font-size: 1.5rem;
+		}
+		.charity-page-banner p{
+			font-size: 1.5rem;
+		}
+		.charity-btn button {
+			font-size: 1.5rem;
+		}
+		.charity-info-content{
+			display: block;
+		}
+		.cicontent-left{
+			width: 100%;
+			text-align: center;
+		}
+		.cicontent-left p{
+			display: none;
+		}
+		.cicontent-right{
+			display: block;
+			width: 80%;
+			margin: auto;
+		}
+		.cic-grid-i{
+			margin-bottom: 100px;
+		}
+		.cic-grid-i h1{
+			font-size: 2.5rem;
+		}
+		.cic-grid-i p{
+			font-size: 1.7rem;
+			margin-top: 25px;
+		}
+		.cic-grid-icon svg{
+			font-size: 5rem;
+		}
+		.orphanage-text p {
+			display: none;
+		}
+		.orphanage-text h2 {
+			font-size: 1.5rem;
+		}
+		.charity-content-main{
+			margin-bottom: 200px;
+		}
+		.policy-page-banner p{
+			font-size: 1.5rem;
+		}
+		.policyontent-right{
+			display: block;
+			width: 80%;
+			margin: auto;
+		}
+		.policy-grid-i{
+			margin-top: 100px;
+		}
+		.policy-grid-i svg{
+			font-size: 5rem;
+		}
+		.policy-grid-text h1{
+			font-size: 3rem;
+			line-height: 1;
+		}
+		.policy-grid-text p{
+			font-size: 1.8rem;
+			line-height: 1.1;
+			margin-top: 30px;
+		}
+		.socialnetwork-page-banner p{
+			font-size: 1.5rem;
+		}
+		.socialnetwork-intro p{
+			display: none;
+		}
+		.socialnetwork-info-inner{
+			display: block
+		}
+		.sni-grid-i{
+			width: 80%;
+			margin: auto;
+			margin-bottom: 100px;
+		}
+		.sni-captions h1{
+			font-size: 2.5rem;
+		}
+		.sni-captions p{
+			font-size: 1.8rem;
+			line-height: 1.3;
+		}
+		.press-header h1{
+			font-size: 2rem;
+		}
+		.press-notes-main{
+			display: block;
+		}
+		.press-notes-left{
+			width: 100%;
+		}
+		.pressnotes-for-mobile{
+			display: block;
+			height: 600px;
+			width: 100%
+		}
+		.pnl-content h1{
+			font-size: 2rem;
+		}
+		.pnl-content button{
+			margin-top: 20px;
+			font-size: 1.5rem;
+			padding-bottom: 18px;
+		}
+		.sgm-content{
+			display: block;
+		}
+		.sgm-pic{
+			margin-bottom: 100px;
+		}
+		.sgm-pic img{
+			height: 700px;
+		}
+		.news-page-banner p{
+			font-size: 1.5rem;
+		}
+		.news-header h1{
+			font-size: 2.8rem;
+		}
+		.news-header p{
+			font-size: 1.7rem;
+			line-height: 1.2;
+		}
+		.news-cards{
+			display: block;
+		}
+		.news-card{
+			margin-bottom: 100px;
+		}
+		.news-card-image-i{
+			height: 550px;
+		}
+		.news-date{
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.news-card-image-i h1{
+			font-size: 2rem;
+			line-height: 1.2;
+		}
+		.news-card-texts h1{
+			font-size: 2.3rem;
+			line-height: 1.2;
+		}
+		.news-card-texts p{
+			font-size: 1.7rem;
+			margin-top: 30px;
+			line-height: 1.2;
+		}
+		.news-paragraph{
+			font-size: 1.7rem;
+			line-height: 1.2;
+		}
+		.gallery-page-banner p{
+			font-size: 1.5rem;
+		}
+		.gallery{
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+		.partnership-page-banner p{
+			font-size: 1.5rem;
+		}
+		.partner-corporate-main h1{
+			font-size: 1.8rem;
+			line-height: 1.2;
+		}
+		.partner-corporate-main h2{
+			font-size: 2.3rem;
+			line-height: 1.2;
+		}
+		.partner-corporate-main p{
+			font-size: 1.8rem;
+			line-height: 1.2;
+		}
+		.retab__tablist p{
+			font-size: 2rem;
+			margin-bottom: 50px;
+		}
+		.partner-event-main h1{
+			font-size: 1.8rem;
+		}
+		.marketing-tab-main h1{
+			font-size: 1.8rem;
+		}
+		.marketing-tab-main p{
+			font-size: 1.8rem;
+		}
+		.membership-page-banner p{
+			font-size: 1.5rem;
+		}
+		.membership-intro{
+			display: block;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+		.mip-for-mobile{
+			display: block;
+			height: 600px;
+			width: 100%;
+		}
+		.membership-intro-texts{
+			width: 100%;
+			margin-top: 100px;
+		}
+		.membership-intro-texts h1{
+			font-size: 2.5rem;
+			line-height: 1.2;
+			text-align: center;
+		}
+		.membership-intro-texts p{
+			font-size: 2rem;
+			line-height: 1.2;
+			text-align: center;
+			margin-top: 50px;
+			font-weight: 400;
+		}
+		.become-a-member-btn button{
+			font-size: 2rem;
+		}
+		.benefits-intro-texts{
+			width: 70%
+		}
+		.benefits-intro-texts h1{
+			font-size: 2.5rem;
+		}
+		.benefits-intro-texts p{
+			font-size: 1.5rem;
+			line-height: 1.2;
+			margin-top: 30px;
+		}
+		.benefits-cards{
+			display: block;
+		}
+		.benefits-card{
+			width: 90%;
+			margin: auto;
+			margin-bottom: 100px;
+		}
+		.bic-texts h1{
+			font-size: 2rem;
+			text-align: center;
+		}
+		.bic-texts p{
+			font-size: 1.5rem;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.membership-caro{
+			display: none
+		}
+		.bamb-bottom{
+			margin-top: 200px;
+		}
+		.membersh-banner{
+			text-align: center;
+		}
+		.contact-screen-contents{
+			display: block;
+		}
+		.anniversary-form-content{
+			padding-left: 0;
+        	padding-right: 0;
+		}
+		.contact-screen-texts{
+			width: 100%;
+			text-align: center;
+		}
+		.home-svg{
+			display: flex;
+			justify-content: center;
+		}
+		.contact-screen-text p{
+			font-size: 2rem;
+			margin-top: 30px;
+			line-height: 1.4;
+		}
+		.contact-input{
+			width: 100%;
+			margin-top: 100px;
+			font-size: 1.5rem;
+		}
+		.contact-input p{
+			font-size: 1.5rem;
+		}
+		.contact-input button{
+			font-size: 2rem;
+		}
+		.footer-logo-grid{
+			display: block;
+		}
+		.pic-logo-footer{
+			display: flex;
+			justify-content: center;
+		}
+		.pic-logo-footer img{
+			height: 200px;
+			width: 200px;
+		}
+		.text-logo-footer{
+			margin-top: 100px;
+		}
+		.banner-subtext{
+			font-size: 1.8rem;
+		}
+		.email-confirmation-content{
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		.jupb-btn{
+			width: 50%;
+		}
+		.gallery-content-header h1{
+			font-size: 2rem;
+		}
+		.event-span{
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		}
+		.anniversary-intro h1{
+			font-size: 1.7rem;
+		}
+		.snp-contents{
+			padding: 0;
+		}
+		.home-gallery-box-main{
+			display: block;
+		}
+	  }
+
+	  @media screen and (min-width: 996px)  and (max-width: 1050px) {
+		.text-logo{
+			display: none;
+		}
+		.flywhisk-logo{
+			display: none;
+		}
+		.about-sec-home{
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+		.abbtn{
+			width:	60%;
+			margin-bottom: 40px;
+		}
+		.ash-content-img img{
+			height: 550px;
+		}
+		.wur-pic-left{
+			display: none;
+		}
+		.wur-pic-right{
+			width: 100%;
+		}
+		.wpr-top img{
+			height: 350px;
+		}
+		.wpr-bottom img{
+			height: 350px;
+		}
+		.exco-name{
+			font-size: 2rem;
+		}
+		.exco-learn-more{
+			font-size: 15px;
+		}
+		.jupbc-btn{
+			width: 75%;
+		}
+		.event-phone{
+			top: 82px;
+			left: 64%;
+		}
+		.faq-form{
+			width: 100%;
+		}
+		.question-wrapper{
+			width: 100%;
+			text-align: left;
+		}
+		.footer-top{
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+		.banner-contents{
+			padding-left: 3rem;
+			padding-right: 3rem;
+		}
+		.home-banner-head-text{
+			font-size: 40px;
+			margin-top: 200px;
+		}
+		.amin-about-btn div{
+			width: 100%
+		}
+		.acl-about-page{
+			padding-bottom: 30px;
+		}
+		.aci-img{
+			min-height: 646px;
+		}
+		.jupb-btn{
+			width: 60%;
+		}
+		.values-right .mt-40{
+			margin-top: 6rem;
+		}
+		.value-left-first{
+			display: none;
+		}
+		.animated-btn-history{
+			width: 60%;
+		}
+		.about-team .grid-cols-3{
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+		.news-cards{
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			row-gap: 130px;
+		}
+		.pics-display .grid-cols-4{
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+		.snp-contents{
+			padding: 0;
+		}
+		.btn_caro{
+			margin-bottom: 550px;
+		}
+		.anniversary-form-content{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	@media only screen and (min-width: 2000px) {
+		.home-banner-head-text{
+			font-size: 5rem;
+			margin-top: 400px;
+		}
+		.banner-text-side h2{
+			font-size: 2rem;
+			line-height: 1.2;
+		}
+		.banner-text-side span{
+			font-size: 2rem;
+		}
+		.learnmore-btn{
+			font-size: 2rem;
+		}
+		.bcr-images-left img{
+			height: 600px;
+		}
+		.bcr-images-right img{
+			height: 800px;
+		}
+		.navbar-menus{
+			font-size: 2rem;
+		}
+		.animated-nav-container .text-sm{
+			font-size: 1.5rem;
+		}
+		.navbar-promo{
+			font-size: 2rem;
+		}
+		.navbar-promo svg{
+			font-size: 2.5rem;
+		}
+		.pic-logo img{
+			height: 120px;
+			width: 120px;
+		}
+		.text-logo h1{
+			font-size: 3rem;
+			margin-top: 35px;
+		}
+		.text-logo p{
+			font-size: 1.5rem;
+			margin-top: 20px;
+		}
+		.flywhisk-logo{
+			padding-top: 30px;
+		}
+		.intro-sec-texts h1{
+			font-size: 4rem;
+		}
+		.intro-sec-texts p{
+			font-size: 1.8rem;
+		}
+		.anim-about-icons h1{
+			font-size: 2rem;
+		}
+		.anim-about-icon svg{
+			font-size: 6rem;
+		}
+		.anim-about-icons .text-sm{
+			font-size: 1.6rem;
+    		margin-top: 50px;
+		}
+		.amin-about-btn{
+			margin-top: 4em;
+			margin-bottom: 1em;
+		}
+		.ash-content-img img{
+			height: 900px;
+		}
+		.ash-cont-left-texts{
+			margin-top: 12rem;
+		}
+		.ash-cont-left-texts h2{
+			font-size: 2rem;
+		}
+		.ash-cont-left-texts h1{
+			font-size: 3rem;
+		}
+		.ash-cont-left-texts p{
+			font-size: 1.8rem;
+		}
+		.hab-i svg{
+			font-size: 9rem;
+		}
+		.hab-i h1{
+			font-size: 4rem;
+		}
+		.hab-i p{
+			font-size: 2rem;
+		}
+		.hab-i-inner-box{
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+		.wuc-top-text p{
+			font-size: 1.5rem;
+		}
+		.wuc-texts h1{
+			font-size: 2rem;
+		}
+		.wuc-texts p{
+			font-size: 1.3rem;
+			margin-top: 40px;
+		}
+		.wuc-i, .wuc-ii, .wuc-iii{
+			padding-top: 5rem;
+			padding-bottom: 5rem;
+		}
+		.wuc-ii, .wuc-iii{
+			margin-top: 40px;
+		}
+		.wpr-top img{
+			height: 450px;
+		}
+		.wpr-bottom img{
+			height: 450px;
+		}
+		.excos-header h1{
+			font-size: 3rem;
+		}
+		.excos-header h2{
+			font-size: 1.5rem;
+		}
+		.carousel-item-exco{
+			height: 900px;
+		}
+		.exco-socials{
+			padding-top: 205px;
+		}
+		.exco-learn-more{
+			font-size: 1.5rem;
+		}
+		.lifetime-members-head h1{
+			font-size: 3rem;
+		}
+		.lifetime-members-head p{
+			font-size: 1.5rem;
+		}
+		.home-gallery-heading{
+			font-size: 3rem;
+		}
+		.home-gallery-squares{
+			width: 100%;
+			height: 1000px;
+		}
+		.home-gallery-box-main{
+			display: block;
+			max-width: 100%;
+			padding-left: 200px;
+			padding-right: 200px;
+		}
+		.homepage-gallery-texts{
+			text-align: center;
+			margin-bottom: 50px;
+		}
+		.home-join-us{
+			margin-top: 290px;
+		}
+		.event-home-contents{
+			padding-left: 100px;
+			padding-right: 100px;
+			margin-top: 200px;
+		}
+		.event-left-texts{
+			margin-top: 150px;
+		}
+		.event-left-texts h2{
+			font-size: 1.8rem;
+		}
+		.event-countdown{
+			margin-bottom: 100px;
+			margin-top: 100px;
+		}
+		.attend-event{
+			margin-top: 50px;
+		}
+		.attend-event-btn{
+			font-size: 2rem;
+		}
+		.event-avis img{
+			height: 102%;
+			width: 200px;
+		}
+		.event-avis p{
+			font-size: 2rem;
+		}
+		.countdown-box .text-2xl{
+			font-size: 3rem;
+		}
+		.attend-event .text-gray-400{
+			font-size: 2rem;
+		}
+		.event-phone{
+			height: 1000px;
+			top: 450px;
+		}
+		.faqs-home-texts h1{
+			font-size: 3rem;
+		}
+		.faqs-home-texts p{
+			font-size: 1.5rem;
+		}
+		.faq-cont-images{
+			display: none;
+		}
+		.faq-cont-questions{
+			width: 100%;
+		}
+		.faq-form, .question-wrapper{
+			width: 85rem;
+		}
+		.question{
+			font-size: 2.4rem;
+			text-align: left;
+		}
+		.answer.active{
+			font-size: 2rem;
+		}
+
+
+
+		.home-faq{
+			margin-top: 1100px;
+		}
+	}
+
 
 
 
