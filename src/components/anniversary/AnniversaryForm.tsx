@@ -283,7 +283,7 @@ const AnniversaryForm = () => {
                             <p className='text-white font-medium text-xl'>List their Names, ages and relationship<span className='text-red-500'>*</span></p>
                             <textarea 
                               className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white' 
-                              id='familyInfo' placeholder="List Each family member's name, age and relationship on separate lines" name="familyInfo" required rows={10}/>
+                              id='familyInfo' placeholder="List Each family member's name, age and relationship on separate lines" name="familyInfo" rows={10}/>
                         </div>
                         <div className='w-full mt-10' >
                           <p className='text-white font-medium text-xl'>Preferred accommodation type<span className='text-red-500'>*</span></p>
