@@ -3454,6 +3454,10 @@ iframe{
 		.snp-contents{
 			padding: 0;
 		}
+		.hiap{
+			padding-top: 90px;
+			padding-bottom: 90px;
+		}
 	  }
 
 
@@ -4544,6 +4548,10 @@ iframe{
 		}
 		.snp-contents{
 			padding: 0;
+		}
+		.hiap{
+			padding-top: 90px;
+			padding-bottom: 90px;
 		}
 
 		
@@ -5654,6 +5662,10 @@ iframe{
 		.snp-contents{
 			padding: 0;
 		}
+		.hiap{
+			padding-top: 90px;
+			padding-bottom: 90px;
+		}
 	  }
 
 	  @media screen and (min-width: 771px)  and (max-width: 995px) {
@@ -6763,6 +6775,10 @@ iframe{
 		.home-gallery-box-main{
 			display: block;
 		}
+		.hiap{
+			padding-top: 90px;
+			padding-bottom: 90px;
+		}
 	  }
 
 	  @media screen and (min-width: 996px)  and (max-width: 1050px) {
@@ -6867,6 +6883,10 @@ iframe{
 		.anniversary-form-content{
 			padding-left: 0;
 			padding-right: 0;
+		}
+		.hiap{
+			padding-top: 90px;
+			padding-bottom: 90px;
 		}
 	}
 	@media only screen and (min-width: 2000px) {
@@ -7089,11 +7109,111 @@ iframe{
 		.answer.active{
 			font-size: 2rem;
 		}
-
-
-
 		.home-faq{
 			margin-top: 1100px;
+		}
+		.banner-subtext{
+			font-size: 2rem;
+		}
+		.value-left-last img{
+			height: 900px;
+		}
+		.val-left-lef img{
+			height: 435px;
+		}
+		.val-left-right img{
+			height: 435px;
+		}
+		.values-right p{
+			font-size: 1.5rem;
+			margin-top: 240px;
+		}
+		.values-right h1{
+			font-size: 3rem;
+		}
+		.values-right h2{
+			font-size: 2rem;
+		}
+		.history-text p{
+			font-size: 2rem;
+		}
+		.history-text h1{
+			font-size: 2.5rem;
+			line-height: 1.3;
+		}
+		.full-history-btn{
+			margin-top: 70px;
+		}
+		.history-text{
+			padding-top: 150px;
+			padding-bottom: 150px;
+		}
+		.hiap{
+			padding-top: 90px;
+			padding-bottom: 90px;
+		}
+		.team-intro h1{
+			font-size: 3rem;
+		}
+		.team-intro p{
+			font-size: 1.8rem;
+		}
+		.exco-img-about img{
+			height: 800px;
+		}
+		.exco-title h1{
+			font-size: 2rem;
+		}
+		.exco-title p{
+			font-size: 1.3rem;
+		}
+		.orphanage-text p{
+			font-size: 1.5rem;
+		}
+		.orphanage-text h1{
+			font-size: 3rem;
+		}
+		.orphanage-text h2{
+			font-size: 2rem;
+			margin-top: 60px;
+			line-height: 1.3;
+		}
+		.orphanage-text{
+			padding-top: 12rem;
+			padding-bottom: 12rem;
+		}
+		.cic-grid-icon svg{
+			font-size: 5rem;
+		}
+		.cic-grid-text h1{
+			font-size: 2.5rem;
+		}
+		.cic-grid-text p{
+			font-size: 1.5rem;
+			margin-top: 30px;
+		}
+		.gallery__image{
+			height: 500px;
+		}
+		.membership-intro-texts{
+			padding-top: 150px;
+			padding-bottom: 150px;
+		}
+		.membership-intro-texts h1{
+			font-size: 2.5rem;
+		}
+		.membership-intro-texts p{
+			font-size: 1.5rem;
+			line-height: 1.3;
+			color: rgb(31, 29, 29);
+			margin-top: 50px;
+		}
+		.icc-texts .gap-3{
+			margin-top: 300px;
+		}
+		.bebefits-icon-content{
+			padding-top: 8rem;
+			padding-bottom: 8rem;
 		}
 	}
 

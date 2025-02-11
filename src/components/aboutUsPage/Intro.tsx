@@ -51,7 +51,7 @@ export function Intro () {
                     </div>
                 </div>
                 <div className="home-about-buttom flex   mt-20 justify-between gap-8">
-                    <div className="hab-i py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
+                    <div className="hab-i hiap py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
                         <Zoom triggerOnce>
                             <div className="  flex justify-center">
                                 <CiCalendar className="text-blue-500 font-thin text-5xl"/>
@@ -60,7 +60,7 @@ export function Intro () {
                             <p className="mt-4 text-gray-600 text-lg">Years of Existence</p>
                         </Zoom>
                     </div>
-                    <div className="hab-i py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
+                    <div className="hab-i hiap py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
                         <Zoom delay={200} triggerOnce>
                             <div className="  flex justify-center">
                                 <GoPerson className="text-pink-400 font-thin text-5xl"/>
@@ -69,7 +69,7 @@ export function Intro () {
                             <p className="mt-4 text-gray-600 text-lg">Members</p>
                         </Zoom>                            
                     </div>
-                    <div className="hab-i py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
+                    <div className="hab-i hiap py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
                         <Zoom delay = {400} triggerOnce>
                             <div className="  flex justify-center">
                                 <PiCheckCircleThin className="text-green-400 font-thin text-5xl"/>
@@ -78,7 +78,7 @@ export function Intro () {
                             <p className="mt-4 text-gray-600 text-lg">Projects Delivered</p>
                         </Zoom>
                     </div>
-                    <div className="hab-i py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
+                    <div className="hab-i hiap py-6 px-10 bg-white rounded-xl text-center w-1/4 shadow-gray-300 shadow-2xl">
                         <Zoom delay={600} triggerOnce>
                             <div className="  flex justify-center">
                                 <CiFaceSmile className="text-orange-400 font-thin text-5xl"/>
