@@ -297,12 +297,12 @@ const AnniversaryForm = () => {
                         <div className='w-full mt-10' >
                           <p className='text-white font-medium text-xl'>Expected Date of Arrival</p>
                             <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                            id='arrivalDate' type="date" name="arrivalDate" />
+                            id='arrivalDate' type="date" name="arrivalDate" required/>
                         </div>
                         <div className='w-full mt-10' >
                           <p className='text-white font-medium text-xl'>Expected Date of Departure</p>
                             <input className='w-full bg-slate-800 py-4 rounded-xl pl-3 mt-4 text-white'
-                            id='departureDate' type="date" name="departureDate" />
+                            id='departureDate' type="date" name="departureDate" required/>
                         </div>
                       </div>) : 
                       (<div></div>)
