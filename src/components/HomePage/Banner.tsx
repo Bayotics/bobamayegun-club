@@ -8,6 +8,7 @@ import Image from "next/image"
 import { Fade } from "react-awesome-reveal";
 import AnimatedText from "./AnimatedText"
 import Link from "next/link"
+import CarouselBanner from "./CarouselBanner"
 
 
 
@@ -18,7 +19,10 @@ export function Banner () {
     <div className="banner-main">
       <div className="area">
         <Fade duration={2000}>
-          <div className="banner-contents px-32 flex gap-16">
+        <div className="banner-contents">
+        <CarouselBanner />
+        </div>
+          {/* <div className="banner-contents px-32 flex gap-16">
             <div className="banner-content-left w-1/2">
               <h1 className="text-white font-semibold text-[3rem] mt-32 leading-tight 
                 hidden home-banner-title-heading">
@@ -56,9 +60,8 @@ export function Banner () {
               </div>            
             </div>
             
-          </div>
+          </div> */}
         </Fade>
-        
 		  </div>
     </div>
   )

@@ -13,6 +13,7 @@ import { EventHome } from "@/components/HomePage/Events/EventHome";
 import { JoinUs } from "@/components/HomePage/JoinUs";
 import { Slider } from "@/components/HomePage/Slider";
 import { HomeFaqMain } from "@/components/HomePage/FAQApplication";
+import CarouselBanner from "@/components/HomePage/CarouselBanner";
 // import Block from "@/components/HomePage/Reviews/Block";
 // import Spinner from "@/components/Spinner";
 // import { useState } from "react";
@@ -39,6 +40,9 @@ export default function Home() {
     // {!loading && (
     <div className="homepage-main">
       <div className = 'home-gradient-top'>
+        {/* <div className='carousel-banner mb-20 border-4 border-gray-200'>
+          <CarouselBanner />
+        </div> */}
         <div className="home-banner">
           <Banner />
         </div>

@@ -955,7 +955,7 @@ body {
 	font-size: 1rem;
 	line-height: 1.5;
 	color: #6a7075;
-	height: 0%;
+	height: 200px;
 	animation: slidein 0.4s;
 	animation-fill-mode: forwards;
 }
@@ -978,6 +978,8 @@ body {
 	--charitySecondary: hsla(262, 89%, 17%, 0.753);
 	--charitybanner: hsla(0, 0%, 0%, 0.655);
 	--charitybannerii: hsla(267, 100%, 14%, 0.955);
+	--carousel-banner: hsla(231, 84%, 50%, 0.753);
+	--carousel-banner-sec: hsla(229, 48%, 18%, 0.753);
 
 }
 .aboutus-page-banner{
@@ -1381,7 +1383,35 @@ iframe{
 			overflow: auto;
 		}
 		.home-banner{
-			background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
+			/* background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover; */
+		}
+		.hero-caro-main-title h1{
+			font-size: 4.5rem;
+		}
+		.hero-caro-container{
+			height: 1500px;
+		}
+		.caro-paragraph{
+			font-size: 2.5rem;
+			margin-top: 50px;
+			line-height: 1.2;
+		}
+		.homepage-caro-animated-btn{
+			width: 50%;
+			margin-top: 90px;
+		}
+		.homepage-caro-animated-btn button{
+			font-size: 3rem;
+		}
+		.homepage-caro-animated-btn h1{
+			margin-top: 15px;
+		}
+		.homepage-caro-animated-btn svg{
+			font-size: 3.5rem;
+		}
+		.homepage-caro-animated-btn .inline-block{
+			padding: 2.5rem;
+			border: 1px solid aliceblue;
 		}
 		.banner-contents{
 			display: block;
@@ -2457,8 +2487,33 @@ iframe{
 			height: 100%;
 			overflow: auto;
 		}
-		.home-banner{
-			background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
+		.hero-caro-main-title h1{
+			font-size: 4.5rem;
+		}
+		.hero-caro-container{
+			height: 1800px;
+		}
+		.caro-paragraph{
+			font-size: 2.5rem;
+			margin-top: 50px;
+			line-height: 1.2;
+		}
+		.homepage-caro-animated-btn{
+			width: 50%;
+			margin-top: 90px;
+		}
+		.homepage-caro-animated-btn button{
+			font-size: 3rem;
+		}
+		.homepage-caro-animated-btn h1{
+			margin-top: 15px;
+		}
+		.homepage-caro-animated-btn svg{
+			font-size: 3.5rem;
+		}
+		.homepage-caro-animated-btn .inline-block{
+			padding: 2.5rem;
+			border: 1px solid aliceblue;
 		}
 		.banner-contents{
 			display: block;
@@ -3540,9 +3595,37 @@ iframe{
 			overflow: auto;
 		}
 		.home-banner{
-			background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
+			/* background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
 			padding-top: 70px;
-			padding-bottom: 70px;
+			padding-bottom: 70px; */
+		}
+		.hero-caro-main-title h1{
+			font-size: 4.5rem;
+		}
+		.hero-caro-container{
+			height: 2000px;
+		}
+		.caro-paragraph{
+			font-size: 3rem;
+			margin-top: 50px;
+			line-height: 1.2;
+		}
+		.homepage-caro-animated-btn{
+			width: 60%;
+			margin-top: 90px;
+		}
+		.homepage-caro-animated-btn button{
+			font-size: 3.5rem;
+		}
+		.homepage-caro-animated-btn h1{
+			margin-top: 15px;
+		}
+		.homepage-caro-animated-btn svg{
+			font-size: 3.5rem;
+		}
+		.homepage-caro-animated-btn .inline-block{
+			padding: 2.5rem;
+			border: 1px solid aliceblue;
 		}
 		.banner-contents{
 			display: block;
@@ -4636,10 +4719,37 @@ iframe{
 			height: 100%;
 			overflow: auto;
 		}
+		.hero-caro-main-title h1{
+			font-size: 4.5rem;
+		}
+		.hero-caro-container{
+		}
+		.caro-paragraph{
+			font-size: 3rem;
+			margin-top: 50px;
+			line-height: 1.2;
+		}
+		.homepage-caro-animated-btn{
+			width: 60%;
+			margin-top: 90px;
+		}
+		.homepage-caro-animated-btn button{
+			font-size: 3.5rem;
+		}
+		.homepage-caro-animated-btn h1{
+			margin-top: 15px;
+		}
+		.homepage-caro-animated-btn svg{
+			font-size: 3.5rem;
+		}
+		.homepage-caro-animated-btn .inline-block{
+			padding: 2.5rem;
+			border: 1px solid aliceblue;
+		}
 		.home-banner{
-			background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
+			/* background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
 			padding-top: 70px;
-			padding-bottom: 70px;
+			padding-bottom: 70px; */
 		}
 		.banner-contents{
 			display: block;
@@ -5747,9 +5857,36 @@ iframe{
 			overflow: auto;
 		}
 		.home-banner{
-			background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
+			/* background: url(../images/mobile-banner-bg.jpg) no-repeat center center / cover;
 			padding-top: 70px;
-			padding-bottom: 70px;
+			padding-bottom: 70px; */
+		}
+		.hero-caro-main-title h1{
+			font-size: 5.5rem;
+		}
+		.hero-caro-container{
+		}
+		.caro-paragraph{
+			font-size: 3.5rem;
+			margin-top: 60px;
+			line-height: 1.2;
+		}
+		.homepage-caro-animated-btn{
+			width: 70%;
+			margin-top: 120px;
+		}
+		.homepage-caro-animated-btn button{
+			font-size: 4rem;
+		}
+		.homepage-caro-animated-btn h1{
+			margin-top: 25px;
+		}
+		.homepage-caro-animated-btn svg{
+			font-size: 4.5rem;
+		}
+		.homepage-caro-animated-btn .inline-block{
+			padding: 2.5rem;
+			border: 1px solid aliceblue;
 		}
 		.banner-contents{
 			display: block;
@@ -6887,6 +7024,23 @@ iframe{
 		.hiap{
 			padding-top: 90px;
 			padding-bottom: 90px;
+		}
+		.homepage-caro-animated-btn{
+			width: 70%;
+			margin-top: 90px;
+		}
+		.homepage-caro-animated-btn button{
+			font-size: 3rem;
+		}
+		.homepage-caro-animated-btn h1{
+			margin-top: 15px;
+		}
+		.homepage-caro-animated-btn svg{
+			font-size: 3.5rem;
+		}
+		.homepage-caro-animated-btn .inline-block{
+			padding: 2.5rem;
+			border: 1px solid aliceblue;
 		}
 	}
 	@media only screen and (min-width: 2000px) {
