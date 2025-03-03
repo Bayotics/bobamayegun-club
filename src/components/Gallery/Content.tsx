@@ -31,7 +31,7 @@ export default function Content () {
                     <Gallery images={OjudeObaimages2017} />
                 </div>      
             </div>
-            <div className="snp-contents mt-40 px-16">
+            {/* <div className="snp-contents mt-40 px-16">
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>
                         <h1 className="text-3xl font-semibold text-center">
@@ -42,7 +42,7 @@ export default function Content () {
                 <div className="gallery-vid-display mt-16">
                     <iframe height="515" src="https://www.youtube.com/embed/z5iYVABtk_4?si=89YBQmep9jaNhgxw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
-            </div>
+            </div> */}
             <div className = 'gallery-container mt-40'>
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>
