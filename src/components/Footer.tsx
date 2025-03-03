@@ -8,6 +8,7 @@ import { RxInstagramLogo } from "react-icons/rx";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa6";
 import AnimatedBtn from "./HomePage/AnimatedBtnForAbout";
+import Link from "next/link";
 
 
 
@@ -87,9 +88,10 @@ export default function Footer () {
                     </section>
                 </div>
                 <div className="footer-bottom mt-10 bg-slate-900 py-4 ">
+                    
                     <p className="text-center text-xs text-gray-400">
-                        copyright@2024. All rights reserved. 
-                        Design and Development by @unclebayotics
+                        copyright@2025. All rights reserved. 
+                        Design and Development by <span><Link href={'https://bayotics.github.io/updated-portfolio/'} target="_blank">Abdullahi Sho</Link></span> 
                     </p>
                 </div>
         </div> 

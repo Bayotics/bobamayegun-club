@@ -106,7 +106,7 @@ export function Content () {
                     </Zoom>
                 </div>
                 <div className="snp-contents mt-16 px-16">
-                    <iframe height="515" src="https://www.youtube.com/embed/CtR-py5VJuw?si=O2aiAy1AJt486QFU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    
+                    <iframe height="515" src="https://www.youtube.com/embed/AxH0p1XDb8o?si=bNCS22EJ19Ir8bEn" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    
                 </div>
                 <div className='mt-20 press-header px-16'>
                     <Fade direction='left' triggerOnce>
