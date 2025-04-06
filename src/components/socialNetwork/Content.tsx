@@ -141,7 +141,7 @@ export function Content () {
                                         </Link>
                                     </div>
                                 </div>
-                                <div className='pnl-content mt-10'>
+                                {/* <div className='pnl-content mt-10'>
                                     <h1 className='text-white text-2xl font-normal text-center'>
                                         Egbe Bobamayegun Okunrin Akile Ijebu at Ojude Oba
                                     </h1>
@@ -154,7 +154,7 @@ export function Content () {
                                             />
                                         </Link>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className='pnl-content mt-10'>
                                     <h1 className='text-white text-2xl font-normal text-center'>
                                         Kakanfo Bobamayegun Okunrin Akile Ijebu Birthday Celebration
