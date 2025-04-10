@@ -40,7 +40,7 @@ export default function Content () {
                     </Slide>
                 </div>
                 <div className="gallery-vid-display mt-16">
-                    <iframe height="515" src="https://www.youtube.com/embed/2gnZyEkjOgk?si=xM3fQI7VSU2bJ5Es" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <iframe className="rounded-xl" height="515" src="https://www.youtube.com/embed/2gnZyEkjOgk?si=xM3fQI7VSU2bJ5Es" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             </div>
             <div className = 'gallery-container mt-40'>
@@ -53,7 +53,10 @@ export default function Content () {
                 </div>
                 <div className="pics-display mt-16">
                     <Gallery images={atlanta2024} />
-                </div>      
+                </div>  
+                <div className="mt-10">
+                    <iframe className="rounded-xl" height="515" src="https://www.youtube.com/embed/34iWcNe6RVI?si=ZP6YCbmBmfXY5x1P" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                </div>    
             </div>
             <div className = 'gallery-container mt-40'>
                 <div className="gallery-content-header">
