@@ -2422,6 +2422,9 @@ iframe{
 		.snp-contents{
 			padding: 0;
 		}
+		#declaration{
+			width: 70px
+		}
 	  }
 
 
@@ -3530,6 +3533,9 @@ iframe{
 		.hiap{
 			padding-top: 90px;
 			padding-bottom: 90px;
+		}
+		#declaration{
+			width: 80px
 		}
 	  }
 
@@ -4655,7 +4661,9 @@ iframe{
 			padding-top: 90px;
 			padding-bottom: 90px;
 		}
-
+		#declaration{
+			width: 90px
+		}
 		
 	  }
 
@@ -5795,6 +5803,9 @@ iframe{
 		.hiap{
 			padding-top: 90px;
 			padding-bottom: 90px;
+		}
+		#declaration{
+			width: 90px
 		}
 	  }
 
@@ -6938,6 +6949,9 @@ iframe{
 			padding-top: 90px;
 			padding-bottom: 90px;
 		}
+		#declaration{
+			width: 100px
+		}
 	  }
 
 	  @media screen and (min-width: 996px)  and (max-width: 1050px) {
@@ -7065,6 +7079,9 @@ iframe{
 		.homepage-caro-animated-btn .inline-block{
 			padding: 2.5rem;
 			border: 1px solid aliceblue;
+		}
+		#declaration{
+			width: 100px
 		}
 	}
 	@media only screen and (min-width: 2000px) {
