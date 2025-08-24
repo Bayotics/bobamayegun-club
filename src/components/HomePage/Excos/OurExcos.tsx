@@ -23,7 +23,7 @@ const initialData = [
   },
   {
     image: excoTwo,
-    name: "Abioduin Oyelaja",
+    name: "Abiodun Oyelaja",
     memo: "Otun Giwa Egbe",
     socialMedia: ""
   },
