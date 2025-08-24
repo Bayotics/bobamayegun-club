@@ -1,6 +1,5 @@
 'use client'
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
 import { Roller } from 'react-css-spinners'
 import Select from "react-select";
 import ContactSvg from './ContactSvg';
@@ -19,7 +18,6 @@ const AnniversaryForm = () => {
   const [membershipDetails, setMembershipDetails] = useState("");
   const [visaAppStatus, setVisaAppStatus] = useState("");
   const [consent, setConsent] = useState(true);
-  const router = useRouter();
   const [loading, setloading] = useState(false);
   
 
