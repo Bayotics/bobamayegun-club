@@ -53,9 +53,9 @@ export default function Footer () {
                     </section>
                     <section className="footer-contact w-1/4 pt-16 pl-12">
                         <h1 className="font-semibold mt-4 text-lg">Get In Touch</h1>
-                        <p className="mt-8 text-sm">contact@bobamayegun.com</p>
-                        <p className="mt-4 text-sm">+234 123 456 7890</p>
-                        <p className="mt-4 text-sm">13, Test Ave, FictiousLand, Lagos</p>
+                        <p className="mt-8 text-sm">bobamayegunakile@gmail.com</p>
+                        <p className="mt-4 text-sm">+16479146116</p>
+                        <p className="mt-4 text-sm">172 Nantucket Dr., Reading, PA 19605</p>
 
                     </section>
                     <div className="footer-links w-1/4 pt-16 pl-20">
