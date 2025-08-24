@@ -80,8 +80,8 @@ export default function NavBar () {
                     </Link>
                     <Link href = '/'>
                         <div className="text-logo">
-                            <h1 className="text-3xl font-semibold mt-6">Bóbamàyègùn</h1>
-                            <p className = 'text-xs hidden logo-text-for-mobile'>Bóbamàyègùn</p>
+                            <h1 className="text-3xl font-semibold mt-6">Bọ́bamáyégún</h1>
+                            <p className = 'text-xs hidden logo-text-for-mobile'>Bọ́bamáyégún</p>
                             <p className = 'text-xs text-bottom-logo'>Okunrin Akile Ijebu 74-76</p>
                         </div>
                     </Link>

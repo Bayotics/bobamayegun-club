@@ -6,9 +6,9 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { FaInstagram, FaLinkedin  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import excoOne from '@/images/exco-three.jpg'
+import excoThree from '@/images/exco-three.jpg'
 import excoTwo from '@/images/exco-two.jpg'
-import excoThree from '@/images/exco-one.png';
+import excoOne from '@/images/exco-one.png';
 import AnimatedBtn from "../AnimatedBtnForAbout";
 import {Fade } from 'react-awesome-reveal';
 import Link from "next/link";
@@ -17,21 +17,21 @@ import Link from "next/link";
 const initialData = [
   {
     image: excoOne,      
-    name: "Ade Agbaje PhD",
-    memo: "Chairman",
-    socialMedia: "@yinksboy"
+    name: "Omooba Adeyemi Kazeem",
+    memo: "Giwa Egbe",
+    socialMedia: ""
   },
   {
     image: excoTwo,
-    name: "Engr. Beyioku",
-    memo: "General Secretary",
-    socialMedia: "@b_wesse"
+    name: "Abioduin Oyelaja",
+    memo: "Otun Giwa Egbe",
+    socialMedia: ""
   },
   {
     image: excoThree,
-    name: "Dr. Akintomide",
-    memo: "Vice Chairman",
-    socialMedia: "@akins_ade"
+    name: "Alh. Fatai Ogunneye",
+    memo: "Eta Giwa",
+    socialMedia: ""
   }
 ];
 
@@ -63,10 +63,10 @@ export default function OurExcos() {
           <div className = 'excos-header'>
             <Fade direction = 'up' triggerOnce>
               <h1 className="text-black text-center mt-4 font-semibold text-3xl">
-                  Our Excos
+                  Our Chiefs & Board of Trustees
               </h1>
               <h2 className="mt-2 text-gray-700 text-center text-base">
-                  Here are the directing members
+                  Here are the directing members of our prestiguous society
               </h2>
             </Fade>
           </div>
@@ -80,7 +80,7 @@ export default function OurExcos() {
                 </div>
               </div>
               <div className="main-text w-3/4" style={{ zIndex: 50 }}>
-                <h1 className="font-normal exco-name text-5xl text-purple-950">{data[activeIndex].name}</h1>
+                <h1 className={`font-normal leading-10 exco-name ${data[activeIndex].name === 'Omooba Adeyemi Kazeem' ? 'text-3xl' : 'text-4xl'} text-purple-950`}>{data[activeIndex].name}</h1>
                 <h2 className="text-lg text-black font-light">{data[activeIndex].memo}</h2>
                 <p className="text-base text-black">{data[activeIndex].socialMedia}</p>
                 <div className="w-1/2 exco-learn-more">

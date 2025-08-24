@@ -14,10 +14,10 @@ import AnimatedBtn from './AminatedBtnForCaro';
 const slides = [
   {
     image: galleryOne,
-    title: "Welcome to Bobamayegun Okunrin Akile Ijebu",
-    subtitle: "Preserving the Ijebu Tradition",
-    btnText: "Learn More",
-    btnRoute: "/aboutus"
+    title: "Bobamayegun Okunrin Akile Ijebu is turning 10!",
+    subtitle: "Join Us for Our 10th Anniversary",
+    btnText: "Register Now",
+    btnRoute: "/anniversary"
   },
   {
     image: galleryTwo,
@@ -47,7 +47,7 @@ const CarouselBanner = () => {
   };
 
   useEffect(() => {
-    const timer = setInterval(nextSlide, 9000); // Auto-advance every 5 seconds
+  const timer = setInterval(nextSlide, 20000);
     return () => clearInterval(timer);
   }, []);
 
@@ -79,7 +79,7 @@ const CarouselBanner = () => {
                 </p>
                 <div className='homepage-caro-animated-btn mt-10 w-1/6 m-auto'>
                     <AnimatedBtn
-                    style={`mb-2 inline-block rounded-lg bg-white/10 px-4 py-3 text-lg font-medium text-white backdrop-blur-sm`} 
+                    style={`mb-2 inline-block rounded-lg bg-white/10 px-4 py-3 text-lg font-medium text-white backdrop-blur-sm ${slide.btnText === "Register Now" ? "flicker-flashy" : ""}`} 
                     text={slide.btnText}
                     _route={slide.btnRoute}/>
                 </div>

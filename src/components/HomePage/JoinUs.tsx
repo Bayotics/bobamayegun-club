@@ -30,10 +30,10 @@ export function JoinUs () {
                                     src={socialOne}
                                     className='rounded-full h-20 w-20 m-auto' alt='social' />
                                 </div>
-                                <h1 className='text-xl font-semibold text-center mt-2'>Ade Olaiya</h1>
+                                <h1 className='text-xl font-semibold text-center mt-2'>Chief Balogun</h1>
                             </div>
                             <div className='social-user mt-4'>
-                                <p className='text-center'>@adeboy</p>
+                                <p className='text-center'>@balo</p>
                                 <div className='social-user-btn flex justify-center'>
                                     <button className=
                                     'text-center text-white social-user-button px-4 mt-8 py-2 rounded-3xl bg-slate-800'>
@@ -51,10 +51,10 @@ export function JoinUs () {
                                     src={socialTwo}
                                     className='rounded-full h-20 w-20 m-auto' alt='social' />
                                 </div>
-                                <h1 className='text-xl font-semibold text-center mt-2'>Adekunle Gold</h1>
+                                <h1 className='text-xl font-semibold text-center mt-2'>Abiodun Oye</h1>
                             </div>
                             <div className='social-user mt-4'>
-                                <p className='text-center'>@agbaby</p>
+                                <p className='text-center'>@aboye</p>
                                 <div className='social-user-btn flex justify-center'>
                                     <button className=
                                     'text-center text-white social-user-button px-4 mt-8 py-2 rounded-3xl bg-slate-800'>
@@ -93,10 +93,10 @@ export function JoinUs () {
                                     src={socialFour}
                                     className='rounded-full h-20 w-20 m-auto' alt='social' />
                                 </div>
-                                <h1 className='text-xl font-semibold text-center mt-2'>Alabi Mike</h1>
+                                <h1 className='text-xl font-semibold text-center mt-2'>Ashiru Olu</h1>
                             </div>
                             <div className='social-user mt-4'>
-                                <p className='text-center'>@mikkieoo7</p>
+                                <p className='text-center'>@ashieoo7</p>
                                 <div className='social-user-btn flex justify-center'>
                                     <button className=
                                     'text-center text-white social-user-button px-4 mt-8 py-2 rounded-3xl bg-slate-800'>

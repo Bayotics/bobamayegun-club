@@ -35,6 +35,20 @@
 	  transform: scale(1);
 	}
   }
+  @keyframes flickerColor {
+  0% { filter: brightness(1) drop-shadow(0 0 6px #ff00cc); color: #ff00cc; }
+  20% { filter: brightness(1.3) drop-shadow(0 0 10px #00ffe7); color: #00ffe7; }
+  40% { filter: brightness(0.8) drop-shadow(0 0 8px #fff700); color: #fff700; }
+  60% { filter: brightness(1.2) drop-shadow(0 0 12px #ff00cc); color: #ff00cc; }
+  80% { filter: brightness(1) drop-shadow(0 0 6px #00ffe7); color: #00ffe7; }
+  100% { filter: brightness(1.1) drop-shadow(0 0 8px #fff700); color: #fff700; }
+}
+
+.flicker-flashy {
+  animation: flickerColor 0.7s infinite alternate;
+  font-weight: bold;
+  text-shadow: 0 0 8px #fff, 0 0 12px #ff00cc;
+}
 
 
 body {
@@ -1692,11 +1706,13 @@ iframe{
 			top: 950px;
 			left: 100px;
 			font-size: 5rem;
+			line-height: 1.1;
+
 		}
 		.main-text h2{
 			position: absolute;
-			top: 1080px;
-			left: 300px;
+			top: 1153px;
+			left: 307px;
 			font-size: 3rem;
 		}
 		.main-text p{
@@ -2794,11 +2810,13 @@ iframe{
 			top: 950px;
 			left: 100px;
 			font-size: 5rem;
+						line-height: 1.1;
+
 		}
 		.main-text h2{
 			position: absolute;
-			top: 1080px;
-			left: 300px;
+			top: 1152px;
+			left: 307px;
 			font-size: 3rem;
 		}
 		.main-text p{
@@ -3908,11 +3926,12 @@ iframe{
 			top: 950px;
 			left: 100px;
 			font-size: 5rem;
+			line-height: 1.1;
 		}
 		.main-text h2{
 			position: absolute;
-			top: 1080px;
-			left: 300px;
+			top: 1153px;
+			left: 307px;
 			font-size: 3rem;
 		}
 		.main-text p{
@@ -5042,11 +5061,12 @@ iframe{
 			top: 950px;
 			left: 100px;
 			font-size: 5rem;
+			line-height: 1.1;
 		}
 		.main-text h2{
 			position: absolute;
-			top: 1080px;
-			left: 300px;
+			top: 1153px;
+			left: 307px;
 			font-size: 3rem;
 		}
 		.main-text p{
@@ -6179,11 +6199,13 @@ iframe{
 			top: 950px;
 			left: 100px;
 			font-size: 5rem;
+						line-height: 1.1;
+
 		}
 		.main-text h2{
 			position: absolute;
-			top: 1080px;
-			left: 300px;
+			top: 1153px;
+			left: 307px;
 			font-size: 3rem;
 		}
 		.main-text p{
@@ -6950,6 +6972,8 @@ iframe{
 		}
 		.exco-name{
 			font-size: 2rem;
+			line-height: 1.1;
+
 		}
 		.exco-learn-more{
 			font-size: 15px;

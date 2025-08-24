@@ -91,7 +91,7 @@ export default function Footer () {
                     
                     <p className="text-center text-xs text-gray-400">
                         copyright@2025. All rights reserved. 
-                        Design and Development by <span><Link href={'https://bayotics.github.io/updated-portfolio/'} target="_blank">Abdullahi Sho</Link></span> 
+                        Design and Development by <span><Link href={'https://abdullahi-shobaloju.vercel.app/'} target="_blank">Abdullahi Sho</Link></span> 
                     </p>
                 </div>
         </div> 

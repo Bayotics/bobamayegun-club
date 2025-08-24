@@ -8,7 +8,7 @@ export function Team () {
             <div className = 'team-intro text-center px-32'>
                 <Slide direction = 'down' triggerOnce>
                     <h1 className="text-3xl font-semibold">
-                    Meet Our Excos
+                    Meet Our Chiefs & Board of Trustees
                     </h1>
                     <p className="mt-6 text-gray-600 ">
                         We are thrilled to introduce to you the management team in our society.
