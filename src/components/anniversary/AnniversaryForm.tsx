@@ -69,16 +69,8 @@ const AnniversaryForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-    setloading(true)
-    if(membershipDetails != 'Yes'){
-      router.push('/noteligible');
-      setTimeout(() => {
-        setloading(false)
-   }, 4000)
-    } 
-    else
-    {
-      const inputs = e.target.elements;
+    setloading(true);
+    const inputs = e.target.elements;
       const data = {};
 
     for (let i = 0; i < inputs.length; i++) {
@@ -107,8 +99,7 @@ const AnniversaryForm = () => {
       });
       setTimeout(() => {
         setloading(false)
-   }, 4000)
-    }
+   }, 4000);
   };
 
   if (submitted) {
