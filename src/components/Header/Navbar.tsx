@@ -75,7 +75,7 @@ export default function NavBar () {
                 <div className="navbar-logo  flex">
                     <Link href = '/'>
                         <div className="pic-logo">
-                            <Image src={logo} alt="bobamayegun logo" height={20} width={60} className="mt-2"/>
+                            <Image src={logo} alt="bobamayegun logo" height={20} width={60} className="mt-2 bobamayegun-nav-logo-main"/>
                         </div>
                     </Link>
                     <Link href = '/'>

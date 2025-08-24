@@ -23,7 +23,7 @@ export default function Footer () {
                             <div className="footer-logo">
                                 <section className="footer-logo-grid  flex gap-2 justify-center">
                                     <section className="pic-logo-footer">
-                                        <Image src={logo} alt="bobamayegun logo" className="mt-2 h-10 w-10"/>
+                                        <Image src={logo} alt="bobamayegun logo" className="mt-2 h-10 w-10 rounded-xl"/>
                                     </section>
                                     <section className="text-logo-footer">
                                         <h1 className="text-lg font-semibold mt-4">Bobamayegun</h1>
@@ -62,16 +62,16 @@ export default function Footer () {
                         <h1 className="font-semibold mt-4 text-lg">Quick Links</h1>
                         <div className="flex gap-10 footer-quick-links mt-8">
                             <section className="fql-left">
-                                <p className=" text-sm">Home</p>
-                                <p className="mt-4 text-sm">History</p>
-                                <p className="mt-4 text-sm">Events</p>
-                                <p className="mt-4 text-sm">Support</p>
+                                <Link href={'/'}><p className=" text-sm">Home</p></Link>
+                                <Link href={'/aboutus'}><p className="mt-4 text-sm">History</p></Link>
+                                <Link href={'/news'}><p className="mt-4 text-sm">Events</p></Link>
+                                <Link href={'/partnership'}><p className="mt-4 text-sm">Support</p></Link>
                             </section>
                             <section className="fql-right">
-                                <p className=" text-sm">Values</p>
-                                <p className="mt-4 text-sm">Leadership</p>
-                                <p className="mt-4 text-sm">Partnership</p>
-                                <p className="mt-4 text-sm">Donations</p>
+                                <Link href={'/aboutus'}><p className=" text-sm">Values</p></Link>
+                                <Link href={'/aboutus'}><p className="mt-4 text-sm">Leadership</p></Link>
+                                <Link href={'/partnership'}><p className="mt-4 text-sm">Partnership</p></Link>
+                                <Link href={'/donations'}><p className="mt-4 text-sm">Donations</p></Link> 
                             </section>
                         </div>
                     </div>
