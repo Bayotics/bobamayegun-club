@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import {  Poppins } from "next/font/google";
 import type { Viewport } from 'next'
+import { Analytics } from '@vercel/analytics/next';
 
 
 export const metadata: Metadata = {
@@ -32,7 +33,7 @@ export default function RootLayout({
             <header className="text-white text-center">
               <Header />
             </header>
-            {children}
+            {children} <Analytics />
             <footer className="bg-black text-white pt-6"><Footer /></footer>
         </body>
     </html>
