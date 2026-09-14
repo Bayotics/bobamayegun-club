@@ -3,7 +3,7 @@
 import { useAnimate } from "framer-motion"
 import { useEffect, useRef, useState } from "react";
 
-const COUNTDOWN_FROM = "2026-06-30";
+const COUNTDOWN_FROM = "2026-12-12";
 
 const SECOND = 1000;
 const MINUTE = SECOND * 60;
@@ -68,7 +68,9 @@ const useTimer = (unit: Units) => {
 
     let newTime = 0;
 
-    if (unit === "Day") {
+    if (distance <= 0) {
+      newTime = 0;
+    } else if (unit === "Day") {
       newTime = Math.floor(distance / DAY);
     } else if (unit === "Hour") {
       newTime = Math.floor((distance % DAY) / HOUR);

@@ -14,10 +14,10 @@ import AnimatedBtn from './AminatedBtnForCaro';
 const slides = [
   {
     image: galleryOne,
-    title: "Bobamayegun Okunrin Akile Ijebu is turning 10!",
-    subtitle: "Join Us for Our 10th Anniversary",
-    btnText: "Register Now",
-    btnRoute: "/anniversary"
+    title: "Bobamayegun Okunrin Akile Ijebu is 10!",
+    subtitle: "Explore our 10th Anniversary highlights",
+    btnText: "Explore",
+    btnRoute: "/gallery"
   },
   {
     image: galleryTwo,
@@ -28,10 +28,10 @@ const slides = [
   },
   {
     image: galleryThree,
-    title: "Join us for Our 10th Anniversary",
-    subtitle: "Join us as we Celebrate a Decade of Tradition, Passion, and Togetherness",
-    btnText: "Make Inquiry",
-    btnRoute: "/anniversary"
+    title: "Our 10th Anniversary in Pictures",
+    subtitle: "Get a recap of our 10th Anniversary celebrations",
+    btnText: "Explore",
+    btnRoute: "/gallery"
   }
 ];
 
