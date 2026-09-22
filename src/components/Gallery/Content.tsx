@@ -1,12 +1,43 @@
 'use client'
 import { Slide} from "react-awesome-reveal";
-import { OjudeObaimages, OjudeObaimages2017, atlanta2024, conference2018, donations, wedding, getTogetherImgs } from "./imageFiles"
+import { OjudeObaimages, OjudeObaimages2017, atlanta2024, conference2018, donations, wedding, getTogetherImgs, anniversary10th, anniversary10thVideos, ojudeOba2026, ojudeOba2026Videos } from "./imageFiles"
 import Gallery from "./Cards"
+import Videos from "./Videos"
 
 export default function Content () {
     
     return (
         <div className = 'gallery-contents-main my-20'>
+            <div className = 'gallery-container mt-40'>
+                <div className="gallery-content-header">
+                    <Slide direction = 'up'>
+                        <h1 className="text-3xl font-semibold text-center">
+                            Egbe Bobamayegun 10th Anniversary
+                        </h1>
+                    </Slide>
+                </div>
+                <div className="pics-display mt-16">
+                    <Gallery images={anniversary10th} />
+                </div>
+                <div className="mt-10">
+                    <Videos videos={anniversary10thVideos} />
+                </div>
+            </div>
+            <div className = 'gallery-container mt-40'>
+                <div className="gallery-content-header">
+                    <Slide direction = 'up'>
+                        <h1 className="text-3xl font-semibold text-center">
+                            Ojude Oba Festival 2026
+                        </h1>
+                    </Slide>
+                </div>
+                <div className="pics-display mt-16">
+                    <Gallery images={ojudeOba2026} />
+                </div>
+                <div className="mt-10">
+                    <Videos videos={ojudeOba2026Videos} />
+                </div>
+            </div>
             <div className = 'gallery-container mt-40'>
                 <div className="gallery-content-header">
                     <Slide direction = 'up'>

@@ -1,5 +1,5 @@
-import newsI from '@/images/news/news-img-1.jpg'
-import newsII from '@/images/news/news-img-2.jpg'
+import ojudeOba2026Thumb from '@/images/galleryPage/OjudeOba2026/ojude-oba-2026-1.jpeg'
+import anniversaryThumb from '@/images/galleryPage/10th_anniversary/anniversary-1.jpeg'
 import newsIII from '@/images/news/news-img-3.jpg'
 import newsIv from '@/images/news/news-img-4.jpg'
 import newsV from '@/images/news/news-img-5.jpg'
@@ -8,20 +8,37 @@ import newsVI from '@/images/news/news-img-6.jpg'
 
 export const newsData = [
     {
-        newsDate : 2,
-        newsMonth: 'November',
-        newsTitle: 'Bobamayegun Scholarship Program Now Open for Applications',
-        newsDetails: 'Bobamayegun okunrin Akile Ijebu is proud to support educational advancement within our community. The 2024 Bobamayegun Scholarship Program is now accepting applications from eligible students pursuing studies in Nigeria and abroad. We invite all qualified students of Ijebu descent to apply by December 15, 2024. Visit our "Scholarship" page for details on requirements and application procedures.',
-        newsYear: 2024,
-        bgImg: newsI
+        newsDate : 29,
+        newsMonth: 'May',
+        newsTitle: 'A Celebration of Heritage, Unity and Excellence',
+        newsDetails: [
+            'On Friday, May 29, 2026, Egbe Bobamayegun proudly joined fellow Regberegbe at the magnificent Ojude Oba Festival in Ijebu-Ode, in a colourful celebration of Ijebu heritage, culture, unity and tradition.',
+            'We are immensely proud to have emerged 3rd in the Male Regberegbe category, an achievement the organizers rewarded with a ₦500,000 cash prize and recognition for our outstanding participation.',
+            'Our participation was about much more than competition. It was an opportunity for our members to come together, proudly display our heritage, celebrate our identity and contribute to the enduring legacy of Ojude Oba.',
+            'A particularly memorable moment was the visit to our stand by Seyi Tinubu, the son of the President of the Federal Republic of Nigeria, who graciously spent time with members of Egbe Bobamayegun and joined us for photographs. His visit added a special touch to an already memorable celebration, and we are delighted to preserve these moments in our collection of photographs from the festival.',
+            'We proudly share these photographs as a reflection of a day filled with culture, camaraderie, elegance, recognition and unforgettable memories.',
+            'Egbe Bobamayegun - Celebrating our heritage. Strengthening our unity. Building our legacy.',
+            '#EgbeBobamayegun #OjudeOba2026 #IjebuHeritage #Regberegbe #Ijebuland #Culture #Tradition #Unity #Excellence',
+        ].join('\n\n'),
+        newsYear: 2026,
+        bgImg: ojudeOba2026Thumb
     },
     {
-        newsDate : 30,
-        newsMonth: 'October',
-        newsTitle: 'Health and Wellness Fair Recap',
-        newsDetails: 'Last month, Bobamayegun okunrin Akile hosted a successful Health and Wellness Fair at the Ijebu Civic Center, bringing together local health experts, wellness coaches, and community members. The event featured free health screenings, wellness talks, and nutritional advice. We thank everyone who participated, and we look forward to future wellness initiatives that support our community’s health.',
-        newsYear: 2024,
-        bgImg: newsII
+        newsDate : 31,
+        newsMonth: 'May',
+        newsTitle: 'Ten Years of Brotherhood, Heritage and Legacy',
+        newsDetails: [
+            'On Sunday, May 31, 2026, just two days after the colourful Ojude Oba Festival, members of Egbe Bobamayegun came together in our distinctive colours to celebrate a remarkable milestone - our 10th Anniversary.',
+            'Ten years is more than a milestone; it is a testament to friendship, unity, commitment, resilience and a shared passion for our heritage. What began as a vision has grown into a strong and enduring brotherhood, bound by common values and a deep connection to our Ijebu roots.',
+            'Our anniversary celebration was an opportunity to reflect on the journey so far, honour those who have contributed to the growth of the Egbe, celebrate our achievements and, most importantly, look forward to the years ahead.',
+            'Coming so soon after our participation in Ojude Oba 2026 — where we proudly emerged 3rd in the Male Regberegbe category — made the weekend even more special. From celebrating our culture on the grand stage of Ojude Oba to celebrating a decade of togetherness as Egbe Bobamayegun, it was a truly memorable occasion.',
+            'We are grateful to every member, past and present, whose dedication and fellowship have helped make this journey possible. As we celebrate 10 years, we remain committed to preserving our heritage, strengthening our bonds and building a legacy that will endure for generations.',
+            'Ten years gone. A lifetime of memories. A legacy still being written.',
+            'Egbe Bobamayegun — United by Heritage, Strengthened by Brotherhood, Inspired by Legacy.',
+            '#EgbeBobamayegun #10thAnniversary #TenYearsTogether #IjebuHeritage #Brotherhood #Legacy #Unity #OjudeOba2026',
+        ].join('\n\n'),
+        newsYear: 2026,
+        bgImg: anniversaryThumb
     },
     {
         newsDate : 25,

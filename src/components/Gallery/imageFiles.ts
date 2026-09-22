@@ -1,3 +1,17 @@
+// Ojude Oba 2026
+import ojudeOba2026_1 from '@/images/galleryPage/OjudeOba2026/ojude-oba-2026-1.jpeg'
+import ojudeOba2026_2 from '@/images/galleryPage/OjudeOba2026/ojude-oba-2026-2.jpeg'
+import ojudeOba2026_3 from '@/images/galleryPage/OjudeOba2026/ojude-oba-2026-3.jpeg'
+import ojudeOba2026_4 from '@/images/galleryPage/OjudeOba2026/ojude-oba-2026-4.jpeg'
+
+// 10th Anniversary
+import anniversary_1 from '@/images/galleryPage/10th_anniversary/anniversary-1.jpeg'
+import anniversary_2 from '@/images/galleryPage/10th_anniversary/anniversary-2.jpeg'
+import anniversary_3 from '@/images/galleryPage/10th_anniversary/anniversary-3.jpeg'
+import anniversary_4 from '@/images/galleryPage/10th_anniversary/anniversary-4.jpeg'
+import anniversary_5 from '@/images/galleryPage/10th_anniversary/anniversary-5.jpeg'
+import anniversary_6 from '@/images/galleryPage/10th_anniversary/anniversary-6.jpeg'
+
 import ojudeObai from '@/images/galleryPage/OjudeOba2024/ojude-oba1.jpg';
 import ojudeObaii from '@/images/galleryPage/OjudeOba2024/ojude-oba2.jpg';
 import ojudeObaiii from '@/images/galleryPage/OjudeOba2024/ojude-oba3.jpg';
@@ -177,3 +191,30 @@ import getTogetheriv from '@/images/galleryPage/getTogether/get-together4.jpg'
     { src: weddingiv, alt: "At Alhaji Ogunleyes wedding, Texas" },
   ]
 
+  export const ojudeOba2026 = [
+    { src: ojudeOba2026_1, alt: "Ojude Oba Festival 2026" },
+    { src: ojudeOba2026_2, alt: "Ojude Oba Festival 2026" },
+    { src: ojudeOba2026_3, alt: "Ojude Oba Festival 2026" },
+    { src: ojudeOba2026_4, alt: "Ojude Oba Festival 2026" },
+  ]
+
+  export const ojudeOba2026Videos = [
+    "/videos/ojude-oba-2026/ojude-oba-2026-1.mp4",
+    "/videos/ojude-oba-2026/ojude-oba-2026-2.mp4",
+    "/videos/ojude-oba-2026/ojude-oba-2026-3.mp4",
+    "/videos/ojude-oba-2026/ojude-oba-2026-4.mp4",
+    "/videos/ojude-oba-2026/ojude-oba-2026-5.mp4",
+  ]
+
+  export const anniversary10th = [
+    { src: anniversary_1, alt: "Egbe Bobamayegun 10th Anniversary" },
+    { src: anniversary_2, alt: "Egbe Bobamayegun 10th Anniversary" },
+    { src: anniversary_3, alt: "Egbe Bobamayegun 10th Anniversary" },
+    { src: anniversary_4, alt: "Egbe Bobamayegun 10th Anniversary" },
+    { src: anniversary_5, alt: "Egbe Bobamayegun 10th Anniversary" },
+    { src: anniversary_6, alt: "Egbe Bobamayegun 10th Anniversary" },
+  ]
+
+  export const anniversary10thVideos = [
+    "/videos/10th-anniversary/anniversary-1.mp4",
+  ]
